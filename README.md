@@ -3,8 +3,8 @@ Milestone 1 Project - User-Centric Frontend Development
 
 ## Overview
 ---
-This is a dog walking and sitting services page for a fictional company
-who specialise in walking and dog sitting services based in Bettystown, Ireland.
+This is a dog walking and sitting service page for a fictional company
+who specialises in walking and dog sitting based in Bettystown, Ireland.
 
 The website will be responsive and accessible on all devices with Mobile first 
 implementation on mind. The website will be visually enjoyable and easy to navigate,
@@ -84,7 +84,7 @@ Syntax
 ---
 Content
 
-All ocntent on this website is original. The pictures were taken with a personal
+All content on this website is original. The pictures were taken with a personal
 phone of the family dog.
 
 ---
