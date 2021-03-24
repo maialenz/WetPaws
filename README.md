@@ -87,24 +87,45 @@ who wants answers fast and hasle free.
 
 
 
+## FEATURES
+
+#### Existing Features
+
+
+#### Features left to implement
+
+- Gallery: due to the lack of pictures of different dogs and the shot time frame for the project to be done,
+I decided to leave the Gallery feature out for the time being. The gallery would be incorporated
+once I had a wider customer directory and longer period to implement this feature. 
+
+- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills
+required to implement this feature.
+
+- Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask
+questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
 
 
-## Technologies Used
 ---
-- Syntax
-    - HTML5
-    - CSS
-    - Markup (README.md...)
 
+## TECHNOLOGIES USED
 
-- Frameworks, Libraries & Programs
-    - Fontawesome
-    - Google fonts
+---
 
-- Other
-    - Pinterest
-    - 
+#### Syntax
+- HTML5
+- CSS
+- Markup (README.md...)
+
+#### Frameworks, Libraries & Programs
+- Fontawesome
+- Google fonts
+
+#### Other
+- Pinterest
+- 
+
+---
 
 ## ACKNOWLEDGEMENTS
 
