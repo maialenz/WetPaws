@@ -22,8 +22,8 @@ who wants answers fast and hasle free.
 - [User Centered Design](#user-centered-design)
     - Strategy plane
         - User needs
+        - Technical capabilities
         - Business vision
-
     - Scope plane
     - Structure plane
     - Skeleton plane
@@ -97,9 +97,18 @@ time than before when it comes to give the attention that our loved dogs need. T
 normality and extra exercice on these times that are also stressful for our pets. Some dogs have become extra sensitive and emotional, or extra hyper with
 extra need for longer walks.  
 
+#### Technical capabilities
 
-### Business Vision
+- To use this site the user needs to have access to some internet connection within their chosen device.
 
+- They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate 
+the page.
+
+#### Business Vision
+
+The purpose of this project is to create a business to give a personal service to all dog owners that need help walking or dog sitting (within their own homes
+or the business owner's home) for a shor or long period of time, ensuring that the dog is loved and cared the same way as their owners would do. The business
+also intend to give extra help to those people who has fallen ill with Covid and are struggling to look after their loved dog.
 
 
 
