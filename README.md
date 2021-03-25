@@ -192,8 +192,43 @@ required to implement this feature.
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask
 questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
+---
 
+## DESIGN
 
+- ### **Colors**
+
+The colors used in this project reflect the sea and the beach. Colors found at the location of the business, as this is located
+on the seaside of Ireland. I will be using very light colors not to distract the user from the information and to make sure 
+there is a right contrast between the colors used in the background and the typography color.
+
+The colors chosen are combinations of: pale blue, light beige/brown, white and shades of grey. The color scheme was created using
+[Coolors](https://coolors.co/)
+
+- ### **Typography**
+
+The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
+difficult to read, it was decided to use simple but  and consistent fonts previously used and seen in other projects within Code Institute like:
+
+-  Fonts: 
+    - "Roboto"
+    - "Lato" 
+    - "Montserrat" and "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
+
+- ### **Imagery**
+
+    - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
+
+    - The landing page and headers on all the pages will be the same hero image to create consistency and bring a seaside feeling to the user. The landing
+    page will have three call to action buttons linked to the respective pages. The reason for this is to immediately direct the user to their selected part of the website.
+
+    - The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
+
+- ### **Logo**
+
+The logo for site was created using an online application called [Canva](https://www.canva.com/). It has a background representing a very light blue sea
+provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name
+of the business (Wet Paws).
 ---
 
 ## TECHNOLOGIES USED
@@ -208,9 +243,12 @@ questions instead of filling a form every time. I leave this feature out due to 
 #### Frameworks, Libraries & Programs
 - Fontawesome
 - Google fonts
+- 
+- [TinyPNG](https://tinypng.com/)
 
 #### Other
-- Pinterest
+- Pinterest: for color, typography, picture, layout inspiration
+
 - 
 
 ---
@@ -227,7 +265,7 @@ the type of services a dog sitting company offers in real life.
 ---
 Content
 
-All content on this website is original, but I took inspiration from a real life company  like 
+All content on this website is original, but it's content has been heavily influenced by a real life company like 
 [Pawshake](https://www.pawshake.ie/) with similar services and pinterest.
 
 
@@ -239,4 +277,4 @@ in this website are real or functional. Any resemblance to a posible real busine
 No animals were harmed or forced in the making of this project. All pictures were used
 using positive reinforcement.
 
-Created by **Maialen Zumeta**
+Created by **Maialen Zumeta** | Ireland, March 2021
