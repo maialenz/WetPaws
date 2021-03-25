@@ -166,6 +166,14 @@ minimal information and imagery to not distract the user.
 - The footer will contain all the inportant information to contact the business's owners in other ways than filling the form. This will contain
 links to the different social media and "address" of the business.
 
+---
+
+### Skeleton Plane
+
+- [Mobile Wireframe](assets/images/wireframes/Mobile.png)
+- [Ipad Wireframe](assets/images/wireframes/Ipad.png)
+- [Desktop Wireframe](assets/images/wireframes/Desktop.png)
+
 
 ## FEATURES
 
