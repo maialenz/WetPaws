@@ -82,12 +82,15 @@ for a longer period of time and more often, making the business very trusted and
 - A long term goal of the business is to create a well-known pet sitting company in the local area so it can have the option to expand to offer
 more tailored services withing the local and the surrounding areas with posibility of expantion to nationwide pet sitting company.
 
+---
 
 ## USER CENTERED DESIGN
 
+---
+
 ### **Strategy Plane**
 
-#### User needs
+- #### User needs
 
 The needs of the user is to find a person to look after their family dog the same way they would during a short period or longer period of time
 because they are not able to do so. 
@@ -97,23 +100,25 @@ time than before when it comes to give the attention that our loved dogs need. T
 normality and extra exercice on these times that are also stressful for our pets. Some dogs have become extra sensitive and emotional, or extra hyper with
 extra need for longer walks.  
 
-#### Technical capabilities
+- #### Technical capabilities
 
-- To use this site the user needs to have access to some internet connection within their chosen device.
+    - To use this site the user needs to have access to some internet connection within their chosen device.
 
-- They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate 
-the page.
+    - They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate 
+    the page.
 
-- This page can be done with Bootstrap framework to create a structure and implement sections that the user needs. The website's
-information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to
-get to the page they need. It was not posible to add a live time booking on this project due to lack of skills, but would be implemented on a future
-release once the creator of the site gained more skills and knowledge.
+    - This page can be done with Bootstrap framework to create a structure and implement sections that the user needs. The website's
+    information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to
+    get to the page they need. It was not posible to add a live time booking on this project due to lack of skills, but would be implemented on a future
+    release once the creator of the site gained more skills and knowledge.
 
-#### Business Vision
+- #### Business Vision
 
 The purpose of this project is to create a business to give a personal service to all dog owners that need help walking or dog sitting (within their own homes
 or the business owner's home) for a shor or long period of time, ensuring that the dog is loved and cared the same way as their owners would do. The business
 also intend to give extra help to those people who has fallen ill with Covid and are struggling to look after their loved dog.
+
+---
 
 ### **Scope plane | Trade-offs**
 
@@ -140,10 +145,26 @@ also intend to give extra help to those people who has fallen ill with Covid and
 
     - Navigation bar changing to a burger icon on smaller screen sizes.
 
+---
 
+### Structure Plane
 
+- The structure of the site will be layed out in three pages to separate the different information and make easier for the user to go
+directly to the page they need without needing to scroll down too much to look for the information they are looking for. 
 
+- The layout will be organised in half or thirds depending on the page and the need to separate the information so it's shown on a tidy manner
+not to visually overload the user and allow them to see the information on one look.
 
+- The landing page will be used as a shortcut to pages needed by returning users and frequent users to allow them to have a good user experience.
+
+- In order to direct the user to the most important areas of the website, a navbar will be created on the top of the page to be easily located,
+including links to other section of the website.
+
+- To ensure the users experience when completing the form for ordering is smooth, this page will contain
+minimal information and imagery to not distract the user.
+
+- The footer will contain all the inportant information to contact the business's owners in other ways than filling the form. This will contain
+links to the different social media and "address" of the business.
 
 
 ## FEATURES
