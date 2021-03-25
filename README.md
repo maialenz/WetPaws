@@ -16,16 +16,16 @@ who wants answers fast and hasle free.
 ---
 
 ## Table of Contents
-1. UX
-- User Stories
-- Business goals
-- User Centered Design
+1. [UX](#ux)
+- [User Stories](#user-stories)
+- [Business Goals](#business-goals)
+- [User Centered Design](#user-centered-design)
     - Strategy plane
         - User needs
-        - Technical capabilities
         - Business vision
-    - scope plane
-    - structure plane
+
+    - Scope plane
+    - Structure plane
     - Skeleton plane
 2. DESIGN
 - Color scheme
@@ -39,7 +39,7 @@ who wants answers fast and hasle free.
 - Syntax
 - Frameworks, Libraries & Programs
 5. TESTING
-- Testing document
+- [Testing document](Testing.md)
 6. DEPLOYMENT
 - GitHub Pages
 - Forking the repository
@@ -50,37 +50,55 @@ who wants answers fast and hasle free.
 
 
 ## UX
-
 ---
 
-### User Stories
+### **User stories**
 
 - As a user I want to
-    - Find out what the business is about.
-    - See visually pleasant contrasts.
-    - See Covid-19 related updates.
-    - Easily find out the services provided.
+    - Easily navigate the site.
+    - Easily find out the services provided so I know if they suit my needs.
     - Find more information about those services.
-    - Be able to know the owners.
-    - Be able to meet the owners personally.
-    - Know the location of the business.
-    - Locate where the services are offered.
-    - Get in touch with the business easily.
-    - Be able to find the contact details easily.
+    - Be able to know more about the owner by having the option to personally meet them.
+    - Know the location of the business and know where those services are offered.
+    - Get in touch with the business easily by having contact details clearly available.
 
 - As a returning User I want to 
-    - Be able to book a service quickly 
-    - Have a shortcut to the page I need.
+    - Be able to book a service quickly by having a direct tab to the booking page.
     - Find social links to be able to follow the business in social media platforms.
-    - See a gallery including pictures of real dogs.
-    - 
+    - Have the option to personalize the services offered.
 
-- As a frequent User I want to
-    - Always find up to date information
-    - See new pictures in the gallery
-    - Find updated pricing
-    
+### **Business goals**
 
+- The main goal of this business is to provide a dog sitting and walking service to users that are not able or need help to do keep their pets happy and healthy. 
+It also wants to help people in need of help with their dogs because they have fallen sick or due to new working-from-home arrangements. 
+
+- The business wants to offer services to make sure that all dogs are given very loving care and treatment as if they were in their own home,
+while the owner is away/unavailable.
+
+- Ideally all users that choose a service they would become regular users of one or more services provided by the business, since this is 
+an essential need for any person/family that own a pet. If a person/family is happy with the service provided they will choose to book a service
+for a longer period of time and more often, making the business very trusted and the go-to one in the local area.
+
+- A long term goal of the business is to create a well-known pet sitting company in the local area so it can have the option to expand to offer
+more tailored services withing the local and the surrounding areas with posibility of expantion to nationwide pet sitting company.
+
+
+## USER CENTERED DESIGN
+
+### **Strategy Plane**
+
+#### User needs
+
+The needs of the user is to find a person to look after their family dog the same way they would during a short period or longer period of time
+because they are not able to do so. 
+
+As the recent pandemic has forced many of us confined to our homes when it comes to work, sickness, etc, many of us have found ourselves having less
+time than before when it comes to give the attention that our loved dogs need. This has created a need to find someone to help us giving our dogs some
+normality and extra exercice on these times that are also stressful for our pets. Some dogs have become extra sensitive and emotional, or extra hyper with
+extra need for longer walks.  
+
+
+### Business Vision
 
 
 
