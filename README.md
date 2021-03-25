@@ -104,11 +104,43 @@ extra need for longer walks.
 - They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate 
 the page.
 
+- This page can be done with Bootstrap framework to create a structure and implement sections that the user needs. The website's
+information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to
+get to the page they need. It was not posible to add a live time booking on this project due to lack of skills, but would be implemented on a future
+release once the creator of the site gained more skills and knowledge.
+
 #### Business Vision
 
 The purpose of this project is to create a business to give a personal service to all dog owners that need help walking or dog sitting (within their own homes
 or the business owner's home) for a shor or long period of time, ensuring that the dog is loved and cared the same way as their owners would do. The business
 also intend to give extra help to those people who has fallen ill with Covid and are struggling to look after their loved dog.
+
+### **Scope plane | Trade-offs**
+
+- **Features within the design plan with highest priority:**
+
+    - Responsive navigation bar.
+
+    - Navigation bar situated on the top of the page with buttons aligned in the middle to see the pages clearly and as expected by the user.
+
+    - Following [Bootstrap](https://getbootstrap.com/) grid system with the layout of the site
+    being mainly in thirds.
+
+    - Footer containing business information and links to social media platforms.
+
+    - A form page that contains radio buttons, required fields and text inputs.
+
+- **Lower priority features that may not be including in the initial release of the website:**
+
+    - Landing page with shortcuts to different pages within the website. 
+
+    - Map showing the exact location of the business.
+
+    - A gallery of pictures showing dogs on the location of the business.
+
+    - Navigation bar changing to a burger icon on smaller screen sizes.
+
+
 
 
 
