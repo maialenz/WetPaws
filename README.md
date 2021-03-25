@@ -82,11 +82,9 @@ for a longer period of time and more often, making the business very trusted and
 - A long term goal of the business is to create a well-known pet sitting company in the local area so it can have the option to expand to offer
 more tailored services withing the local and the surrounding areas with posibility of expantion to nationwide pet sitting company.
 
----
 
 ## USER CENTERED DESIGN
 
----
 
 ### **Strategy Plane**
 
@@ -175,11 +173,8 @@ links to the different social media and "address" of the business.
 - [Desktop Wireframe](assets/images/wireframes/Desktop.png)
 
 
----
-
 ## DESIGN
 
----
 
 ### **Colors**
 
@@ -197,20 +192,20 @@ The colors chosen are combinations of: pale blue, light beige/brown, white and s
 The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
 difficult to read, it was decided to use simple but  and consistent fonts previously used and seen in other projects within Code Institute like:
 
-    - "Roboto"
-    - "Lato" 
-    - "Montserrat" and "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
+- "Roboto"
+- "Lato" 
+- "Montserrat" and "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
 
 ---
 
 ### **Imagery**
 
-   - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
+- The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
 
-    - The landing page and headers on all the pages will be the same hero image to create consistency and bring a seaside feeling to the user. The landing
-    page will have three call to action buttons linked to the respective pages. The reason for this is to immediately direct the user to their selected part of the website.
+- The landing page and headers on all the pages will be the same hero image to create consistency and bring a seaside feeling to the user. The landing
+page will have three call to action buttons linked to the respective pages. The reason for this is to immediately direct the user to their selected part of the website.
 
-    - The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
+- The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
 
 ---
 
@@ -220,17 +215,16 @@ difficult to read, it was decided to use simple but  and consistent fonts previo
 provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name
 of the business (Wet Paws).
 
----
+
 
 ## FEATURES
 
+
+### Existing Features
+
 ---
 
-#### Existing Features
-
----
-
-#### Features left to implement
+### Features left to implement
 
 - Gallery: due to the lack of pictures of different dogs and the shot time frame for the project to be done,
 I decided to leave the Gallery feature out for the time being. The gallery would be incorporated
@@ -242,24 +236,21 @@ required to implement this feature.
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask
 questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
----
 
 ## TECHNOLOGIES USED
 
----
-
-#### Syntax
+### Syntax
 - HTML5
 - CSS
 - Markup (README.md...)
 
-#### Frameworks, Libraries & Programs
+### Frameworks, Libraries & Programs
 - Fontawesome
 - Google fonts
 - 
 - [TinyPNG](https://tinypng.com/)
 
-#### Other
+### Other
 - Pinterest: for color, typography, picture, layout inspiration
 
 - 
@@ -278,7 +269,7 @@ the type of services a dog sitting company offers in real life.
 
 ---
 
-#### Content
+### Content
 
 All content on this website is original, but it's content has been heavily influenced by a real life company like 
 [Pawshake](https://www.pawshake.ie/) with similar services and pinterest.
