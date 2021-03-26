@@ -1,5 +1,6 @@
-As a visiting user I want to:
+## USER STORIES
 
+- As a visiting user I want to:
     - Find out what the company is about.
     - Easily visualize and understand what services the company offers.
     - Be able to use and book one or more services the company has to offer.
@@ -12,17 +13,17 @@ As a visiting user I want to:
     - Be able to book a service quickly by having a direct tab to the contact form.
     - Find social links to be able to follow the business in social media platforms.
 
+---
 
-    Favicon:
+## FAVICON TEST
 
-    - I noticed when I introduced the first and second favicon I could not see the shape on the brower tab as they were very
-    blurry and unidentifyable, so I created a new favicon with bold black color and simple shape, so it can be easily identified 
-    in between the rest of the opened tabs. This change has improved the user experience as I can identify the site's tab in one
-    fast look.
+I noticed when I introduced the first and second favicon I could not see the shape on the brower tab as they were very
+blurry and unidentifyable, so I created a new favicon with bold black color and simple shape, so it can be easily identified 
+in between the rest of the opened tabs. This change has improved the user experience as I can identify the site's tab in one
+fast look.
 
-    - [Favicon 1](docs/favicon_test/test-favicon1.png)
-    - [Favicon 2](docs/favicon_test/test-favicon2.png)
-    - [Chosen Favicon](docs/favicon_test/test-favicon3.png)
+- [Favicon 1](docs/favicon_test/test-favicon1.png)
+- [Favicon 2](docs/favicon_test/test-favicon2.png)
+- [Chosen Favicon](docs/favicon_test/test-favicon3.png)
 
-    - As seen in the examples above, the new favicon is visually more appealing than the first two.
- 
+As seen in the examples above, the new favicon is visually more appealing than the first two.
