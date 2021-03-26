@@ -54,18 +54,20 @@ who wants answers fast and hasle free.
 
 ### **User stories**
 
-- As a user I want to
-    - Easily navigate the site.
-    - Easily find out the services provided so I know if they suit my needs.
-    - Find more information about those services.
+- As a visiting user I want to: 
+    
+    - Find out what the company is about.
+    - Easily visualize and understand what services the company offers.
+    - Be able to use and book one or more services the company has to offer.
+    - Be able to use the contact form for the business and service enquiries.
+    - Have the option to personalize the services offered.
+    - Feel that the company cares and I can trust them caring for my loved dog by seeing other peoples reviews.
     - Be able to know more about the owner by having the option to personally meet them.
     - Know the location of the business and know where those services are offered.
     - Get in touch with the business easily by having contact details clearly available.
-
-- As a returning User I want to 
-    - Be able to book a service quickly by having a direct tab to the booking page.
+    - Be able to book a service quickly by having a direct tab to the contact form.
     - Find social links to be able to follow the business in social media platforms.
-    - Have the option to personalize the services offered.
+
 
 ### **Business goals**
 
@@ -192,9 +194,9 @@ The colors chosen are combinations of: pale blue, light beige/brown, white and s
 The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
 difficult to read, it was decided to use simple but  and consistent fonts previously used and seen in other projects within Code Institute like:
 
-- "Roboto"
-- "Lato" 
-- "Montserrat" and "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
+- "Roboto" 
+- "Montserrat" 
+- "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
 
 ---
 
