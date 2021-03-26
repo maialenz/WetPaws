@@ -168,9 +168,9 @@ links to the different social media and "address" of the business.
 
 ### Skeleton Plane
 
-- [Mobile Wireframe](assets/images/wireframes/Mobile.png)
-- [Ipad Wireframe](assets/images/wireframes/Ipad.png)
-- [Desktop Wireframe](assets/images/wireframes/Desktop.png)
+- [Mobile Wireframe](docs/wireframes/Mobile.png)
+- [Ipad Wireframe](docs/wireframes/Ipad.png)
+- [Desktop Wireframe](docs/wireframes/Desktop.png)
 
 
 ## DESIGN
