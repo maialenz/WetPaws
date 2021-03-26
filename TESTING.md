@@ -11,3 +11,9 @@ As a visiting user I want to:
     - Get in touch with the business easily by having contact details clearly available.
     - Be able to book a service quickly by having a direct tab to the contact form.
     - Find social links to be able to follow the business in social media platforms.
+
+
+    Favicon:
+
+    - I noticed when I introduced the first favicon I couldnt see the shape of it on the brower tab, so I created a new 
+    favicon with clear lines and easily recogniseable 
