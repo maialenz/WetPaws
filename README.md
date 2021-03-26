@@ -195,8 +195,8 @@ The fonts used for the site were taken from [Google Fonts](https://fonts.google.
 difficult to read, it was decided to use simple but  and consistent fonts previously used and seen in other projects within Code Institute like:
 
 - "Roboto" 
-- "Montserrat" 
-- "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
+- "Quicksand"
+- "Montserrat"/"Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
 
 ---
 
