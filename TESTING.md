@@ -15,5 +15,14 @@ As a visiting user I want to:
 
     Favicon:
 
-    - I noticed when I introduced the first favicon I couldnt see the shape of it on the brower tab, so I created a new 
-    favicon with clear lines and easily recogniseable 
+    - I noticed when I introduced the first and second favicon I could not see the shape on the brower tab as they were very
+    blurry and unidentifyable, so I created a new favicon with bold black color and simple shape, so it can be easily identified 
+    in between the rest of the opened tabs. This change has improved the user experience as I can identify the site's tab in one
+    fast look.
+
+    - [Favicon 1](docs/favicon_test/test-favicon1.png)
+    - [Favicon 2](docs/favicon_test/test-favicon2.png)
+    - [Chosen Favicon](docs/favicon_test/test-favicon3.png)
+
+    - As seen in the examples above, the new favicon is visually more appealing than the first two.
+ 
