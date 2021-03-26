@@ -224,15 +224,18 @@ of the business (Wet Paws).
 
 ### Existing Features
 
-- Header: it will be repeated in all the pages for consistency and good user experience
+- The site will be responsive for most screen sizes
+
+- **Header:** it will be repeated in all the pages for consistency and good user experience
     - Navbar: 
+        - It'll include a link to the three other pages in the site. The link will change color when hovered over it.
         - sticky to the top for confort and easy access
         - in smaller screens the navbar will change to a clickable burger with collapsed menu to the other pages
         - slight change of color on the links when hovered over the buttons
         - Will have a logo representing the company linked to the home page for easy return.
     - Hero image as a welcome to the page. Linked to the home page for easy return.
 
-- Body: will differ depend on the page
+- **Body:** will differ depend on the page
     - Home page (About Us): 
         - A section with information about the company's owners and their history.
         - A section with information about the posibility of meeting the owners personally, showing a regular meeting point 
@@ -240,7 +243,8 @@ of the business (Wet Paws).
         - A section showing pictures of the owner's dog to familiarize with them. 
     - Services:
         - a section divided in four to show the different services the company uses with a brief description of them
-        - card containers containing user reviews to display information in a visually appealing way
+        - card containers containing user reviews to display information in a visually appealing way and containing
+        pictures of dogs previously cared for to give a real and trust inducing reviews.
     - Contact form: 
         - all fields will be required so the business can offer a more personalised service to the user sending a business
         inquiry. 
@@ -248,7 +252,7 @@ of the business (Wet Paws).
         service type to enquire about and a text input field for further information to be asked to the company.
         - A call to action button to send the information to the company, linked to another page with feedback regarding their submition.
         
-- Footer: it will be repeated in all the pages for consistency and good user experience
+- **Footer:** it will be repeated in all the pages for consistency and good user experience
     - Social Links: 
         - Linked icons to social media platforms. 
         - They'll open in a separate blank page for the users' comfort.
