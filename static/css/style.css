@@ -6,7 +6,21 @@ body, html {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    color: #444444bf;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 /*--------------------------HEADER*/
+
+.logo {
+    width: 100%;
+    padding: 0;
+}
 
 /*--------------------------NAV*/
 
@@ -33,8 +47,14 @@ body, html {
 .background {
     margin-top: 0px;
     background-image: url(../images/Sua+mai1.jpg);
-    height: 50%;
-    background-position: center;
+    height: 65%;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*--------------------About Us*/
+
+.about-us {
+    background-color: #e9ecefab;
 }
