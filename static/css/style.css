@@ -28,4 +28,13 @@ body, html {
     font-size: large;
 }
 
-/*--------------------------HERO IMAGE*/
+/*--------------------HERO IMAGE*/
+
+.background {
+    margin-top: 0px;
+    background-image: url(../images/Sua+mai1.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
