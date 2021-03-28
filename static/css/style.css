@@ -58,17 +58,26 @@ h1 {
 
 .about-us {
     background-color: #e9ecefab;
-    width: 50%;
-    height: 70%;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    text-align: center;
 
 }
+.about-us-content{
+    background-color: #e9ecefab;
+    width: 100%;
+    height: 70%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
 
-#ethos-pic {
-    height: 300px;
-    width: 300px;
+.about-us-top {
+    width: 100%;
+    padding-bottom: 30px;
+    
+}
+
+#about-us-pic {
+    height: 90%;
+    width: 90%;
 }
 
 @media (min-width: 749px) {

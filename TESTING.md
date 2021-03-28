@@ -37,3 +37,14 @@ As seen in the examples above, the new favicon is visually more appealing than t
 but something is not lettig the size get smaller.
     - When testing the responsivness of it, I can see the font-size
     reducing, but not in higher resolution screens.
+
+
+
+
+## VALIDATOR:
+
+---
+
+- 28/03/2021 - Test result:
+    - The type attribute is unnecessary for JavaScript resources.
+        - I removed the type attribute form them.
