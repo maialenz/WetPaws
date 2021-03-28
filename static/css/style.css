@@ -11,8 +11,9 @@ h1 {
     font-family: "Quicksand", sans-serif;
     text-align: center;
     padding-top: 30px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
+    font-size: 35px;
 }
 
 /*--------------------------HEADER*/
@@ -57,4 +58,13 @@ h1 {
 
 .about-us {
     background-color: #e9ecefab;
+}
+
+
+@media (min-width: 749px) {
+    .h1, h1 {
+    font-size: 1.5rem;
+    margin: 0 20px 0 20px;
+    padding: 25px 0;
+    }
 }

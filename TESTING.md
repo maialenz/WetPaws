@@ -27,3 +27,13 @@ fast look.
 - [Chosen Favicon](docs/favicon_test/test-favicon3.png)
 
 As seen in the examples above, the new favicon is visually more appealing than the first two.
+
+## BUGS
+
+---
+
+### Bug 1 - h1 font-size not reducing for big screens
+- Tried to make index.html h1 smaller in font-size for larger screens
+but something is not lettig the size get smaller.
+    - When testing the responsivness of it, I can see the font-size
+    reducing, but not in higher resolution screens.
