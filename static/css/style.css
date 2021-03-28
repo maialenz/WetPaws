@@ -16,6 +16,18 @@ h1 {
     font-size: 35px;
 }
 
+.h1, h1 {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+p {
+     margin: 20px 150px;
+    font-size: 14px;
+}
+
 /*--------------------------HEADER*/
 
 .logo {
@@ -43,9 +55,10 @@ h1 {
     font-size: large;
 }
 
-/*--------------------HERO IMAGE*/
+/*--------------------Hero image*/
 
 .background {
+    opacity: 0.85;
     margin-top: 0px;
     background-image: url(../images/Sua+mai1.jpg);
     height: 70%;
@@ -66,27 +79,38 @@ h1 {
     height: 70%;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    text-align: justify;
+}
+
+.h1, h1 {
+    background-color: #e9ecefab;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 30px 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
     text-align: center;
 }
 
-.about-us-top {
-    width: 100%;
-    padding-bottom: 30px;
+#about-us-pic {
+    opacity: 0.85;
+    height: 70%;
+    width: 70%;
     
 }
 
-#about-us-pic {
-    height: 90%;
-    width: 90%;
-}
 
-br {
-}
 
-@media (min-width: 749px) {
+/*
+@media (max-width: 749px) {
     .h1, h1 {
-    font-size: 1.5rem;
+    font-size: 10px;
     margin: 0 20px 0 20px;
     padding: 25px 0;
     }
 }
+*/
