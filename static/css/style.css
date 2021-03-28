@@ -80,6 +80,9 @@ h1 {
     width: 90%;
 }
 
+br {
+}
+
 @media (min-width: 749px) {
     .h1, h1 {
     font-size: 1.5rem;
