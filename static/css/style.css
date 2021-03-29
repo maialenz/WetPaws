@@ -73,9 +73,6 @@ p {
 
 /*--------------------sections*/
 
-.container-fluid {
-    background-color: #e9ecefab;
-}
 .about-us {
     background-color: #e9ecefab;
     
@@ -89,7 +86,7 @@ p {
     height: 70%;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
     padding-top: 20px;
 }
 
