@@ -48,3 +48,10 @@ but something is not lettig the size get smaller.
 - 28/03/2021 - Test result:
     - The type attribute is unnecessary for JavaScript resources.
         - I removed the type attribute form them.
+
+
+- Some of the images are not loading and the path seems to be broken
+    - I checked with dev-tools on google chrome. 
+    - I fixed this fixing the source path where i made a mistake (my assets 
+    directory is called static, but I wrote assets/images)
+    - It's fixed. All pictures are showing as they are meant to and they are responsive
