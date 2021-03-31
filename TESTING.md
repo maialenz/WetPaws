@@ -38,6 +38,11 @@ but something is not lettig the size get smaller.
     - When testing the responsivness of it, I can see the font-size
     reducing, but not in higher resolution screens.
 
+- Bootstrap toggle collapse is not working
+    - The toggle icon is responsive and it appears when tested with dev-
+    tools, but the dropdown menu is not working
+    - SOLUTION: I noticed i forgot to place the jquery needed to make the Bootstrap
+    JavaScript to work properly at the end of the file, before </body>.
 
 
 
