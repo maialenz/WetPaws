@@ -204,8 +204,8 @@ difficult to read, it was decided to use simple but  and consistent fonts previo
 
 - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
 
-- The landing page and headers on all the pages will be the same hero image to create consistency and bring a seaside feeling to the user. The landing
-page will have three call to action buttons linked to the respective pages. The reason for this is to immediately direct the user to their selected part of the website.
+- The landing page and headers on all the pages will be the same hero image to create consistency and bring a seaside feeling to the user. The navbar
+will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find and to immediately direct the user to their selected part of the website.
 
 - The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
 
@@ -213,7 +213,7 @@ page will have three call to action buttons linked to the respective pages. The 
 
 ### **Logo**
 
-- The logo for site was created using an online application called [Canva](https://www.canva.com/). It has a background representing a very light blue sea
+- The logo for site was created using a combination of an online application called [Canva](https://www.canva.com/) and Paint. It has a a little paw logo with a background representing a very light blue sea
 provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name
 of the business (Wet Paws).
 
@@ -282,10 +282,13 @@ questions instead of filling a form every time. I leave this feature out due to 
 - CSS
 - Markup (README.md...)
 
+
 ### Frameworks, Libraries & Programs
 - Fontawesome
 - Google fonts
-- 
+- w3schools
+- Bootstrap documentation
+- Stack overflow
 - [TinyPNG](https://tinypng.com/)
 
 ### Other
