@@ -205,6 +205,19 @@ figure .container-fluid {
     margin-left: 5px;
 }
 
+#sendbutton {
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;  
+}
+
+.btn-light:hover {
+    color: #212529;
+    border-color: #dae0e5;
+    background-color: #a0e0ca;
+}
 /*------contact form*/
 
 
