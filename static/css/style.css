@@ -90,7 +90,6 @@ h2 {
 
 .container-fluid {
     background-color: #e9ecefab;
-    margin-bottom: 25px;
 }
 
 .about-us {
@@ -107,6 +106,7 @@ footer {
 /*--------------------INDEX*/
 
 /*--------content*/
+
 .about-us-content, .meet-us-content {
     background-color: #e9ecefab;
     width: 100%;
