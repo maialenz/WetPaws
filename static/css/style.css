@@ -3,8 +3,7 @@
 body, html{
     height: 100%;
     width: 100%;
-    font-family: "Roboto", sans-serif;
-    color: #373d3f;
+    
     background-color: white;
 }
 
@@ -101,7 +100,45 @@ h2 {
 
 footer {
     background-color: #e9ecefab;
+    max-height: 180px;
+    margin: 0;
 }
+
+.footer-header {
+    margin-top: 15px;
+}
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-top: 2px;
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #373d3f;
+    background-color: #dae0e5;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #a0e0ca;
+}
+
+
 
 /*--------------------INDEX*/
 
@@ -220,6 +257,9 @@ figure .container-fluid {
 }
 /*------contact form*/
 
+section .container-fluid {
+    margin-bottom: 25px;
+}
 
 
 /*
