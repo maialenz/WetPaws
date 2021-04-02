@@ -68,8 +68,11 @@ h2 {
     font-size: large;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,1);
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,0.8);
     font-weight: 600;
 }
 
@@ -79,7 +82,7 @@ h2 {
     opacity: 0.85;
     margin-top: 0px;
     background-image: url(../images/pauline-loroy-unsplash.jpg);
-    height: 40%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,6 +90,7 @@ h2 {
 
 .container-fluid {
     background-color: #e9ecefab;
+    margin-bottom: 25px;
 }
 
 .about-us {
@@ -94,8 +98,15 @@ h2 {
     
 }
 
-/*--------------------content*/
+/*--------------------FOOTER*/
 
+footer {
+    background-color: #e9ecefab;
+}
+
+/*--------------------INDEX*/
+
+/*--------content*/
 .about-us-content, .meet-us-content {
     background-color: #e9ecefab;
     width: 100%;
@@ -117,7 +128,7 @@ h2 {
     border-radius: 25px;
 }
 
-/*--------------------gallery*/
+/*--------gallery*/
 
 figure .container-fluid {
     background-color: white;
@@ -149,11 +160,52 @@ figure .container-fluid {
     margin-top: 10px;
 }
 
-/*--------------------Footer*/
+/*--------------------CONTACT*/
 
-footer {
-    background-color: #e9ecefab;
+/*------heading*/
+
+.h3, h3 {
+    font-size: 1.4em;
+    font-family: 'QUICKSAND', sans-serif;
+    font-stretch: expanded;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 40px;
 }
+
+.h4, h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.h5, h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-left: 15px;
+    display: list-item;
+
+}
+
+.w-75 {
+    width: 75%!important;
+    padding-left: 5px;
+}
+
+.form-row {
+    margin-left: 5px;
+}
+
+/*------contact form*/
+
+
 
 /*
 @media (max-width: 749px) {
