@@ -298,6 +298,30 @@ questions instead of filling a form every time. I leave this feature out due to 
 
 ---
 
+## TESTING
+
+You can find all the information and documentation about the testing that
+has been carried out [here](TESTING.md)
+
+---
+
+## DEPLOYMENT
+
+### GitHub Pages
+
+This project was built using the [GitPod](https://www.gitpod.io) environment, specifically in the cloud cloud.
+    1. To start using the new environment, first a new repository was created in GitHub called [WetPaws](https://github.com/maialenz/WetPaws)
+    2. All the commits and pushes made during the building process were made very often to keep the project save and updated.
+
+The project was deployed using [GitHub Pages](https://pages.github.com/) using the following steps:
+    1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
+        - You can also find it by seaching maialenz/WetPaws on the [GitHub](https://github.com/) seach-bar.
+    2. Below the repository title at the top, find the "Settings" button on the horizontal or dropdown (small screens) menu
+
+    <img src="docs/deployment/githubsettings.png">
+
+
+---
 ## ACKNOWLEDGEMENTS
 
 - To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 

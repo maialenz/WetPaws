@@ -37,6 +37,7 @@ As seen in the examples above, the new favicon is visually more appealing than t
 but something is not lettig the size get smaller.
     - When testing the responsivness of it, I can see the font-size
     reducing, but not in higher resolution screens.
+    
 
 ### Bug2 - Bootstrap toggle collapse is not working
     - The toggle icon is responsive and it appears when tested with dev-
@@ -59,6 +60,6 @@ and centered under the toggle icon
 
 - Some of the images are not loading and the path seems to be broken
     - I checked with dev-tools on google chrome. 
-    - I fixed this fixing the source path where i made a mistake (my assets 
+    - I fixed this fixing the source path where I made a mistake (my assets 
     directory is called static, but I wrote assets/images)
     - It's fixed. All pictures are showing as they are meant to and they are responsive
