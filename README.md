@@ -40,10 +40,10 @@ who wants answers fast and hasle free.
 - Frameworks, Libraries & Programs
 5. TESTING
 - [Testing document](Testing.md)
-6. DEPLOYMENT
-- GitHub Pages
-- Forking the repository
-- Cloning the repository
+6. [DEPLOYMENT](#deployment)
+- [GitHub Pages](#github-pages)
+- [Forking the repository](#forking-the-repository)
+- [Cloning the repository](#cloning-the-repository)
 7. CREDITS
 8. ACKNOWLEDGEMENTS
 9. DISCLAIMER
