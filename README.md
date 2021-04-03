@@ -393,12 +393,14 @@ $ python3 -m http.server
 ---
 
 
-## ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS AND CREDITS
 
 - To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 
 the type of services a dog sitting company offers in real life.
 
-- 
+- To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for services.html taken from Unsplash
+
+- To [Ryan Walton](https://unsplash.com/photos/AbNO2iejoXA) for the picture used for contact.html taken from Unsplash
 
 
 ## DISCLAIMER
