@@ -314,14 +314,85 @@ This project was built using the [GitPod](https://www.gitpod.io) environment, sp
     2. All the commits and pushes made during the building process were made very often to keep the project save and updated.
 
 The project was deployed using [GitHub Pages](https://pages.github.com/) using the following steps:
-    1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
-        - You can also find it by seaching maialenz/WetPaws on the [GitHub](https://github.com/) seach-bar.
-    2. Below the repository title at the top, find the "Settings" button on the horizontal or dropdown (small screens) menu
+1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
+    - You can also find it by seaching maialenz/WetPaws on the [GitHub](https://github.com/) seach-bar.
 
-    <img src="docs/deployment/githubsettings.png">
+2. Below the repository title at the top, find the "Settings" button on the horizontal or dropdown (small screens) menu
 
+![screenshot of the repository outlining the settings button in yellow](docs/deployment/githubsettings.png)
+
+3. Scroll down the Settings page until you locate the "GitHub Pages" section.
+
+4. Under the "Source" title, click on the dropdown button called "None" and change the source to "Master Branch".
+![screenshot of the dropdown menu showing the "Main Branc" and "None"](docs/deployment/githubpagesbranch.png)
+
+5. The page will automatically refresh
+
+6. When the loading is finished, scroll back down to the GitHub pages section where you will find the deployed [link](https://maialenz.github.io/WetPaws/) to the website.
+![Screenshot of the deployed link within GitHub pages](docs/deployment/githubdeployedlink.png)
 
 ---
+
+### Forking the GitHub repository
+
+It is posible to copy and edit this project by any user without changing the repository on the original GitHub account. This can be done by forking the repository by following the following steps (Forking will only make
+a copy of the original project, so any changes won't affect the original):
+
+1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
+    - You can also find it by seaching maialenz/WetPaws on the [GitHub](https://github.com/) seach-bar.
+
+2. Below the repository title at the top, above the "Settings" button on the horizontal menu and under the user's profile logo, locate the "Fork" button and click on it.
+![screenshot of the fork button](docs/deployment/forkbutton.png)
+
+3. You will have made a copy of the whole repository in your own GitHub account.
+
+4. To share the changes/edits you have made to improve the original project with the owner, you can submit a pull request.
+Find the details to do so following this [link](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+
+---
+
+### Making a Local Clone
+
+1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
+    - You can also find it by seaching maialenz/WetPaws on the [GitHub](https://github.com/) seach-bar.
+
+2. Above the repository files and to the left of the green "GitPod" button, locate the "Code" or "download" button and click on it.
+![screenshot of cloning code button](docs/deployment/clonecode.png)
+
+3. To clone the repository using HTTPS copy the link on display (you can click on the clipboard to copy it faster).
+![screenshot of the HTTPS clone link](docs/deployment/clonehttps.png)
+
+4. If you are working on a desktop application, follow the documentation found on number 9. For cloud based, open your own terminal in GitPod.
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. In the terminal type ````git clone```` and then paste the URL copied on step 3
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7.Press Enter. This will create your local clone.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+8. To open a preview port within your own local workspace type:
+
+```
+$ python3 -m http.server
+```
+
+9. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+---
+
+
 ## ACKNOWLEDGEMENTS
 
 - To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 
