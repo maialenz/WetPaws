@@ -44,9 +44,9 @@ who wants answers fast and hasle free.
 - [GitHub Pages](#github-pages)
 - [Forking the repository](#forking-the-repository)
 - [Cloning the repository](#cloning-the-repository)
-7. CREDITS
+7. [CREDITS](#credits)
+- [References](REFERENCES.md)
 8. ACKNOWLEDGEMENTS
-9. DISCLAIMER
 
 
 ## UX
@@ -390,35 +390,45 @@ $ python3 -m http.server
 ```
 
 9. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+
 ---
 
-
-## ACKNOWLEDGEMENTS AND CREDITS
-
-- To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 
-the type of services a dog sitting company offers in real life.
+## CREDITS
 
 - To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for services.html taken from Unsplash
 
 - To [Ryan Walton](https://unsplash.com/photos/AbNO2iejoXA) for the picture used for contact.html taken from Unsplash
 
 
-## DISCLAIMER
+
+### References
+
+More information about references used (parts of libraries, Stackoverflow...) to build this website can be found [here](REFERENCES.md)
+
+---
+
+## ACKNOWLEDGEMENTS
+
+- To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 
+the type of services a dog sitting company offers in real life.
 
 ---
 
 ### Content
 
-All content on this website is original, but it's content has been heavily influenced by a real life company like 
-[Pawshake](https://www.pawshake.ie/) with similar services and pinterest.
+All content on this website is original, but it's content has been inspired by a real life company like 
+[Pawshake](https://www.pawshake.ie/) with similar services.
 
 
-The pictures were taken with a personal phone (Samsung Galaxy S8+) of the family dog.
+The pictures not taken from [Unsplash](https://unsplash.com/) were taken with a personal phone (Samsung Galaxy S8+) of the family dog.
 
 ---
+
+### Disclaimer
+
 This project is for educational use only. None of the products or services listed
 in this website are real or functional. Any resemblance to a posible real business is purely coincidental.
-No animals were harmed or forced in the making of this project. All pictures were used
+No animals were harmed or forced in the making of this project. All pictures  were used
 using positive reinforcement.
 
-Created by **Maialen Zumeta** | Ireland, March 2021
+Created by **Maialen Zumeta** | Bettystown - Ireland, March - April 2021
