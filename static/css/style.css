@@ -203,9 +203,11 @@ figure .container-fluid {
     margin-top: 10px;
 }
 
+/*--------------------SERVICES*/
+
+
 /*--------------------CONTACT*/
 
-/*------heading*/
 
 .h3, h3 {
     font-size: 1.4em;
@@ -233,8 +235,6 @@ figure .container-fluid {
     text-transform: uppercase;
     padding: 10px 0;
     margin-left: 15px;
-    display: list-item;
-
 }
 
 .w-75 {
@@ -259,7 +259,6 @@ figure .container-fluid {
     border-color: #dae0e5;
     background-color: #a0e0ca;
 }
-/*------contact form*/
 
 section .container-fluid {
     margin-bottom: 25px;
