@@ -3,7 +3,8 @@
 body, html{
     height: 100%;
     width: 100%;
-    
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
     background-color: white;
 }
 
@@ -20,7 +21,7 @@ h1 {
 p {
     color: #373d3f; 
     margin: 20px 20px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .h1, h1 {
@@ -52,8 +53,10 @@ h2 {
 
 .navbar {
     font-family: "Montserrat", sans-serif;
+    font-size: 17px;
     font-weight: 500;
     color: #373d3f;
+    padding: 10px 0;
 }
 
 .navbar-light 
@@ -77,16 +80,35 @@ h2 {
 
 /*--------------------Hero image*/
 
-.background {
+.background-home {
     opacity: 0.85;
     margin-top: 0px;
     background-image: url(../images/pauline-loroy-unsplash.jpg);
-    height: 50%;
+    height: 60%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.background-services {
+    opacity: 0.85;
+    margin-top: 0px;
+    background-image: url(../images/andrew-pons-unsplash1.jpg);
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-contact {
+    opacity: 0.85;
+    margin-top: 0px;
+    background-image: url(../images/jamie-street-unsplash1.jpg);
+    height: 60%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container-fluid {
     background-color: #e9ecefab;
 }
@@ -152,8 +174,8 @@ footer p {
     background-color: #e9ecefab;
     width: 100%;
     height: 70%;
-    font-family: "Roboto", sans-serif;
-    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
     text-align: justify;
     padding-top: 20px;
 }
@@ -204,6 +226,41 @@ figure .container-fluid {
 }
 
 /*--------------------SERVICES*/
+
+section .service-cards {
+    margin-bottom: 25px;
+}
+section .sevice-cards .container-fluid  {
+    margin: 0;
+    padding: 0 0;
+}
+
+section .card {
+    margin-bottom: 25px;
+}
+
+.service-cards .row {
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.service-cards p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.service-cards p br {
+    padding-top: 10px;
+}
+.other-services li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    list-style-type: circle;
+    text-align: left;
+    margin-left: 40px;
+}
 
 
 /*--------------------CONTACT*/
@@ -266,11 +323,9 @@ section .container-fluid {
 
 
 /*
-@media (max-width: 749px) {
-    .h1, h1 {
-    font-size: 10px;
-    margin: 0 20px 0 20px;
-    padding: 25px 0;
-    }
+@media screen and (max-width: 750px) {
+  .cards {
+      height: 450px;
+  }
 }
 */

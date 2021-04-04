@@ -395,9 +395,9 @@ $ python3 -m http.server
 
 ## CREDITS
 
-- To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for services.html taken from Unsplash
+- To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for contact.html taken from Unsplash
 
-- To [Ryan Walton](https://unsplash.com/photos/AbNO2iejoXA) for the picture used for contact.html taken from Unsplash
+- To [Andrew Pons](https://unsplash.com/photos/oH9AuO20kbk) for the picture used for services.html taken from Unsplash
 
 
 
