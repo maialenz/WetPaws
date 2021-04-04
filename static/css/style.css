@@ -22,6 +22,7 @@ p {
     color: #373d3f; 
     margin: 20px 20px;
     font-size: 13px;
+    text-indent: 25px;
 }
 
 .h1, h1 {
@@ -241,18 +242,23 @@ section .card {
 
 .service-cards .row {
     padding-bottom: 25px;
-    padding-left: 10px;
+}
+
+.card-header {
+    background-color: rgba(170, 213, 222, 0.5);
+    text-align: center;
 }
 
 .service-cards p {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 
-.service-cards p br {
-    padding-top: 10px;
+.service-cards p a {
+    color: #212529;
+    text-decoration: underline dotted;
 }
 .other-services li {
     font-family: "Montserrat", sans-serif;
@@ -262,7 +268,9 @@ section .card {
     margin-left: 40px;
 }
 
-
+a .btn .ask-button {
+    margin-top: auto;
+}
 /*--------------------CONTACT*/
 
 
