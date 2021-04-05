@@ -407,8 +407,13 @@ $ python3 -m http.server
 
 - To [Artem Beliaikin](https://www.pexels.com/photo/sea-nature-beach-vacation-5009705/)for the picture used on Index.html-Gallery taken from [Pexels](https://www.pexels.com/)
 
+- To [Ralu Gal]() for the picture used for the fake review in services.html taken from Unsplash
 
+- To [Ryan Walton]()for the picture used for the fake review in services.html taken from Unsplash
 
+- To [Oscar Sutton](https://unsplash.com/photos/yihlaRCCvd4) for the picture used for the fake review in services.html taken from Unsplash
+
+- To [Jay Wennington](https://unsplash.com/photos/w_O_tPgxvok) for the picture used for the fake review in services.html taken from Unsplash
 
 ### References
 
@@ -417,6 +422,9 @@ More information about references used (parts of libraries, Stackoverflow...) to
 ---
 
 ## ACKNOWLEDGEMENTS
+
+
+- To Gerard McBride for all the saturdays spent giving us extra lessons to help us understand and perfect our code and use of the technologies. Thank you!
 
 - To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 
 the type of services a dog sitting company offers in real life.
