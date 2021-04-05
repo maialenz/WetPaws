@@ -290,6 +290,20 @@ section .card {
 a .btn .ask-button {
     margin-top: auto;
 }
+
+/*-------------------reviews*/
+
+.review-wrapper {
+    border: dotted 0.8px #dae0e5;
+    margin-top: 20px;
+}
+.img-responsive {
+    display: block;
+    position: relative;
+    margin: 20px auto;
+}
+
+
 /*--------------------CONTACT*/
 
 
