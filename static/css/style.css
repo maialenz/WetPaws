@@ -293,10 +293,11 @@ a .btn .ask-button {
 
 /*-------------------reviews*/
 
+
 .review-wrapper {
-    border: dotted 0.8px #dae0e5;
-    margin-top: 20px;
+    margin-bottom: 25px;
 }
+
 .img-responsive {
     display: block;
     position: relative;
