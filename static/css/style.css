@@ -104,12 +104,13 @@ h2 {
 .background-contact {
     opacity: 0.85;
     margin-top: 0px;
-    background-image: url(../images/jamie-street-unsplash1.jpg);
+    background-image: url(../images/jamie-street-unsplash-short.jpg);
     height: 60%;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .container-fluid {
     background-color: #e9ecefab;
 }
@@ -181,7 +182,21 @@ footer p {
     padding-top: 20px;
 }
 .meet-us-content {
-    margin-bottom: 25px;;
+    margin-bottom: 25px;
+}
+
+.about-us-content h2, .meet-us-content h2 {
+    background-color: rgba(170, 213, 222, 0.5);
+    padding: 18px 0;
+}
+
+.meet-us-content p a {
+    color: #373d3f;
+    text-decoration: underline dotted;
+}
+
+.meet-us-content p a:hover {
+    color: #a0e0ca;
 }
 
 #about-us-pic {
@@ -193,6 +208,7 @@ footer p {
     background-color: #e9ecefab;
     border-radius: 25px;
 }
+
 
 /*--------gallery*/
 
@@ -260,12 +276,16 @@ section .card {
     color: #212529;
     text-decoration: underline dotted;
 }
+
+.service-cards p a:hover {
+    color: #a0e0ca;
+}
 .other-services li {
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     list-style-type: circle;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 a .btn .ask-button {
@@ -274,14 +294,11 @@ a .btn .ask-button {
 /*--------------------CONTACT*/
 
 
-.h3, h3 {
-    font-size: 1.4em;
-    font-family: 'QUICKSAND', sans-serif;
-    font-stretch: expanded;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin: 40px;
+.form-head {
+    background-color: #ffffff;
+    margin: 20px 0;
 }
+
 
 .h4, h4 {
     font-family: "Montserrat", sans-serif;
@@ -290,6 +307,19 @@ a .btn .ask-button {
     text-transform: uppercase;
     font-weight: 400;
     padding: 20px 0;
+    background-color:  rgba(170, 213, 222, 0.5);
+     margin: 20px 100px;
+   }
+
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .h5, h5 {
