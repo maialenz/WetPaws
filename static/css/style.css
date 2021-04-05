@@ -293,7 +293,9 @@ a .btn .ask-button {
 
 /*-------------------reviews*/
 
-
+section .reviews {
+    margin:0 20px;
+}
 .review-wrapper {
     margin-bottom: 25px;
 }
@@ -304,6 +306,9 @@ a .btn .ask-button {
     margin: 20px auto;
 }
 
+.reviews .review-header {
+    margin: 30px 0;
+}
 
 /*--------------------CONTACT*/
 
@@ -374,10 +379,10 @@ section .container-fluid {
 }
 
 
-/*
-@media screen and (max-width: 750px) {
-  .cards {
-      height: 450px;
-  }
+/*-----------------MEDIA QUERIES*/
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1050px;
+    }
 }
-*/

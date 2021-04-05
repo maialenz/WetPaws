@@ -54,6 +54,9 @@ next line
     - Changed the margin right and left to 70px, so when rendered to mobile, the h4 doesn't break in two
     and it's still balanced with the body of the cards, as well as the heading on the contact page.
 
+### BUG - on desktop view, the review columns would render with 140px or margin in left and right.
+    - SOLUTION: added a media querie for screens 992 and higher so the max width is 1050px.
+    - style.css line 384
 ## VALIDATOR:
 
 ---
