@@ -45,9 +45,14 @@ but something is not lettig the size get smaller.
     - SOLUTION: I noticed i forgot to place the jquery needed to make the Bootstrap
     JavaScript to work properly at the end of the file, before </body>.
 
-### Bug 3 - In mobile screen, the dropdown items are not showing aligned
+### Bug  - In mobile screen, the dropdown items are not showing aligned
 and centered under the toggle icon
 
+### Bug - In mobile screen, the card headings (h4) break and separate to the
+next line
+    - I noticed in line 310 on the style.css file the margin was too large (margin: 20px 100px)
+    - Changed the margin right and left to 70px, so when rendered to mobile, the h4 doesn't break in two
+    and it's still balanced with the body of the cards, as well as the heading on the contact page.
 
 ## VALIDATOR:
 

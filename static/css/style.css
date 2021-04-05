@@ -169,7 +169,6 @@ footer p {
 
 
 /*--------------------INDEX*/
-
 /*--------content*/
 
 .about-us-content, .meet-us-content {
@@ -285,7 +284,7 @@ section .card {
     font-size: 13px;
     list-style-type: circle;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 a .btn .ask-button {
@@ -308,7 +307,7 @@ a .btn .ask-button {
     font-weight: 400;
     padding: 20px 0;
     background-color:  rgba(170, 213, 222, 0.5);
-     margin: 20px 100px;
+     margin: 20px 70px;
    }
 
 
