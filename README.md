@@ -293,8 +293,8 @@ questions instead of filling a form every time. I leave this feature out due to 
 
 ### Other
 - Pinterest: for color, typography, picture, layout inspiration
-
-- 
+- [Unsplash](https://unsplash.com/): for good quality pictures used as hero images
+- [Pexels](https://www.pexels.com/): for good quality pictures
 
 ---
 
@@ -395,9 +395,18 @@ $ python3 -m http.server
 
 ## CREDITS
 
-- To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for contact.html taken from Unsplash
+- To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for contact.html taken from [Unsplash](https://unsplash.com/)
 
 - To [Andrew Pons](https://unsplash.com/photos/oH9AuO20kbk) for the picture used for services.html taken from Unsplash
+
+- To [Gabriella Clare Merino](https://unsplash.com/photos/RWoL6pPx3Fw) for the picture used on Index.html-Gallery taken from Unsplash
+
+- To [Helena Lopes](https://unsplash.com/photos/KWG8xIuIoLw) for the picture used on Index.html-Gallery taken from Unsplash
+
+- To [Pauline Loroy](https://unsplash.com/photos/U3aF7hgUSrk) for the picture used as a hero image for Index.html taken from Unsplash
+
+- To [Artem Beliaikin](https://www.pexels.com/photo/sea-nature-beach-vacation-5009705/)for the picture used on Index.html-Gallery taken from [Pexels](https://www.pexels.com/)
+
 
 
 
@@ -416,7 +425,7 @@ the type of services a dog sitting company offers in real life.
 
 ### Content
 
-All content on this website is original, but it's content has been inspired by a real life company like 
+All content on this website is original, but it's content has been inspired and influenced by a real life company like 
 [Pawshake](https://www.pawshake.ie/) with similar services.
 
 
