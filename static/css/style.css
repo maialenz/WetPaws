@@ -127,11 +127,11 @@ h2 {
     
 }
 
-/*--------------------FOOTER*/
+/*----------------------------------------FOOTER*/
 
 footer {
     background-color: #e9ecefab;
-    max-height: 180px;
+    min-height: 180px;
     margin: 0;
 }
 
@@ -173,9 +173,7 @@ footer p {
     background-color: #a0e0ca;
 }
 
-
-
-/*--------------------INDEX*/
+/*-----------------------------------INDEX*/
 /*--------content*/
 
 .about-us-content, .meet-us-content {
@@ -272,7 +270,7 @@ figure .container-fluid {
 .playlist3 {
     padding: 10px 5px;
 }
-/*--------------------SERVICES*/
+/*-------------------------------------------SERVICES*/
 
 section .service-cards {
     margin-bottom: 25px;
