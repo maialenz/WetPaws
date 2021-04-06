@@ -243,23 +243,13 @@ figure .container-fluid {
 
 /*--------------music playlist*/
 
-#music-header {
-    margin: 0;
-    padding: 15px 0;
-}
-section .walking-list {
-    margin: 25px 0;
-}
-.row .music-list {
-    margin: 25px 0;
-}
+
 /* --------------map*/
-
-.container-fluid .overflow-hidden .map {
-    margin-top: 20px;
+.map .col {
     padding: 0;
+    margin: 0;
+    align-content: right;
 }
-
 
 /*--------------------SERVICES*/
 
