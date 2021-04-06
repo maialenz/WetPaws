@@ -131,7 +131,7 @@ h2 {
 
 footer {
     background-color: #e9ecefab;
-    min-height: 180px;
+    min-height: 120px;
     margin: 0;
 }
 
@@ -255,9 +255,8 @@ figure .container-fluid {
 
 #music-header {
     margin: 15px 0 25px 0;
+    font-size: 15px;
 }
-
-.section-
 
 /* --------------map*/
 .map .col {
@@ -270,21 +269,24 @@ figure .container-fluid {
 .playlist3 {
     padding: 10px 5px;
 }
+
 /*-------------------------------------------SERVICES*/
 
+/*-------------------cards*/
+
 section .service-cards {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    
 }
-section .sevice-cards .container-fluid  {
-    margin: 0;
-    padding: 0 0;
+section .container-fluid  {
+    padding: 15px 15px;
 }
 
 section .card {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
-.service-cards .row {
+.row .col-sm-6 {
     padding-bottom: 25px;
 }
 
@@ -415,8 +417,8 @@ section .container-fluid {
     .container {
         max-width: 90%;
     }
-}
 
+}
 
 @media (min-width: 1200px) {
     .container {
