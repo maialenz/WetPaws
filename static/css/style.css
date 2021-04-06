@@ -241,6 +241,26 @@ figure .container-fluid {
     margin-top: 10px;
 }
 
+/*--------------music playlist*/
+
+#music-header {
+    margin: 0;
+    padding: 15px 0;
+}
+section .walking-list {
+    margin: 25px 0;
+}
+.row .music-list {
+    margin: 25px 0;
+}
+/* --------------map*/
+
+.container-fluid .overflow-hidden .map {
+    margin-top: 20px;
+    padding: 0;
+}
+
+
 /*--------------------SERVICES*/
 
 section .service-cards {
@@ -379,10 +399,24 @@ section .container-fluid {
 }
 
 
+
 /*-----------------MEDIA QUERIES*/
 
 @media (min-width: 992px) {
     .container {
-        max-width: 1050px;
+        max-width: 90%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1390px;
     }
 }
