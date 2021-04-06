@@ -180,11 +180,11 @@ links to the different social media and "address" of the business.
 
 ### **Colors**
 
-The colors used in this project reflect the sea and the beach. Colors found at the location of the business, as this is located
-on the seaside of Ireland. I will be using very light colors not to distract the user from the information and to make sure 
+The colors used in this project are inspired by the sea. Colors found at the location of the business, as this is located
+on the seaside of Ireland. I will be using very light and minimal colors not to distract the user from the information and to make sure 
 there is a right contrast between the colors used in the background and the typography color.
 
-The colors chosen are combinations of: pale blue, light beige/brown, white and shades of grey. The color scheme was created using
+The colors chosen are combinations of: pale/light blue and green, white and shades of grey. The color were found using
 [Coolors](https://coolors.co/)
 
 ---
@@ -194,9 +194,10 @@ The colors chosen are combinations of: pale blue, light beige/brown, white and s
 The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
 difficult to read, it was decided to use simple but  and consistent fonts previously used and seen in other projects within Code Institute like:
 
-- "Roboto" 
+- "Roboto" (EDIT: it was chosen as the body typography, but I chose not to use it at the end as "Montserrat" fit better)
 - "Quicksand"
-- "Montserrat"/"Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
+- "Montserrat"
+- "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
 
 ---
 
@@ -204,7 +205,7 @@ difficult to read, it was decided to use simple but  and consistent fonts previo
 
 - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
 
-- The landing page and headers on all the pages will be the same hero image to create consistency and bring a seaside feeling to the user. The navbar
+- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between them . The navbar
 will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find and to immediately direct the user to their selected part of the website.
 
 - The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
@@ -228,25 +229,26 @@ of the business (Wet Paws).
 
 - **Header:** it will be repeated in all the pages for consistency and good user experience
     - Navbar: 
-        - It'll include a link to the three other pages in the site. The link will change color when hovered over it.
-        - sticky to the top for confort and easy access
-        - in smaller screens the navbar will change to a clickable burger with collapsed menu to the other pages
+        - It'll include a link to the three other pages in the site. The link will increase on size when hovered over it.
+        - in smaller screens the navbar will change to a clickable burger with collapsed menu with nav-links to the other pages
         - slight change of color on the links when hovered over the buttons
-        - Will have a logo representing the company linked to the home page for easy return.
-    - Hero image as a welcome to the page. Linked to the home page for easy return.
+        - Will have a logo representing the company and it's name linked to the home page for easy return.
 
 - **Body:** will differ depend on the page
     - Home page (About Us): 
-        - A section with information about the company's owners and their history.
-        - A section with information about the posibility of meeting the owners personally, showing a regular meeting point 
-        and times.
-        - A section showing pictures of the owner's dog to familiarize with them. 
+        - A section with information about the company's owners and a meeting information for those wanted to meet the owner personally.
+        - A picture of the owner's dog to familiarize with them. 
+        - A section with a static but responsive gallery with dog pictures and the owners pictures. This would be a section for a future gallery
+        slideshow with customer dog pictures.
+        - A section with a playlists from spotify for enjoyment of the user.
+        - A section with a map to point the location of the business.
     - Services:
-        - a section divided in four to show the different services the company uses with a brief description of them
-        - card containers containing user reviews to display information in a visually appealing way and containing
+        - A section divided in four cards to show the different services the company offers with a brief description of them and links
+        to the content form page for the posibility to contact the owner or book a service.
+        - A section with boxes to display reviews of customers who already used one or more services, containing
         pictures of dogs previously cared for to give a real and trust inducing reviews.
     - Contact form: 
-        - all fields will be required so the business can offer a more personalised service to the user sending a business
+        - Must fields will be required so the business can offer a more personalised service to the user sending a business
         inquiry. 
         - will require to fill fields of Name, Surname, dog's name, email adress (to be able to contact the user querie), 
         service type to enquire about and a text input field for further information to be asked to the company.
@@ -257,16 +259,18 @@ of the business (Wet Paws).
         - Linked icons to social media platforms. 
         - They'll open in a separate blank page for the users' comfort.
         - Color changing hover feature for 
-    - Information of the company 
+    - Owners name and email address
+    - Contact details
 
 
 ---
 
 ### Features left to implement
 
-- Gallery: due to the lack of pictures of different dogs and the shot time frame for the project to be done,
-I decided to leave the Gallery feature out for the time being. The gallery would be incorporated
-once I had a wider customer directory and longer period to implement this feature. 
+- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done,
+I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated
+once I had a wider customer directory and longer period to implement this feature. In the first release the small gallery will consist on small
+selection of responsive pictures, but they won't be clickable
 
 - Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills
 required to implement this feature.
@@ -278,24 +282,50 @@ questions instead of filling a form every time. I leave this feature out due to 
 ## TECHNOLOGIES USED
 
 ### Syntax
-- HTML5
-- CSS
-- Markup (README.md...)
-
+- HTML5:
+    - HTML5 is a markup language used for structuring and presenting content on the internet.
+- CSS:
+    - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML
+- Markup (for README.md, REFERENCES.md and TESTING.md)
 
 ### Frameworks, Libraries & Programs
+- Bootstrap
+    - library: used to load the framework into my page.
+    - documentation: used as a reference on how to use Bootstrap library and it's components.
+- JavaScript library: 
+    - used to make sure the Bootstrap libraries loaded and worked
+- jQuery:
+    - used to make sure the Bootstrap libraries loaded and worked
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxhC8AjxQ7KoW7lWyaSISWg3cKgb1Zj7nCRe4K69pf4SD8brerOufBgaAnPHEALw_wcB)
+    - used to create the projects wireframes. Verification code provided by Code Insitute for the duration of the course.
 - Fontawesome
+    - used to include inline icons as representation of the information
 - Google fonts
+    - used to give the typography a personal and styled character
 - w3schools
-- Bootstrap documentation
+    - used to refresh the lessons learned in the course in a summed up way
 - Stack overflow
+    - to find solutions to problems and bugs I encounter during the creation of the website
+- [Hover.css Effects Demo Page](https://hovercss.pagecloud.com/)
+    - used to add style to CTA buttons
 - [TinyPNG](https://tinypng.com/)
-
-### Other
-- Pinterest: for color, typography, picture, layout inspiration
-- [Unsplash](https://unsplash.com/): for good quality pictures used as hero images
-- [Pexels](https://www.pexels.com/): for good quality pictures
-
+    - used to reduce the weight on pictures gotten from Unsplash
+- Pinterest: 
+    - for color, typography, picture, layout...inspiration during the planning of the project.
+- [Unsplash](https://unsplash.com/)
+    - used to get good quality pictures used as hero images and gallery
+- [Pexels](https://www.pexels.com/)
+    - used to get good quality pictures
+- [Coolors](https://coolors.co/image-picker)
+    - used to find colors that suit my website.
+- [Colorhexa](https://www.colorhexa.com/)
+    - used to find specific hex value of a colors:
+        - #a4a4a4
+        - #a0e0ca
+- [Canva](https://www.canva.com/)
+    - used to create the logo image
+- Paint -by Microsoft
+    - used to put together the logo image created with Canva and the name of the company.
 ---
 
 ## TESTING
@@ -395,6 +425,8 @@ $ python3 -m http.server
 
 ## CREDITS
 
+#### Images
+
 - To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for contact.html taken from [Unsplash](https://unsplash.com/)
 
 - To [Andrew Pons](https://unsplash.com/photos/oH9AuO20kbk) for the picture used for services.html taken from Unsplash
@@ -414,6 +446,14 @@ $ python3 -m http.server
 - To [Oscar Sutton](https://unsplash.com/photos/yihlaRCCvd4) for the picture used for the fake review in services.html taken from Unsplash
 
 - To [Jay Wennington](https://unsplash.com/photos/w_O_tPgxvok) for the picture used for the fake review in services.html taken from Unsplash
+
+#### Music
+
+- [Dog walking music Playlist](https://open.spotify.com/playlist/0z6dHFTpcCtTSwodlm6m6S?utm_source=embed_v2&go=1&play=1&nd=1) - List by user [Sonya Boyle](https://open.spotify.com/user/21sveimh7porwyktus2aro2ga)
+
+- [Dog walking songs Playlist](https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu?utm_source=embed_v2&go=1&play=1&nd=1) - List by user [lewisob1998](https://open.spotify.com/user/lewisob1998)
+
+- [Chillout Lounge Playlist](https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu?utm_source=embed_v2&go=1&play=1&nd=1) - List by Spotify
 
 ### References
 
