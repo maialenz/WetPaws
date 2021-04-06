@@ -251,11 +251,12 @@ figure .container-fluid {
 /*--------------music playlist*/
 
 #walking-list {
-    padding: 30px 30px;
+    margin:40px 0px;
+    background-color: #ffffff;
 }
 
 #music-header {
-    margin: 50px 0 25px 0;
+    margin: 15px 0 25px 0;
 }
 
 .section-
