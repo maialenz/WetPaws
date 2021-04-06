@@ -3,8 +3,6 @@ Milestone 1 Project - User-Centric Frontend Development
 
 ## Overview
 
----
-
 This is a dog walking and sitting service page for a fictional company
 who specialises in walking and dog sitting based in Bettystown, Ireland.
 
@@ -20,37 +18,36 @@ who wants answers fast and hasle free.
 - [User Stories](#user-stories)
 - [Business Goals](#business-goals)
 - [User Centered Design](#user-centered-design)
-    - Strategy plane
-        - User needs
-        - Technical capabilities
-        - Business vision
-    - Scope plane
-    - Structure plane
-    - Skeleton plane
-2. DESIGN
-- Color scheme
-- Typography
-- Imagery
-- Logo
-3. FEATURES
-- Existing Features
-- Features left to implement
-4. TECHNOLOGIES USED
-- Syntax
-- Frameworks, Libraries & Programs
-5. TESTING
-- [Testing document](Testing.md)
+    - [Strategy plane](#strategy-plane)
+        - [User needs](#user-needs)
+        - [Technical capabilities](technical-capabilities)
+        - [Business vision](#business-vision)
+    - [Scope plane](#scope-plane)
+    - [Structure plane](#structure-plane)
+    - [Skeleton plane](#Skeleton-plane)
+2. [DESIGN](#design)
+- [Color scheme](#color-scheme)
+- [Typography](#typography)
+- [Imagery](#imagery)
+- [Logo](#logo)
+3. [FEATURES](#features)
+- [Existing Features](#existing-features)
+- [Features left to implement](#features-left-to-implement)
+4. [TECHNOLOGIES USED](#technologies-used)
+- [Syntax](#syntax)
+- [Frameworks, Libraries & Programs](#frameworks-libraries-&-programs)
+5. [TESTING](#TESTING.md)
+- [Testing document](#TESTING.md)
 6. [DEPLOYMENT](#deployment)
 - [GitHub Pages](#github-pages)
 - [Forking the repository](#forking-the-repository)
 - [Cloning the repository](#cloning-the-repository)
 7. [CREDITS](#credits)
 - [References](REFERENCES.md)
-8. ACKNOWLEDGEMENTS
+8. [ACKNOWLEDGEMENTS](#acknowledgements)
 
 
 ## UX
----
 
 ### **User stories**
 
@@ -84,9 +81,9 @@ for a longer period of time and more often, making the business very trusted and
 - A long term goal of the business is to create a well-known pet sitting company in the local area so it can have the option to expand to offer
 more tailored services withing the local and the surrounding areas with posibility of expantion to nationwide pet sitting company.
 
+---
 
 ## USER CENTERED DESIGN
-
 
 ### **Strategy Plane**
 
@@ -194,7 +191,7 @@ The colors chosen are combinations of: pale/light blue and green, white and shad
 The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
 difficult to read, it was decided to use simple but  and consistent fonts previously used and seen in other projects within Code Institute like:
 
-- "Roboto" (EDIT: it was chosen as the body typography, but I chose not to use it at the end as "Montserrat" fit better)
+- "Roboto" (EDIT: it was chosen to be used as the body typography, but I chose not to use it at the end as "Montserrat" fit better)
 - "Quicksand"
 - "Montserrat"
 - "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
@@ -205,8 +202,8 @@ difficult to read, it was decided to use simple but  and consistent fonts previo
 
 - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
 
-- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between them . The navbar
-will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find and to immediately direct the user to their selected part of the website.
+- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between the different pages . The light navbar
+will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find the links and to immediately direct the user to their selected part of the website.
 
 - The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
 
@@ -218,10 +215,9 @@ will be placed under the logo and above the hero image and will have three linke
 provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name
 of the business (Wet Paws).
 
-
+---
 
 ## FEATURES
-
 
 ### Existing Features
 
@@ -262,7 +258,6 @@ of the business (Wet Paws).
     - Owners name and email address
     - Contact details
 
-
 ---
 
 ### Features left to implement
@@ -278,6 +273,7 @@ required to implement this feature.
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask
 questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
+---
 
 ## TECHNOLOGIES USED
 
@@ -425,7 +421,13 @@ $ python3 -m http.server
 
 ## CREDITS
 
-#### Images
+### [REFERENCES](REFERENCES.md)
+
+- More information about references used (parts of libraries, Stackoverflow...) to build this website can be found [here](REFERENCES.md)
+
+---
+
+### Images
 
 - To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for contact.html taken from [Unsplash](https://unsplash.com/)
 
@@ -447,17 +449,15 @@ $ python3 -m http.server
 
 - To [Jay Wennington](https://unsplash.com/photos/w_O_tPgxvok) for the picture used for the fake review in services.html taken from Unsplash
 
-#### Music
+---
+
+### Music
 
 - [Dog walking music Playlist](https://open.spotify.com/playlist/0z6dHFTpcCtTSwodlm6m6S?utm_source=embed_v2&go=1&play=1&nd=1) - List by user [Sonya Boyle](https://open.spotify.com/user/21sveimh7porwyktus2aro2ga)
 
 - [Dog walking songs Playlist](https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu?utm_source=embed_v2&go=1&play=1&nd=1) - List by user [lewisob1998](https://open.spotify.com/user/lewisob1998)
 
 - [Chillout Lounge Playlist](https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu?utm_source=embed_v2&go=1&play=1&nd=1) - List by Spotify
-
-### References
-
-More information about references used (parts of libraries, Stackoverflow...) to build this website can be found [here](REFERENCES.md)
 
 ---
 
@@ -488,4 +488,6 @@ in this website are real or functional. Any resemblance to a posible real busine
 No animals were harmed or forced in the making of this project. All pictures  were used
 using positive reinforcement.
 
-Created by **Maialen Zumeta** | Bettystown - Ireland, March - April 2021
+---
+
+Project created by **Maialen Zumeta** | Bettystown - Ireland, March - April 2021

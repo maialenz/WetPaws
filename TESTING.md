@@ -1,3 +1,5 @@
+# TESTING DOCUMENT
+
 ## USER STORIES
 
 - As a visiting user I want to:
@@ -28,56 +30,53 @@ fast look.
 
 As seen in the examples above, the new favicon is visually more appealing than the first two.
 
-## BUGS
-
 ---
 
-### Bug  - h1 font-size not reducing for big screens
-- Tried to make index.html h1 smaller in font-size for larger screens
-but something is not lettig the size get smaller.
-    - When testing the responsivness of it, I can see the font-size
-    reducing, but not in higher resolution screens.
-    - It was a cache issue. After clearing the cache and restarting google Chrome, it's responsive.
-    
+## BUGS
 
-### Bug - Bootstrap toggle collapse is not working
+
+1. h1 font-size not reducing for big screens
+    - Tried to make index.html h1 smaller in font-size for larger screens but something is not lettig the size get smaller.
+        - When testing the responsivness of it, I can see the font-size
+        reducing, but not in higher resolution screens.
+        - It was a cache issue. After clearing the cache and restarting google Chrome, it's responsive.
+
+2. Bootstrap toggle collapse is not working
     - The toggle icon is responsive and it appears when tested with dev-
     tools, but the dropdown menu is not working
     - SOLUTION: I noticed i forgot to place the jquery needed to make the Bootstrap
     JavaScript to work properly at the end of the file, before </body>.
 
-### Bug  - In mobile screen, the dropdown items are not showing aligned
+3. In mobile screen, the dropdown items are not showing aligned
 and centered under the toggle icon
     - Fixed this removing mr-5 from class. This was giving nice looking spacing between the nav-links,
     but when rendering to phone view it gave too much margin in the right hand side.
     - To add spacing between the nav-links I added padding between them.
 
-### Bug - In mobile screen, the card headings (h4) break and separate to the
+4. In mobile screen, the card headings (h4) break and separate to the
 next line
     - I noticed in line 310 on the style.css file the margin was too large (margin: 20px 100px)
     - Changed the margin right and left to 70px, so when rendered to mobile, the h4 doesn't break in two
     and it's still balanced with the body of the cards, as well as the heading on the contact page.
 
-### BUG - on desktop view, the review columns would render with 140px or margin in left and right.
+5. on desktop view, the review columns would render with 140px or margin in left and right.
     - SOLUTION: added a media queries for screens 992 and higher so the max width is 90%.
     - style.css line 384 +.
 
-### BUG - on mobile view, there is a line across the footer divingding the footer in two colors.
+6. on mobile view, there is a line across the footer divingding the footer in two colors.
     - I changed the max-height on line 134 of syle.css for min-height to match the height of the container content and added h-100 to the footer. 
     - This has fixed the issue.
 
-
+---
 
 ## VALIDATOR:
 
----
-
-- 28/03/2021 - Test result:
+1. 28/03/2021 - Test result:
     - The type attribute is unnecessary for JavaScript resources.
         - I removed the type attribute form them.
 
 
-- Some of the images are not loading and the path seems to be broken
+2. Some of the images are not loading and the path seems to be broken
     - I checked with dev-tools on google chrome. 
     - I fixed this fixing the source path where I made a mistake (my assets 
     directory is called static, but I wrote assets/images)
