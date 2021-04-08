@@ -58,7 +58,7 @@ who wants answers fast and hasle free.
     - Be able to use and book one or more services the company has to offer.
     - Be able to use the contact form for the business and service enquiries.
     - Have the option to personalize the services offered.
-    - Feel that the company cares and I can trust them caring for my loved dog by seeing other peoples reviews.
+    - Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews.
     - Be able to know more about the owner by having the option to personally meet them.
     - Know the location of the business and know where those services are offered.
     - Get in touch with the business easily by having contact details clearly available.
@@ -429,21 +429,19 @@ $ python3 -m http.server
 
 ### Images
 
-- To [Jamie Street](https://unsplash.com/photos/UtrE5DcgEyg) for the picture used for contact.html taken from [Unsplash](https://unsplash.com/)
+- To [Jamie Street](https://unsplash.com/@jamie452)for the pictures used for the [gallery](https://unsplash.com/photos/EdlNaRhg9ik) in index.html and [hero image](https://unsplash.com/photos/UtrE5DcgEyg) contact.html taken from [Unsplash](https://unsplash.com/)
 
 - To [Andrew Pons](https://unsplash.com/photos/oH9AuO20kbk) for the picture used for services.html taken from Unsplash
 
-- To [Gabriella Clare Merino](https://unsplash.com/photos/RWoL6pPx3Fw) for the picture used on Index.html-Gallery taken from Unsplash
+- To [Devon Divine](https://unsplash.com/@lightrisephoto) for the picture used in the [gallery](https://unsplash.com/photos/C2M7DWL2fDk) on Index.html taken from Unsplash
 
-- To [Helena Lopes](https://unsplash.com/photos/KWG8xIuIoLw) for the picture used on Index.html-Gallery taken from Unsplash
+- To [Helena Lopes](https://unsplash.com/@wildlittlethingsphoto) for the picture used on the [gallery](https://unsplash.com/photos/Az-dc69psKQ) 
 
 - To [Pauline Loroy](https://unsplash.com/photos/U3aF7hgUSrk) for the picture used as a hero image for Index.html taken from Unsplash
 
-- To [Artem Beliaikin](https://www.pexels.com/photo/sea-nature-beach-vacation-5009705/)for the picture used on Index.html-Gallery taken from [Pexels](https://www.pexels.com/)
-
 - To [Ralu Gal]() for the picture used for the fake review in services.html taken from Unsplash
 
-- To [Ryan Walton]()for the picture used for the fake review in services.html taken from Unsplash
+- To [Ryan Walton](https://unsplash.com/@rwltn1)for the picture used for the fake [review](https://unsplash.com/photos/AbNO2iejoXA) in services.html taken from Unsplash
 
 - To [Oscar Sutton](https://unsplash.com/photos/yihlaRCCvd4) for the picture used for the fake review in services.html taken from Unsplash
 
