@@ -234,6 +234,11 @@ figure .container-fluid {
     margin-top: 10px;
 }
 
+img {
+    height: auto;
+    width: 100%
+}
+
 .image-one,
 .image-two,
 .image-three, 
