@@ -126,4 +126,10 @@ CONTACT.html
 - line 169: Element h5 not allowed as child of element label in this context.
     - removed h5 element from label. I added the id="tell-more" to the label and styled the same way as h5 (style.css line 397)
 
-    
+---
+
+Results after fixing Validator errors
+
+[Index.html Validator result](docs/testing/index.html-w3-pass.png)
+[Services.html Validator result](docs/testing/services.html-w3-pass.png)
+[Contact.html Validator result](contact.html-w3-pass.png)
