@@ -259,18 +259,24 @@ figure .container-fluid {
     font-size: 15px;
 }
 
+.playlist1,
+.playlist2,
+.playlist3 {
+    margin-bottom: 10px;
+}
+
 /* --------------map*/
 .map .col {
     padding: 0;
     margin: 0;
 }
 
-h2 #map-header {
-    background-color: #ffffff;
-    font-size: 15px;
+#map-header {
+    font-size: 20px;
+    padding-bottom: 15px;
 }
 
-#location-map .container-fluid {
+#location-map {
     background-color: #ffffff;
     margin: 0px 0px;
     padding: 0px 0px;
@@ -330,7 +336,7 @@ a .btn .ask-button {
 
 /*-------------------reviews*/
 
-section .reviews {
+div .reviews {
     margin:0 20px;
 }
 .review-wrapper {
@@ -341,9 +347,11 @@ section .reviews {
     display: block;
     position: relative;
     margin: 20px auto;
+    height: 100px;
+    width: 100px;
 }
 
-.reviews .review-header {
+#review-header {
     margin: 30px 0;
 }
 
@@ -367,8 +375,6 @@ section .reviews {
      margin: 20px 70px;
    }
 
-
-
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -379,6 +385,16 @@ hr {
 }
 
 .h5, h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-left: 15px;
+}
+
+#tell-more {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     letter-spacing: 1px;

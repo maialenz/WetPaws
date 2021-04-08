@@ -103,3 +103,27 @@ INDEX.html
 
 - line 172:  Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.
     - removed width="100%" and added class="w-100" to the map iframe 
+
+- line 170: section is missing a header
+    - added h2 to map section for better accessibility and organization of information
+
+SERVICES.html
+
+ - line 148: No p element in scope but a p end tag seen.
+    - error: a ul element was inside the p element. To fix this i closed the p element in line 138 and put the ul as a child of div (card-body) 
+
+- line 170: Attribute heigh not allowed on element img at this point.
+    - Fixed by removing height and width from the img element and added them using css under .img-responsive (style.css line 350, 351)
+
+- line 170:  An img element must have an alt attribute
+    - added alt attribute to all img elements within article element on lines 170, 191, 214, 235.
+
+- line 162:  Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
+    - moved h2 from line 164 to line 163 over the div-reviews element.
+
+CONTACT.html 
+
+- line 169: Element h5 not allowed as child of element label in this context.
+    - removed h5 element from label. I added the id="tell-more" to the label and styled the same way as h5 (style.css line 397)
+
+    
