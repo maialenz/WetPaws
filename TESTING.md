@@ -1,6 +1,29 @@
 
 # TESTING DOCUMENT | **Wet Paws** | Dog Walking and Sitting Services
 
+## OVERVIEW
+
+This being my first ever project in Web Development, I need to start saying that I did encounter quite a few obstacles that made me start the project from the begining once or twice (as seen in a commit history).
+
+As my project started taking form and I could visualize it on a browser as I went along, I felt more and more confident on what i was doing, even trying new things like adding music tracks and trying different hover styles.
+
+But I still had to redo a few things that did not quite work as I planned, like loading libraries, js, jQuery... 
+
+From the very beginning I used Google Chrome Dev Tools to style and fix my code, so thanks to that I found it much easier to see real time changes and add the write css/code to my workspace.
+
+Once finished, I planned to test my site on a few different phones, laptop, tablet and desktop:
+
+- Samsung Galaxy S8+ (My personal device) (mobile device)
+- Samsung A70 (mobile device)
+- Iphone 11 (mobile device)
+- Xaomin (mobile device)
+
+- Samsung S5 (tablet)
+
+- HP Envy 13" (laptop)
+
+- PC desktop 32" screen 
+
 ## Table of Content
 
 1. [USER STORIES](#user-stories)
@@ -11,7 +34,8 @@
         - Services.html
         - Contact.html
     - [CSS](#css-validator)
-4. [BUGS](#bugs)
+4. [LIGHTHOUSE TESTING](#lighthouse-testing)
+5. [BUGS](#bugs)
 
 ## USER STORIES
 
@@ -127,6 +151,17 @@ Results after fixing Validator errors
 Results for CSS validator check
 
 - [CSS Validator result](docs/testing/CSS-validator-pass.png)
+
+---
+### LIGHTHOUSE TESTING
+
+Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to make sure the scores were as high as I posibly could. Below you can find the results and scores of first time tests and after implementing suggestions that the tool offered:
+
+- Phone Index.html Lighthouse test
+    - [Before](docs/testing/index-phone-before) implementing changes: 
+        - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show under each other in mobile view s
+
+
 
 ## BUGS
 
