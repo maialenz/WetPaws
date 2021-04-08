@@ -435,7 +435,9 @@ $ python3 -m http.server
 
 - To [Devon Divine](https://unsplash.com/@lightrisephoto) for the picture used in the [gallery](https://unsplash.com/photos/C2M7DWL2fDk) on Index.html taken from Unsplash
 
-- To [Helena Lopes](https://unsplash.com/@wildlittlethingsphoto) for the picture used on the [gallery](https://unsplash.com/photos/Az-dc69psKQ) 
+- To [Helena Lopes](https://unsplash.com/@wildlittlethingsphoto) for the picture used on the [gallery](https://unsplash.com/photos/Az-dc69psKQ) taken from Unsplash
+
+- To [Richard Brutyo](https://unsplash.com/@richardbrutyo) for the picture used on the [gallery](https://unsplash.com/photos/Sg3XwuEpybU) taken from Unsplash
 
 - To [Pauline Loroy](https://unsplash.com/photos/U3aF7hgUSrk) for the picture used as a hero image for Index.html taken from Unsplash
 
