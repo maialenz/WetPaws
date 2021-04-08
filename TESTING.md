@@ -71,13 +71,35 @@ next line
 
 ## VALIDATOR:
 
-1. 28/03/2021 - Test result:
-    - The type attribute is unnecessary for JavaScript resources.
-        - I removed the type attribute form them.
+Test results and errors to be fixed (after the first check):
+
+- The type attribute is unnecessary for JavaScript resources.
+    - I removed the type attribute form them.
 
 
-2. Some of the images are not loading and the path seems to be broken
+- Some of the images are not loading and the path seems to be broken
     - I checked with dev-tools on google chrome. 
     - I fixed this fixing the source path where I made a mistake (my assets 
     directory is called static, but I wrote assets/images)
     - It's fixed. All pictures are showing as they are meant to and they are responsive
+
+- missuse of Aria attribute (Aria-label) on line 65 (span aria-label="image of an ..."). 
+    - To make it accessible and have an image description I added a role="img" to be able make a relevant description of the purpose of the parent element.
+
+
+INDEX.html
+
+- line 152: text-center not allowed on div
+    - fixed error adding class="text-center"
+
+ - line 155: Attribute target not allowed on element iframe at this point. 
+    - removed all target attributes from iframe elements.
+
+- line 155:  Attribute autoplay not allowed on element iframe at this point.
+    - removed autoplay from iframe elements
+
+- line 158: The frameborder and allowtransparency attribute on the iframe element are obsolete.
+    - to comply with the w3 validator, I added inline styles to the iframes (style="border:none;") and removed allowtransparency="true as I didn't need it.
+
+- line 172:  Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.
+    - removed width="100%" and added class="w-100" to the map iframe 

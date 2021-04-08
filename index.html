@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/css/style.css" type="text/css"/>
-    <script src="https://kit.fontawesome.com/9126cb1238.js" crossorigin="anonymus"></script>
 
 <!--favicon-->
 
@@ -61,8 +61,8 @@
     </nav>   
 
 <!--hero image-->
-    <div class="background-home container-fluid">
-        <span aria-label="picture of an smiling Australian shepherd dog"></span>
+    <div class="background-home container-fluid"> 
+        <span role="img" aria-label="picture of an smiling Australian shepherd dog"></span>
     </div>
 
 
@@ -76,7 +76,7 @@
                 <div class="about-us-content col-xl col-lg col-md-12">
                     <h2><i class="fas fa-user-circle"></i> About Us</h2>
                     <p>
-                        <strong style="text-transform: uppercase;">Hello</strong> everyone! My name is Mai and this in the pictures is Sua, the main dog-boss behind Wet Paws. We live in <strong>Bettystown</strong>, 
+                        <strong style="text-transform: uppercase;">Hello</strong> everyone! My name is Mai and this in the picture is Sua, the main dog-boss behind Wet Paws. We live in <strong>Bettystown</strong>, 
                         Ireland and we created this company to help all dog parents to keep our furry friends happy when our lives get too busy.
                         Unfortunatelly we are not always able to be there for them, and it makes us sad not to be able to take them with us everywhere.
                     </p>
@@ -121,7 +121,7 @@
 
 <figure class="gallery">
     <div class="container-fluid">
-        <h2 class="text-center gallery-header"><i class="fas fa-camera-retro"></i> Gallery</h2>
+        <h2 class="text-center gallery-header">Gallery <i class="fas fa-camera-retro"></i></h2>
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-12">
                 <img src="static/images/Sua+sunset-2.jpg" class="img-fluid image-one" alt="dog with hi-viz standing at the beach at sunset">
@@ -149,28 +149,29 @@
 <!--music playlist-->
     <section class="container-fluid" id="walking-list">
         <h2 id="music-header">Some music to inspire you while you walk your dog! <i class="fab fa-spotify" aria-hidden="true"></i></h2>
-        <div text-center>
+        <div class="text-center">
             <div class="row music-list">
                 <div class="col-12 col-md-4 playlist1 d-flex justify-content-center">
-                    <iframe src="https://open.spotify.com/embed/playlist/0z6dHFTpcCtTSwodlm6m6S" target="_blank" width="300" height="100" frameborder="0" allowtransparency="true" autoplay="false" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/0z6dHFTpcCtTSwodlm6m6S" width="300" height="100" style="border:none;" allow="encrypted-media"></iframe>
                 </div>
                 <div class="col-12 col-md-4 playlist2 d-flex justify-content-center">
-                    <iframe src="https://open.spotify.com/embed/playlist/5klM99g8gjGgEfPhD9xAsl" target="_blank" width="300" height="100" frameborder="0" allowtransparency="true" autoplay="false" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/5klM99g8gjGgEfPhD9xAsl" width="300" height="100" style="border:none;" allow="encrypted-media"></iframe>
                 </div>
                     <div class="col-12 col-md-4 playlist3 d-flex justify-content-center">
-                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTvNyxOwkztu" targer="_blank" width="300" height="100" frameborder="0" allowtransparency="true" autoplay="false" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTvNyxOwkztu" width="300" height="100" style="border:none;" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
 <!--location map-->
-    <div class="container-fluid overflow-hidden">
-        <section id="map">
+    <div class="container-fluid overflow-hidden" id="location-map">
+        <h2 id="map-header">Our location <i class="fas fa-map-marker-alt"></i></h2>
+        <section>
             <div class="row">
                 <div class="col">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.10829260445!2d-6.248059127478547!3d53.698249597925795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48673b271358086f%3A0xa00c7a99731a120!2sBetaghstown%2C%20Bettystown%2C%20Co.%20Meath!5e0!3m2!1sen!2sie!4v1617717585173!5m2!1sen!2sie" 
-                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    class="w-100" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </section>
