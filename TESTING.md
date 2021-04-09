@@ -157,9 +157,18 @@ Results for CSS validator check
 
 Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to make sure the scores were as high as I posibly could. Below you can find the results and scores of first time tests and after implementing suggestions that the tool offered:
 
-- Phone Index.html Lighthouse test
-    - [Before](docs/testing/index-phone-before) implementing changes: 
-        - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show under each other in mobile view s
+- Phone 
+    - Index.html Lighthouse test:
+
+        - [Before](docs/testing/index-phone-before) implementing changes: 
+            - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
+        -[After](docs/testing/lighthouse-mobile-after-index) following lighthouse suggestions:
+            - I managed to increase the very low performance score to 74%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time for further changes and improvements.
+
+    - Services page Lighthouse test:
+        - [Before]()
+        - [After]()
+    
 
 
 
