@@ -235,7 +235,7 @@ figure .container-fluid {
     margin-top: 10px;
 }
 
-.gallery img {
+#gallery-pictures {
     height: auto;
     width: 100%
 }
@@ -434,6 +434,7 @@ section .container-fluid {
 
 
 /*-----------------MEDIA QUERIES*/
+
 
 @media (min-width: 992px) {
     .container {
