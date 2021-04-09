@@ -159,7 +159,7 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
 
 (All tests were carried on the same way: I cleared cache data, opened new incognito page (Chrome and Edge), and loaded tested each page twice. Same procedure was used for every page for mobile and web)
 
-- Phone 
+- Mobile 
     - Index.html Lighthouse test:
         - [Before](docs/testing/lighthouse/index-phone-before) implementing changes: 
             - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
@@ -173,9 +173,25 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
             - once I implemented the suggestions given by the lighthouse tool, the score increased to 84%. I decreased the size of the images and added meta data to the head for better SEO (%100)
 
     - Contact page Lighthouse test:
-        - [Before](docs/testing/lighthouse/contact.html-before-phone.png) 
-        - [After](docs/testing/lighthouse/contact.html-phone-after.png): 
+        - [Before](docs/testing/lighthouse/contact.html-before-phone.png) implementing changes
+        - [After](docs/testing/lighthouse/contact.html-phone-after.png) following lighthouse suggestions: 
             - although the performance before was quite low, implementing lighthouse suggested changes increased the performance of the mobile test quite significantly, but we can see the biggest improvement in Best practices, where the score went up to 93%. 
+
+- Web: because I focused on mobile first approach for the testing part too. All the improvements made to increase the performance on the mobile view, has greatly benefited the web performance too. This changes included compression of images, removal of unused code and css, reload of better sources for bootstrap/fontawesome libraries...
+    - Index web page Lighthouse test:
+        - [Before](docs/testing/lighthouse/index.html-before-web.png) implementing changes
+        - [After](docs/testing/lighthouse/index.html-after-web.png) following lighthouse suggestions:
+            - in the results we can see that the best practices did not increase too much. This was due to the ratio of the image I chose to display on the grid of About us section within Index.html. Whilst lighthouse was advicing to change this ratio to it's original size, I decided not to change it, as I found this to be much bigger than I intended it to be, and this would consequently affect the performance on the mobile view.
+
+    - Services web page Lighthouse test:
+        - [Before](docs/testing/lighthouse/services.html-before-web.png) implementing changes
+        - [After](docs/testing/lighthouse/services.html-after-web.png) following lighthouse suggestions: 
+            - We can clearly see in these results that eventhough the performance of the services page was already high enough, making changes after the mobile lighthouse test increased all the parameters even higher.
+
+    - Contact web page Lighthouse test:
+        - [Before](docs/testing/lighthouse/contact.html-before-web.png) implementing changes
+        - [After](docs/testing/lighthouse/contact.html-after-web.png) following lighthouse suggestions: 
+            - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy images to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
 
 
 
