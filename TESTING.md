@@ -21,6 +21,11 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 - Samsung S5 (tablet)
 
 - HP Envy 13" (laptop)
+    - Mozilla Firefox (browser)
+    - Microsoft Edge (brower)
+    - Google Chrome (browser)
+    - Opera (browser)
+
 
 - PC desktop 32" screen 
 

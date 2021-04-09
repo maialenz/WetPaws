@@ -436,6 +436,17 @@ section .container-fluid {
     margin-bottom: 25px;
 }
 
+/*-----------------Modal Feedback*/
+
+#modal-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-left: 15px;
+}
 
 
 /*-----------------MEDIA QUERIES*/
