@@ -166,9 +166,14 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
             - I managed to increase the very low performance score to 74%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time for further changes and improvements.
 
     - Services page Lighthouse test:
-        - [Before]()
+        - [Before](docs/testing/services.html-phone-before.png) implementing changes
+            - as in the index page, the performance score was quite low because of the weight of the images
+        - [After](docs/testing/services.html-phone-after.png) following lighthouse suggestions:
+            - once I implemented the suggestions given by the lighthouse tool, the score increased to 84%. I decreased the size of the images and added meta data to the head for better SEO (%100)
+
+    - Contact page Lighthouse test:
+        - [Before](docs/testing/contact.html-before.png)
         - [After]()
-    
 
 
 
