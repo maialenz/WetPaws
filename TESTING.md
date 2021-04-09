@@ -61,9 +61,9 @@ blurry and unidentifyable, so I created a new favicon with bold black color and 
 in between the rest of the opened tabs. This change has improved the user experience as I can identify the site's tab in one
 fast look.
 
-- [Favicon 1](docs/favicon_test/test-favicon1.png)
-- [Favicon 2](docs/favicon_test/test-favicon2.png)
-- [Chosen Favicon](docs/favicon_test/test-favicon3.png)
+- [Favicon 1](docs/testing/favicon_test/test-favicon1.png)
+- [Favicon 2](docs/testing/favicon_test/test-favicon2.png)
+- [Chosen Favicon](docs/testing/favicon_test/test-favicon3.png)
 
 As seen in the examples above, the new favicon is visually more appealing than the first two.
 
@@ -138,11 +138,11 @@ CONTACT.html
 
 Results after fixing Validator errors
 
-- [Index.html Validator result](docs/testing/index.html-w3-pass.png)
+- [Index.html Validator result](docs/testing/validator/index.html-w3-pass.png)
 
-- [Services.html Validator result](docs/testing/services.html-w3-pass.png)
+- [Services.html Validator result](docs/testing/validator/services.html-w3-pass.png)
 
-- [Contact.html Validator result](contact.html-w3-pass.png)
+- [Contact.html Validator result](docs/testing/validator/contact.html-w3-pass.png)
 
 ---
 
@@ -150,30 +150,32 @@ Results after fixing Validator errors
 
 Results for CSS validator check
 
-- [CSS Validator result](docs/testing/CSS-validator-pass.png)
+- [CSS Validator result](docs/testing/validator/CSS-validator-pass.png)
 
 ---
 ### LIGHTHOUSE TESTING
 
 Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to make sure the scores were as high as I posibly could. Below you can find the results and scores of first time tests and after implementing suggestions that the tool offered:
 
+(All tests were carried on the same way: I cleared cache data, opened new incognito page (Chrome and Edge), and loaded tested each page twice. Same procedure was used for every page for mobile and web)
+
 - Phone 
     - Index.html Lighthouse test:
-
-        - [Before](docs/testing/index-phone-before) implementing changes: 
+        - [Before](docs/testing/lighthouse/index-phone-before) implementing changes: 
             - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
-        -[After](docs/testing/lighthouse-mobile-after-index) following lighthouse suggestions:
+        -[After](docs/testing/lighthouse/lighthouse-mobile-after-index) following lighthouse suggestions:
             - I managed to increase the very low performance score to 74%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time for further changes and improvements.
 
     - Services page Lighthouse test:
-        - [Before](docs/testing/services.html-phone-before.png) implementing changes
+        - [Before](docs/testing/lighthouse/services.html-phone-before.png) implementing changes
             - as in the index page, the performance score was quite low because of the weight of the images
-        - [After](docs/testing/services.html-phone-after.png) following lighthouse suggestions:
+        - [After](docs/testing/lighthouse/services.html-phone-after.png) following lighthouse suggestions:
             - once I implemented the suggestions given by the lighthouse tool, the score increased to 84%. I decreased the size of the images and added meta data to the head for better SEO (%100)
 
     - Contact page Lighthouse test:
-        - [Before](docs/testing/contact.html-before.png)
-        - [After]()
+        - [Before](docs/testing/lighthouse/contact.html-before-phone.png) 
+        - [After](docs/testing/lighthouse/contact.html-phone-after.png): 
+            - although the performance before was quite low, implementing lighthouse suggested changes increased the performance of the mobile test quite significantly, but we can see the biggest improvement in Best practices, where the score went up to 93%. 
 
 
 
