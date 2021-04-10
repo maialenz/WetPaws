@@ -2,12 +2,27 @@
 
 ### Bootstrap library documentation
 
-- To refresh on lessons on the course, I rewatched videos explained by [Matt Rudge](https://github.com/lechien73) from [Code Institute](https://codeinstitute.net/) as well as previous projects done during th course (Coders Coffee House project,
-Love Running project, CV project, Whiskey Drop Project...)
-[maialenz](https://github.com/maialenz/Bootstrap-lesson-walkthrough/blob/master/)
+- To refresh on lessons on the course, I rewatched videos explained by [Matt Rudge](https://github.com/lechien73) from [Code Institute](https://codeinstitute.net/) as well as previous projects done during th course (Coders Coffee House project, Love Running project, CV project, Whiskey Drop Project...)[maialenz](https://github.com/maialenz/Bootstrap-lesson-walkthrough/blob/master/)
 
 - To create the decoration of the social links on the footer, I used the whiskey drop lesson on bootstrap from Code Institute. Lesson by [Matt Rudge](https://github.com/lechien73)
-
+    ``` 
+    .social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #373d3f;
+    background-color: #dae0e5;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    }
+    ```
+    
 - As template for the README.md I used the template created by [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
 - Bootstrap navbar for responsive navigation header:
@@ -118,5 +133,4 @@ Love Running project, CV project, Whiskey Drop Project...)
             method="GET"
           >
         ```
-
 
