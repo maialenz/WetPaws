@@ -108,6 +108,15 @@ Love Running project, CV project, Whiskey Drop Project...)
 [Stack overflow](https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github) - asnwer by captainclam
 > Try this markdown:![alt image](http://url/to/img.png)
 
-
+- SOLUTION to the issue with the form submission. Code fixed by ROHIT SHARMA -mentor to my MS1 project. (To see more information about the steps taken to fix this bug, see [TESTING.md document](TESTING.md))
+    - line 128 on contact.html
+        ```
+        <form
+            action="feedback.html"
+            class="container-fluid contact-form"
+            id="contactform"
+            method="GET"
+          >
+        ```
 
 
