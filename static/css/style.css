@@ -1,504 +1,495 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600&display=swap");
 
-body, html{
-    height: 100%;
-    width: 100%;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    background-color: white;
-    overflow-x: hidden;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: white;
+  overflow-x: hidden;
 }
 
 h1 {
-    color: #373d3f;
-    font-family: "Quicksand", sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 35px;
+  color: #373d3f;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 35px;
 }
 
 p {
-    color: #373d3f; 
-    margin: 20px 20px;
-    font-size: 13px;
-    text-indent: 25px;
+  color: #373d3f;
+  margin: 20px 20px;
+  font-size: 13px;
+  text-indent: 25px;
 }
 
-.h1, h1 {
-    background-color: #e9ecefab;
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    padding: 30px 0;
-    margin: 0;
+.h1,
+h1 {
+  background-color: #e9ecefab;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  padding: 30px 0;
+  margin: 0;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    color: #373d3f;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #373d3f;
 }
 
 /*--------------------------HEADER*/
 
 .logo {
-    width: 100%;
-    height: 40%;
-    padding: 0;
+  width: 100%;
+  height: 40%;
+  padding: 0;
 }
 
 /*--------------------------NAV*/
 
 .navbar {
-    font-family: "Montserrat", sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    color: #373d3f;
-    padding: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #373d3f;
+  padding: 10px 0;
 }
 
-.navbar-light 
-.navbar-nav 
-.nav-link {
-    color: rgba(0,0,0,.5);
-    padding: 10px 20px;
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
 }
 
-.navbar-light 
-.navbar-nav 
-.nav-link:focus, 
-.navbar-light 
-.navbar-nav 
-.nav-link:hover {
-    color: #0e3032;
-    font-weight: 600;
-    font-size: large;
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0e3032;
+  font-weight: 600;
+  font-size: large;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, 
-.navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .nav-link.show, 
-.navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,0.8);
-    font-weight: 600;
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
 }
 
 /*--------------------Hero image*/
 
 .background-home {
-    opacity: 0.85;
-    margin-top: 0px;
-    background-image: url(../images/pauline-loroy-unsplash.jpg);
-    height: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  opacity: 0.85;
+  margin-top: 0px;
+  background-image: url(../images/pauline-loroy-unsplash.jpg);
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-services {
-    opacity: 0.85;
-    margin-top: 0px;
-    background-image: url(../images/andrew-pons-unsplash1.jpg);
-    height: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  opacity: 0.85;
+  margin-top: 0px;
+  background-image: url(../images/andrew-pons-unsplash1.jpg);
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-contact {
-    opacity: 0.85;
-    margin-top: 0px;
-    background-image: url(../images/jamie-street-unsplash-short.jpg);
-    height: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  opacity: 0.85;
+  margin-top: 0px;
+  background-image: url(../images/jamie-street-unsplash-short.jpg);
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-feedback {
-    opacity: 0.85;
-    margin-top: 0px;
-    background-image: url(../images/austin-kirk-unsplash.jpg);
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  opacity: 0.85;
+  margin-top: 0px;
+  background-image: url(../images/austin-kirk-unsplash.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-fluid {
-    background-color: #e9ecefab;
+  background-color: #e9ecefab;
 }
 
 .about-us {
-    background-color: #e9ecefab;
-    
+  background-color: #e9ecefab;
 }
 
 /*----------------------------------------FOOTER*/
 
 footer {
-    background-color: #e9ecefab;
-    min-height: 120px;
-    margin: 0;
+  background-color: #e9ecefab;
+  min-height: 120px;
+  margin: 0;
 }
 
 .footer-header {
-    margin-top: 25px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
+  margin-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 footer p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    margin-top: 2px;
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-top: 2px;
 }
 
 .social-links {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 /*taken from whisky drop bootstrap lesson*/
 
 .social-links li a i {
-    width: 40px;
-    height: 40px;
-    padding: 16px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: #373d3f;
-    background-color: #dae0e5;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 40px;
+  height: 40px;
+  padding: 16px 0;
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 7px;
+  text-align: center;
+  color: #373d3f;
+  background-color: #dae0e5;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background-color: #a0e0ca;
+  background-color: #a0e0ca;
 }
 
 /*-----------------------------------INDEX*/
 /*--------content*/
 
-.about-us-content, .meet-us-content {
-    background-color: #e9ecefab;
-    width: 100%;
-    height: 70%;
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    text-align: justify;
-    padding-top: 20px;
+.about-us-content,
+.meet-us-content {
+  background-color: #e9ecefab;
+  width: 100%;
+  height: 70%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  padding-top: 20px;
 }
 .meet-us-content {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.about-us-content h2, .meet-us-content h2 {
-    background-color: rgba(170, 213, 222, 0.5);
-    padding: 18px 0;
+.about-us-content h2,
+.meet-us-content h2 {
+  background-color: rgba(170, 213, 222, 0.5);
+  padding: 18px 0;
 }
 
 .meet-us-content p a {
-    color: #373d3f;
-    text-decoration: underline dotted;
+  color: #373d3f;
+  text-decoration: underline dotted;
 }
 
 .meet-us-content p a:hover {
-    color: #a0e0ca;
+  color: #a0e0ca;
 }
 
 #about-us-pic {
-    opacity: 0.8;
-    vertical-align: center;
-    margin: 60px 90px;
-    height: 300px;
-    width: 300px;
-    background-color: #e9ecefab;
-    border-radius: 25px;
+  opacity: 0.8;
+  vertical-align: center;
+  margin: 60px 90px;
+  height: 300px;
+  width: 300px;
+  background-color: #e9ecefab;
+  border-radius: 25px;
 }
 
 /*--------gallery*/
 
 figure {
-    margin: 0px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
 }
 
 figure .container-fluid {
-    background-color: white;
-    margin-bottom: 2.5rem;
+  background-color: white;
+  margin-bottom: 2.5rem;
 }
 
 .gallery-header {
-    width: 100%;
-    margin: 0;
-    padding: 15px 0;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
 }
 
-
 .gallery {
-    background-color: white;
-    margin-top: 10px;
+  background-color: white;
+  margin-top: 10px;
 }
 
 #gallery {
-    margin: 0px 5px;
-
+  margin: 0px 5px;
 }
 
 .image-one,
 .image-two,
-.image-three, 
+.image-three,
 .image-four {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 /*--------------music playlist*/
 
 #walking-list {
-    margin:40px 0px;
-    background-color: #ffffff;
+  margin: 40px 0px;
+  background-color: #ffffff;
 }
 
 #music-header {
-    margin: 15px 0 25px 0;
-    font-size: 15px;
+  margin: 15px 0 25px 0;
+  font-size: 15px;
 }
 
 .playlist1,
 .playlist2,
 .playlist3 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* --------------map*/
 .map .col {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #map-header {
-    font-size: 20px;
-    padding-bottom: 15px;
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
 #location-map {
-    background-color: #ffffff;
-    margin: 0px 0px;
-    padding: 0px 0px;
+  background-color: #ffffff;
+  margin: 0px 0px;
+  padding: 0px 0px;
 }
 
 /*-------------------------------------------SERVICES*/
 /*-------------------cards*/
 
 section .service-cards {
-    margin-bottom: 30px;
-    
+  margin-bottom: 30px;
 }
-section .container-fluid  {
-    padding: 15px 15px;
+section .container-fluid {
+  padding: 15px 15px;
 }
 
 section .card {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .row .col-sm-6 {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .card-header {
-    background-color: rgba(170, 213, 222, 0.5);
-    text-align: center;
+  background-color: rgba(170, 213, 222, 0.5);
+  text-align: center;
 }
 
 .service-cards p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    margin-top: 40px;
-    margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 5px;
 }
 
 .service-cards p a {
-    color: #212529;
-    text-decoration: underline dotted;
+  color: #212529;
+  text-decoration: underline dotted;
 }
 
 .service-cards p a:hover {
-    color: #a0e0ca;
+  color: #a0e0ca;
 }
 .other-services li {
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    list-style-type: circle;
-    text-align: left;
-    margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  list-style-type: circle;
+  text-align: left;
+  margin-left: 50px;
 }
 
 a .btn .ask-button {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 /*-------------------reviews*/
 
 div .reviews {
-    margin:0 20px;
+  margin: 0 20px;
 }
 .review-wrapper {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .img-responsive {
-    display: block;
-    position: relative;
-    margin: 20px auto;
-    height: 100px;
-    width: 100px;
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  height: 100px;
+  width: 100px;
 }
 
 #review-header {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 /*--------------------CONTACT*/
 
-
 .form-head {
-    background-color: #ffffff;
-    margin: 20px 0;
+  background-color: #ffffff;
+  margin: 20px 0;
 }
 
-
-.h4, h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 400;
-    padding: 20px 0;
-    background-color:  rgba(170, 213, 222, 0.5);
-     margin: 20px 70px;
-   }
+.h4,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 20px 0;
+  background-color: rgba(170, 213, 222, 0.5);
+  margin: 20px 70px;
+}
 
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.h5, h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 10px 0;
-    margin-left: 15px;
+.h5,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin-left: 15px;
 }
 
 #tell-more {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 10px 0;
-    margin-left: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin-left: 15px;
 }
 
 .w-75 {
-    width: 75%!important;
-    padding-left: 5px;
+  width: 75% !important;
+  padding-left: 5px;
 }
 
 .form-row {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 #sendbutton {
-    margin-bottom: 15px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;  
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .btn-light:hover {
-    color: #212529;
-    border-color: #dae0e5;
-    background-color: #a0e0ca;
+  color: #212529;
+  border-color: #dae0e5;
+  background-color: #a0e0ca;
 }
 
 section .container-fluid {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 /*-----------------FEEDBACK PAGE*/
 
 #feedback-note {
-    background-color: rgba(170, 213, 222, 0.5);
-    margin: 30px 30px;
+  background-color: rgba(170, 213, 222, 0.5);
+  margin: 30px 30px;
 }
 
 #feedback-note #feedback-header {
-    background-color: rgba(170, 213, 222, 0.5);
-    font-weight: 600;
+  background-color: rgba(170, 213, 222, 0.5);
+  font-weight: 600;
 }
 
 #feedback-time {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #feedback-note p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 #backbutton {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 /*-----------------MEDIA QUERIES*/
 @media screen and (max-width: 450px) {
-   h4  {
-      
-        font-size: 12px;
-    }
-    .card-header {
-        margin: 10px 30px 0px;
-    }
+  h4 {
+    font-size: 12px;
+  }
+  .card-header {
+    margin: 10px 30px 0px;
+  }
 
-    .other-services li {
-        margin-left: 15px;
-    }
+  .other-services li {
+    margin-left: 15px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .container {
-        max-width: 90%;
-    }
-
+  .container {
+    max-width: 90%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
+  .container {
+    max-width: 1140px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1390px;
-    }
+  .container {
+    max-width: 1390px;
+  }
 }
