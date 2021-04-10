@@ -49,7 +49,7 @@ Love Running project, CV project, Whiskey Drop Project...)
 - Meta Descriptions 
 [Seobility](https://www.seobility.net/en/wiki/Meta_Description?utm_source=google&utm_medium=cpc&utm_campaign=wiki_en&utm_term={meta%20description}&utm_content=lp_meta_description&gclid=CjwKCAjwjbCDBhAwEiwAiudBy-epL2rpkLLDqJb88jp65G95F3nlQOuhmnIzONLDApkr03Q6_vQu3BoCpDoQAvD_BwE)
 
-- Navbar visual examples used for navbar collapsable toggle
+- Navbar visual examples used for navbar collapsable toggle and modified to suit my own code:
 [Forked by Skelly](https://www.codeply.com/go/kTGlK9Axdk)
         ```
         <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center">
