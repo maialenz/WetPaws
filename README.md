@@ -1,6 +1,7 @@
 # **Wet Paws** | Dog Walking and Sitting Services
 Milestone 1 Project - User-Centric Frontend Development 
 
+![Image of the mockup of the live website](docs/testing/Mockup.png)
 ## Overview
 
 This is a dog walking and sitting service page for a fictional company
@@ -234,8 +235,7 @@ of the business (Wet Paws).
     - Home page (About Us): 
         - A section with information about the company's owners and a meeting information for those wanted to meet the owner personally.
         - A picture of the owner's dog to familiarize with them. 
-        - A section with a static but responsive gallery with dog pictures and the owners pictures. This would be a section for a future gallery
-        slideshow with customer dog pictures.
+        - A section with a static but responsive gallery with dog pictures and the owners pictures. This would be a section for a future gallery slideshow with customer dog pictures.
         - A section with a playlists from spotify for enjoyment of the user.
         - A section with a map to point the location of the business.
     - Services:
@@ -262,13 +262,15 @@ of the business (Wet Paws).
 
 ### Features left to implement
 
-- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature. In the first release the small gallery will consist on small selection of responsive pictures, but they won't be clickable
+- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature. In the first release the small gallery will consist on small selection of responsive pictures, but they won't be clickable.
 
 - Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature.
 
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
 - Submit button: linked to a modal or an external page giving the user feedback about their submitted form. Unfortunatelly, due to the issues I had with an ERROR 501 (see Bugs section on [TESTING.md](testing.md) for more information about this), I had to make the decission of leaving this feature outside the scope for the first release and focus on the rest of the features and their responsiveness.
+
+- Original pictures: due to the low quality but very heavy pictures taken by me, I had to change most pictures to ones taken from unsplash to improve performance of the site. In a future, all pictures on the gallery would be originals and taken of dogs under our care and services.
 
 ---
 
