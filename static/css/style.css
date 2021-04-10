@@ -436,22 +436,7 @@ section .container-fluid {
     margin-bottom: 25px;
 }
 
-/*-----------------Modal Feedback*/
-
-#modal-header {
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding-left: 55px;
-}
- 
-.modal-body {
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-}
-
 /*-----------------MEDIA QUERIES*/
-
 
 @media (min-width: 992px) {
     .container {
