@@ -229,10 +229,18 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
     - SOLUTION: added a media queries for screens 992 and higher so the max width is 90%.
     - style.css line 384 +.
 
-6. on mobile view, there is a line across the footer divingding the footer in two colors.
+6. on mobile view, there is a line across the footer dividing the footer in two colors.
     - I changed the max-height on line 134 of syle.css for min-height to match the height of the container content and added h-100 to the footer. 
     - This has fixed the issue.
 
+7. When submitting the form, once filled the required fields and submitting the form, the page gave a 501 Error as showing in the image below.
+    - I tried to fix this by adding another html page called response.html. I thought adding this the CTA button would ask the user to fill the required fields and then redirect them to a feedback page. But this did not work as when adding the response.html, the required attributes stopped working.
+    - I contacted Code Institute tutor help this were the outcomes:
+        - Scott suggested instead of trying to add another page I could use a modal to give the user a feedback. This wouldn't require to have a separated page and it would avoid the error from showing. But it also meant I had to add JS and jQuery, and eventhough I tried my hardest to learn fast and try to implement ( "form" ).submit(function() { into my head for responsiveness, the modal kept opening over the required fields and the function would not do anything for me.
+        - I had to contact them again and Tim helped me solving the issue. Unfortunatelly at this time of the course my skills are not advanced enough to add any JavaScript or functions. Tim advised me to remove the modal, as it wouldn't work as I intended without JS. After removing all code related to this, I noticed I still got the 501 error.
+            - Tim noticed my form method=POST and action="/" were stopping my page from refreshing. So we changed the method to GET and removed action all together. This has solved the issue: if the user tried to submit the form without filling the required fields, the form won't submit and the user will get a notification under or over the field to be filled. When all information has been correctly filled and the user pushes the CTA button, the page will refresh leaving all fields empty to be used again. 
+            - Althought I would have liked to have some sort of feedback for the user to receive when they submitted the form, this couldn't be done at this time, but it would be implemented as a feature on future releases. (see [features left to implement](README.md) on README.md]
+    ![screenshot showing the 501 ERROR](docs/testing/501-error.png)
 ---
 
 Back to [README.md](README.md)

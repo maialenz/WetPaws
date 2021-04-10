@@ -126,7 +126,7 @@ also intend to give extra help to those people who has fallen ill with Covid and
     - Navigation bar situated on the top of the page with buttons aligned in the middle to see the pages clearly and as expected by the user.
 
     - Following [Bootstrap](https://getbootstrap.com/) grid system with the layout of the site
-    being mainly in thirds.
+    being mainly in thirds and halfs (col-6 col-4).
 
     - Footer containing business information and links to social media platforms.
 
@@ -262,16 +262,13 @@ of the business (Wet Paws).
 
 ### Features left to implement
 
-- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done,
-I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated
-once I had a wider customer directory and longer period to implement this feature. In the first release the small gallery will consist on small
-selection of responsive pictures, but they won't be clickable
+- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature. In the first release the small gallery will consist on small selection of responsive pictures, but they won't be clickable
 
-- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills
-required to implement this feature.
+- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature.
 
-- Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask
-questions instead of filling a form every time. I leave this feature out due to lack of current skills.
+- Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask questions instead of filling a form every time. I leave this feature out due to lack of current skills.
+
+- Submit button: linked to a modal or an external page giving the user feedback about their submitted form. Unfortunatelly, due to the issues I had with an ERROR 501 (see Bugs section on [TESTING.md](testing.md) for more information about this), I had to make the decission of leaving this feature outside the scope for the first release and focus on the rest of the features and their responsiveness.
 
 ---
 
