@@ -460,11 +460,13 @@ $ python3 -m http.server
 
 ## ACKNOWLEDGEMENTS
 
+- To Scott from Tutor support for trying to give me ideas on how to create a solution to send the user feedback once they sent the form. 
+
+- To Tim from Tutor support for helping me fixing my issues with the form submission and helping me get back on track when I was stuck on unachiavable goals.
 
 - To Gerard McBride for all the saturdays spent giving us extra lessons to help us understand and perfect our code and use of the technologies. Thank you!
 
-- To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and 
-the type of services a dog sitting company offers in real life.
+- To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and the type of services a dog sitting company offers in real life.
 
 ---
 
@@ -480,10 +482,9 @@ The pictures not taken from [Unsplash](https://unsplash.com/) were taken with a 
 
 ### Disclaimer
 
-This project is for educational use only. None of the products or services listed
-in this website are real or functional. Any resemblance to a posible real business is purely coincidental.
-No animals were harmed or forced in the making of this project. All pictures  were used
-using positive reinforcement.
+This project is for educational use only. None of the products or services listed in this website are real or functional. Any resemblance to a posible real business in the same area is purely coincidental.
+
+Sua was not harmed or forced in the making of this project. All pictures were taken using positive reinforcement and was happy to get many treats.
 
 ---
 
