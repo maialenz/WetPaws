@@ -285,7 +285,7 @@ of the business (Wet Paws).
 
 ### Frameworks, Libraries & Programs
 - Bootstrap
-    - library: used to load the framework into my page.
+    - library: used to load the framework into my workspace.
     - documentation: used as a reference on how to use Bootstrap library and it's components.
 - JavaScript library: 
     - used to make sure the Bootstrap libraries loaded and worked
@@ -321,6 +321,8 @@ of the business (Wet Paws).
     - used to create the logo image
 - Paint -by Microsoft
     - used to put together the logo image created with Canva and the name of the company.
+- [Am I Responsive?](http://ami.responsivedesign.is/#)
+    - used to create the Mockup image at the beginning of the README.md.
 ---
 
 ## TESTING
