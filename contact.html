@@ -19,7 +19,21 @@
 <!--favicon-->
 
     <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
-   
+
+
+<!--modal JS/jQuery for submit button 
+
+    <script>
+         $( "#sendbutton" ).submit(function( event ) {
+            if($("#name").val(required) !="" && $("#surname").val() !="" && $("#email").val() !="" && $("#phone").val() !="" && $("#address").val() !="" && $("#inputcity").val() !="" && $("#eircode").val() !="" && $("#dogname").val() !="") { 
+                $('#feedbackmodal').modal('hide');
+                event.preventDefault();               
+            }
+            });
+
+    </script>
+-->
+
 </head>
 
 <body>    
@@ -64,12 +78,15 @@
         <span role="img" aria-label="close picture of small puppy lying down on sand"></span>
     </div>
 
-<!--Personal details-->
+<!--Form-->
+
+    <!--Personal details-->
+
     <section class="container bg">
         <h1 class="form-head text-center">Contact us for booking and queries! <i class="far fa-comment-dots"></i></h1>
         <div class="d-flex justify-content-center align-items-center">
             <div class="row">
-                <form method="/" action="/" class="container-fluid contact-form">
+                <form method="/" action="/" class="container-fluid contact-form" id="contactform">
                    <h4 class="form-head-details text-center"><i class="fas fa-walking"></i> Your personal details <i class="fas fa-walking"></i></h4>
                    <hr>
                    <div class="form-row">
@@ -165,26 +182,29 @@
                     </div>
                 
                     <div class="form-group">
-                    <label for="moreinfotextarea" class="text-center justify-content-center" id="tell-more">Tell us more!</label>
-                    <textarea name="moreinfo" class="form-control" id="moreinfotextarea" cols="30" rows="10" placeholder="Write here your question, price enquire, extra information, comments, etc."></textarea>
+                        <label for="moreinfotextarea" class="text-center justify-content-center" id="tell-more">Tell us more!</label>
+                        <textarea name="moreinfo" class="form-control" id="moreinfotextarea" cols="30" rows="10" placeholder="Write here your question, price enquire, extra information, comments, etc."></textarea>
                     </div>
 
                     <div class="text-center">
-                        <button type="button" id="sendbutton" class="btn btn-light hvr-glow" data-toggle="modal" data-target="#feedbackmodal">Send Request!</button>
+                        <button type="submit" id="sendbutton" class="btn btn-light hvr-glow" data-toggle="modal" data-target="#feedbackmodal">Send Request!</button>
 
-                        <!--Modal for feedback taken from W3schools and Bootstrap-->
-                        <div class="modal" id="feedbackmodal">
+                    <!--Modal for feedback taken from W3schools and Bootstrap-->
+
+                        <div class="modal fade" id="feedbackmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title " id="modal-header">FORM SUBMITED!</h4>
+                                        <h4 class="modal-title" id="modal-header"><strong>YOUR FORM HAS BEEN SUBMITED!</strong></h4>
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     </div>
-                                    <div class="modal-body uppercase">
+                                    <div class="modal-body">
                                         Thank your very much for contacting us! We will get back to you within 24h!
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-light hvr-glow" data-dismiss="modal" href="index.html">Back to Home page</button>
+                                        <a href="index.html">
+                                            <button type="button" class="btn btn-info hvr-glow" data-dismiss="modal">Close</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
