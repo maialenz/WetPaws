@@ -156,6 +156,7 @@ footer p {
 }
 
 /*taken from whisky drop bootstrap lesson*/
+
 .social-links li a i {
     width: 40px;
     height: 40px;
@@ -215,7 +216,6 @@ footer p {
     background-color: #e9ecefab;
     border-radius: 25px;
 }
-
 
 /*--------gallery*/
 
@@ -288,7 +288,6 @@ figure .container-fluid {
 }
 
 /*-------------------------------------------SERVICES*/
-
 /*-------------------cards*/
 
 section .service-cards {
@@ -437,21 +436,34 @@ section .container-fluid {
 }
 
 /*-----------------MEDIA QUERIES*/
+@media screen and (max-width: 450px) {
+   h4  {
+      
+        font-size: 12px;
+    }
+    .card-header {
+        margin: 10px 30px 0px;
+    }
 
-@media (min-width: 992px) {
+    .other-services li {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .container {
         max-width: 90%;
     }
 
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .container {
         max-width: 1390px;
     }
