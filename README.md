@@ -268,7 +268,7 @@ of the business (Wet Paws).
 
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
-- Submit button: linked to a modal or an external page giving the user feedback about their submitted form. Unfortunatelly, due to the issues I had with an ERROR 501 (see Bugs section on [TESTING.md](testing.md) for more information about this), I had to make the decission of leaving this feature outside the scope for the first release and focus on the rest of the features and their responsiveness.
+
 
 ---
 
