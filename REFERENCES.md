@@ -134,3 +134,20 @@
           >
         ```
 
+- How to make my sticky navbar responsive: (question on stack overflow: Bootstrap 3 navbar-fixed-top stay fixed in mobile view)
+[Stack Overflow](https://stackoverflow.com/questions/18264944/bootstrap-3-navbar-fixed-top-stay-fixed-in-mobile-view) - answer by DarkScrolls
+> for a better usability on mobile, the following CSS snippet removes the "sub-scrolling" on the navigation bar and removes the top margin which is there due to the large screen fixed navbar:
+```
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
+```
