@@ -435,6 +435,30 @@ section .container-fluid {
     margin-bottom: 25px;
 }
 
+/*-----------------FEEDBACK PAGE*/
+
+#feedback-note {
+    background-color: rgba(170, 213, 222, 0.5);
+    margin: 30px 30px;
+}
+
+#feedback-note #feedback-header {
+    background-color: rgba(170, 213, 222, 0.5);
+    font-weight: 600;
+}
+
+#feedback-time {
+    margin-top: 20px;
+}
+
+#feedback-note p {
+    font-size: 16px;
+}
+
+#backbutton {
+    margin-bottom: 25px;
+}
+
 /*-----------------MEDIA QUERIES*/
 @media screen and (max-width: 450px) {
    h4  {
