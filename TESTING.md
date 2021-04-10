@@ -254,6 +254,11 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
             method="GET"
           >
         - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a cta button redirecting the user back to the home page.
+
+### KNOWN BUGS
+
+- When clicked on the Spotify music list it plays 30 seconds of the list as a teaser for the song. The user needs to log into their spotify account to play the whole list. Premium account is needed to access Spotify.
+    - There is three playlist each embedded inside an iframe. During the testing I noticed that if I play a second playlist, the first one does not stop, but as it's an external code, I do not have the way to fix this with my actual knowledgde and skillset. So the playlists have to manually be paused, otherwise they all play at the same time.
 ---
 
 Back to [README.md](README.md)
