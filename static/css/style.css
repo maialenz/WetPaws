@@ -463,6 +463,8 @@ section .container-fluid {
 }
 
 /*-----------------MEDIA QUERIES*/
+
+/*--- media querie for responsiveness of header in services.html--*/
 @media screen and (max-width: 450px) {
   h4 {
     font-size: 12px;
@@ -475,6 +477,8 @@ section .container-fluid {
     margin-left: 15px;
   }
 }
+
+/*-- media querie for responsiveness for reviews container in services.html---*/
 
 @media screen and (min-width: 992px) {
   .container {
@@ -491,5 +495,21 @@ section .container-fluid {
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1390px;
+  }
+}
+
+/*------media querie to make navbar sticky on the top on mobile views---*/
+
+/*--css taken from Stack overflow answer -- see REFERENCES.md for more--*/
+@media (max-width: 767px) {
+  .navbar .sticky-top {
+      position: relative;
+      top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
   }
 }
