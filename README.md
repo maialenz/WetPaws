@@ -2,6 +2,8 @@
 
 Milestone 1 Project - User-Centric Frontend Development
 
+[View live project here](https://maialenz.github.io/WetPaws/)
+
 ![Image of the mockup of the live website](docs/testing/Mockup.png)
 
 ## Overview
