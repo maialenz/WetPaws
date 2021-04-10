@@ -149,6 +149,7 @@ Results after fixing Validator errors
 
 - [Contact.html Validator result](docs/testing/validator/contact.html-w3-pass.png)
 
+- [feedback.html Validator result](docs/testing/validator/feedback.html-w3-pass.png)
 ---
 
 ### CSS VALIDATOR 
