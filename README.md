@@ -446,7 +446,7 @@ $ python3 -m http.server
 
 ### Images
 
-- To [Jamie Street](https://unsplash.com/@jamie452)for the pictures used for the [gallery](https://unsplash.com/photos/EdlNaRhg9ik) in index.html and [hero image](https://unsplash.com/photos/UtrE5DcgEyg) contact.html taken from [Unsplash](https://unsplash.com/)
+- To [Jamie Street](https://unsplash.com/@jamie452)for the pictures used for the [gallery](https://unsplash.com/photos/EdlNaRhg9ik) in index.html [hero image](https://unsplash.com/photos/UtrE5DcgEyg) and contact.html taken from [Unsplash](https://unsplash.com/)
 
 - To [Andrew Pons](https://unsplash.com/photos/oH9AuO20kbk) for the picture used for services.html taken from Unsplash
 
@@ -465,6 +465,8 @@ $ python3 -m http.server
 - To [Oscar Sutton](https://unsplash.com/photos/yihlaRCCvd4) for the picture used for the fake review in services.html taken from Unsplash
 
 - To [Jay Wennington](https://unsplash.com/photos/w_O_tPgxvok) for the picture used for the fake review in services.html taken from Unsplash
+
+- To [Austin Kirk](https://unsplash.com/photos/QZenflkkwt0) for the picture used as hero image feedback.html taken from Unsplash
 
 ---
 
