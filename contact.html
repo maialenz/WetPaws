@@ -20,20 +20,6 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
 
-
-<!--modal JS/jQuery for submit button 
-
-    <script>
-         $( "#sendbutton" ).submit(function( event ) {
-            if($("#name").val(required) !="" && $("#surname").val() !="" && $("#email").val() !="" && $("#phone").val() !="" && $("#address").val() !="" && $("#inputcity").val() !="" && $("#eircode").val() !="" && $("#dogname").val() !="") { 
-                $('#feedbackmodal').modal('hide');
-                event.preventDefault();               
-            }
-            });
-
-    </script>
--->
-
 </head>
 
 <body>    
@@ -86,7 +72,7 @@
         <h1 class="form-head text-center">Contact us for booking and queries! <i class="far fa-comment-dots"></i></h1>
         <div class="d-flex justify-content-center align-items-center">
             <div class="row">
-                <form method="/" action="/" class="container-fluid contact-form" id="contactform">
+                <form method="GET" class="container-fluid contact-form" id="contactform">
                    <h4 class="form-head-details text-center"><i class="fas fa-walking"></i> Your personal details <i class="fas fa-walking"></i></h4>
                    <hr>
                    <div class="form-row">
@@ -187,30 +173,9 @@
                     </div>
 
                     <div class="text-center">
-                        <button type="submit" id="sendbutton" class="btn btn-light hvr-glow" data-toggle="modal" data-target="#feedbackmodal">Send Request!</button>
-
-                    <!--Modal for feedback taken from W3schools and Bootstrap-->
-
-                        <div class="modal fade" id="feedbackmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="modal-header"><strong>YOUR FORM HAS BEEN SUBMITED!</strong></h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Thank your very much for contacting us! We will get back to you within 24h!
-                                    </div>
-                                    <div class="modal-footer">
-                                        <a href="index.html">
-                                            <button type="button" class="btn btn-info hvr-glow" data-dismiss="modal">Close</button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End of modal-->
-
+                        <a href="reponse.html">
+                            <button type="submit" id="sendbutton" class="btn btn-light hvr-glow" data-toggle="modal" data-target="#feedbackmodal">Send Request!</button>
+                        </a>                                
                     </div>
                     <!--end of send form button-->
 
