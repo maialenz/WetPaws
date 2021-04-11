@@ -344,9 +344,9 @@ has been carried out [here](TESTING.md)
 
 ### GitHub Pages
 
-This project was built using the [GitPod](https://www.gitpod.io) environment, specifically in the cloud 
+This project was built using the [GitPod](https://www.gitpod.io) environment, specifically in the cloud
 
-1. To start using the new environment, first a new repository was created in GitHub called [WetPaws](https://github.com/maialenz/WetPaws) 
+1. To start using the new environment, first a new repository was created in GitHub called [WetPaws](https://github.com/maialenz/WetPaws)
 2. All the commits and pushes made during the building process were made very often to keep the project save and updated.
 
 The project was deployed using [GitHub Pages](https://pages.github.com/) using the following steps:
@@ -388,6 +388,7 @@ It is posible to copy and edit this project by any user without changing the rep
    Find the details to do so following this [link](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ---
+
 ### Making a Local Clone
 
 1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
@@ -399,46 +400,44 @@ It is posible to copy and edit this project by any user without changing the rep
 
 3. To clone the repository using HTTPS copy the link on display (you can click on the clipboard to copy it faster).
    ![screenshot of the HTTPS clone link](docs/deployment/clonehttps.png)
-   
 4. If you are working on a desktop application, follow the documentation found on number 5. For cloud based, open your own terminal in GitPod or your preferred IDE (we will be using Gitpod).
-  - For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
-   ![Screensot of the template button in GitHub](docs/deployment/gitpod-template-CI.png)
+
+- For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
+  ![Screensot of the template button in GitHub](docs/deployment/gitpod-template-CI.png)
 
 5. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
-  #### Gitpod workspace after copying the HTTPS clone link
+#### Gitpod workspace after copying the HTTPS clone link
 
 1. Change the current working directory to the location where you want the cloned directory to be made.
 
 2. In the terminal type `git clone` and then paste the URL copied on step 3
 
-  ```
-  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-  ```
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
 
 3. Press Enter. This will create your local clone.
 
-  ```
-  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-  > Cloning into `CI-Clone`...
-  > remote: Counting objects: 10, done.
-  > remote: Compressing objects: 100% (8/8), done.
-  > remove: Total 10 (delta 1), reused 10 (delta 1)
-  > Unpacking objects: 100% (10/10), done.
-  ```
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
 4. To open a preview port within your own local workspace type:
 
-  ```
-  $ python3 -m http.server
-  ```
+```
+$ python3 -m http.server
+```
 
 5. Once your Gitpod workspace is created, only open the workspace from Gitpod Workspaces itslef (https://gitpod.io/workspaces/).
-  ![screenshot of opening gitwork workspace](docs/deployment/gitpod-workspace-open.png)
-
+   ![screenshot of opening gitwork workspace](docs/deployment/gitpod-workspace-open.png)
 
 ---
-
 
 ## CREDITS
 
