@@ -56,96 +56,117 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - _"Find out what the company is about."_
 
     - When the user lands on any of the pages, the first thing they see it's the logo representing a paw and the name of the company (Wet Paws), followed by a summed up version of the company's nature to be (Dog walking and sitting). Just by seeing the logo once, the user will get a clear idea of the intention of the business.
-    - The hero image hints that the business is related to dogs
+    - The hero image hints that the business is related to dogs. All hero images represent dogs, but they are all different so the user knows there has been some change when they have clicked on one of the navigation links.
+
       ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
 
     - For users who want to learn more about the business and the owner, there is an informative section called About Us where the owner explains what the company is about. The section also has a picture of the owner's dog as an introduction to the company's owner and to create a feeling of trust and showing the users that the owner has knowledge of dog care.
       This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
+
       ![screenshot of about us section explaining the company's reason to be](docs/testing/user-stories/test-userstory1.2.png)
 
-    -for the comfort of the user, the navbar has a section called About Us that can be reached from any of the other pages. The link is highlighted on a darker color to suggest that the user is seeing the page with the company's information
-    ![screenshot of the navbar highlighting the About us section](docs/testing/user-stories/test-user-story1-about-us-navbar.png)
+    - for the comfort of the user, the navbar has a section called About Us that can be reached from any of the other pages. The link is highlighted on a darker color to suggest that the user is seeing the page with the company's information
+
+      ![screenshot of the navbar highlighting the About us section](docs/testing/user-stories/test-user-story1-about-us-navbar.png)
 
   - _"Easily visualize and understand what services the company offers."_
 
     - on the navbar, there is a tab called Services so the user can jump directly to that page and see the services the company offers.
+
       ![screenshot of the navbar pointing the services section](docs/testing/user-stories/test-userstory2.services-navbar.png)
 
     - when the user scrolls down from the hero image, there is a header that lets the user know that they are seeing the services section, and this contains 4 cards each with a highlighted heading with the title of the service and a shot but concise explanation about each service
+
       ![screenshot of the header for services section](docs/testing/user-stories/test-userstory2-service-header.png)
       ![screenshot of the service cards and their explanation](docs/testing/user-stories/test-userstory2-services.png)
 
   - _"Be able to use and book one or more services the company has to offer."_
 
     - Under each service card there is an area saying "Ask more about this service" which the user can click to be redirected to the contact form and be able to ask more questions to the owner.
+
       ![screenshot of the ask about this service button under each service](docs/testing/user-stories/test-userstory3-ask-about-button.png)
 
     - The "Ask more about this service" will redirect the user to the contact form where there is a section the user to select an option to be booked or enquired about. This section is not required so the user can write their own requirement or book more than one service on the Tell us more textarea, located just below the radio button service choices:
+
       ![screenshot of the form showing radiobuttons to choose service the user to know more about](docs/testing/user-stories/test-userstory3-know-more-about.png)
 
   - _"Be able to use the contact form for the business and service enquiries."_
 
     - To be able to quickly access the contact form from any part of the website, the words "form/contact form/Ask about this form (button)" have been linked to the form section. The firts two words have been underlined and the font weight increased to hint the user that the word is clickable. Ask about this service button changes the background color when hovered over to entice the user to click on it.
-    ![screenshot of the form links](docs/testing/user-stories/test-userstory4-form-link.png)
-    ![screenshot of the form links](docs/testing/user-stories/test-userstory4-contact-form-link.png)
-    ![screenshot of the ask about this service button hovered](docs/testing/user-stories/test-userstory4-link-hovered.png)
+
+      ![screenshot of the form links](docs/testing/user-stories/test-userstory4-form-link.png)
+      ![screenshot of the form links](docs/testing/user-stories/test-userstory4-contact-form-link.png)
+      ![screenshot of the ask about this service button hovered](docs/testing/user-stories/test-userstory4-link-hovered.png)
 
     - The navbar has a direct link to the contact form called "Contact Us!" to make the user feel confortable to contact the company with any question the user might have:
-    ![screenshot of the navbar highlighting Contact Us section](docs/testing/user-stories/test-userstory4-contact.us-navbar.png)
+
+      ![screenshot of the navbar highlighting Contact Us section](docs/testing/user-stories/test-userstory4-contact.us-navbar.png)
 
     - The contact form is minimal with no pictures to make sure the user doesn't get overwhelmed with information and fields to be filled. For users who need help with the information needed on each field, there is a placeholder test to hint and help the user.
-    ![screenshot of the contact form first part](docs/testing/user-stories/test-userstory4-contactform1.png)
-    ![screenshot of the contact form second part](docs/testing/user-stories/test-userstory4-contactform2.png)
 
-  - *"Have the option to personalize the services offered."*
+      ![screenshot of the contact form first part](docs/testing/user-stories/test-userstory4-contactform1.png)
+      ![screenshot of the contact form second part](docs/testing/user-stories/test-userstory4-contactform2.png)
+
+  - _"Have the option to personalize the services offered."_
 
     - Within the services section, the user can find a card called "Personalised", refering to a personalization of the services offered or the posibility of asking for a service not listed on the other cards. The user is informed to make an inquire in the contact form inside the "Tell us more" section, asking for the posibility and conditions of their personal request.
-    ![screenshot of the personalised service card](docs/testing/user-stories/test-userstory5-personalised-service.png)
 
-  - *"Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews."*
+      ![screenshot of the personalised service card](docs/testing/user-stories/test-userstory5-personalised-service.png)
+
+  - _"Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews."_
 
     - The user can find reviews by customers on a section located below the services. They can find a review for each one of the services offered, and for more realism each one of the reviews has a real dog at the top, representing the actual dog that the company looked after personally
-    ![screenshot of the reviews under services](docs/testing/user-stories/test-userstory6-reviews.png)
+
+      ![screenshot of the reviews under services](docs/testing/user-stories/test-userstory6-reviews.png)
 
     - The user can also find a small gallery with pictures taken of dogs under the owner's care while they are with her. The users can see what other dogs look like and they can also see their own dog's picture, giving the user feeling of company transparency and relieve seeing their dogs well when they are not around
-    ![screenshot of the small gallery with dog pictures](docs/testing/user-stories/test-userstory6-gallery.png)
 
-  - *"Be able to know more about the owner by having the option to personally meet them."*
+      ![screenshot of the small gallery with dog pictures](docs/testing/user-stories/test-userstory6-gallery.png)
+
+  - _"Be able to know more about the owner by having the option to personally meet them."_
 
     - For those users who want to meet the owner personally before deciding if they want to book any of the services, there is a section called "Meet Us" where the user can find information about meeting times, location and if they prefer, a link to the contact form to book a private walk with the owner and see the compatibility between the owner's dog and the user's dog.
-    ![screenshot of meet us section](docs/testing/user-stories/test-userstory7-meetus.png)
-    
-  - *"Know the location of the business and know where those services are offered."*
+
+      ![screenshot of meet us section](docs/testing/user-stories/test-userstory7-meetus.png)
+
+  - _"Know the location of the business and know where those services are offered."_
 
     - Just above the footer there is a location map where the user can see the specific loaction of the company on the map
-    ![screenshot of the map for location](docs/testing/user-stories/test-userstory8-map.png)
+
+      ![screenshot of the map for location](docs/testing/user-stories/test-userstory8-map.png)
 
     - on the footer the user can find information about the location, county and country of the business, as well as the name of the owner and their dog's.
-    ![screenshot of the footer information about company location](docs/testing/user-stories/test-userstory8-name-town.png)
 
-  - *"Get in touch with the business easily by having contact details clearly available."*
+      ![screenshot of the footer information about company location](docs/testing/user-stories/test-userstory8-name-town.png)
+
+  - _"Get in touch with the business easily by having contact details clearly available."_
 
     - In the navbar the user can find a direct link that will bring them to the contact form
-    ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory4.contact.us-navbar.png)
+
+      ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory4-contact.us-navbar.png)
 
     - the navbar is sticky so the user can access any of the pages links at any moment without the need of scrolling up. The sticky navbar is responsive on small screens too, as the user needs to scroll more to go to the top
-    ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar.png)
 
-    ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar-mobile.png)
+      ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar.png)
+      ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar-mobile.png)
 
     - The user has also the posibility of contacting the company by phone or email using the information found at the footer
-    ![screenshot of the contact information at footer](docs/testing/user-stories/test-userstory9-reachus.png) 
 
-    - for those users that submit the form but they require faster contact, on the feedback form they can find a note encouraging the user to call the owner anytime at the phone provided 
-    ![screenshot of the feedback page with contact number](docs/testing/user-stories/test-userstory9-feedback-number.png)
+      ![screenshot of the contact information at footer](docs/testing/user-stories/test-userstory9-reachus.png)
 
-  - Find social links to be able to follow the business in social media platforms.
+    - for those users that submit the form but they require faster contact, on the feedback form they can find a note encouraging the user to call the owner anytime at the phone provided
+
+      ![screenshot of the feedback page with contact number](docs/testing/user-stories/test-userstory9-feedback-number.png)
+
+  - _"Find social links to be able to follow the business in social media platforms."_
 
     - for those users who want to follow the company on different social media platforms, there are links on the footer under the header called "follow our adventures". These links open on separate tabs for better user experience.
-    ![screenshot of the social media links](docs/testing/user-stories/test-userstory10-socials.png)
 
-    - for users that have a premium spotify account, there is a section where there is three playlists, so the users can enjoy while they are walking their own dogs. 
-    ![screenshot of the spotify playlists](docs/testing/user-stories/test-userstory10-playlist.png)
+      ![screenshot of the social media links](docs/testing/user-stories/test-userstory10-socials.png)
+
+    - for users that have a premium spotify account, there is a section where there is three playlists, so the users can enjoy while they are walking their own dogs.
+
+      ![screenshot of the spotify playlists](docs/testing/user-stories/test-userstory10-playlist.png)
 
 ---
 
