@@ -46,7 +46,9 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
      - Contact.html
    - [CSS](#css-validator)
 4. [LIGHTHOUSE TESTING](#lighthouse-testing)
-5. [BUGS](#bugs)
+5. [BROWSER COMPATIBILITY](#browser-compatibility)
+6. [DEVICE RESPONSIVENESS](#device-responsiveness)
+7. [BUGS](#bugs)
 
 ## USER STORIES
 
