@@ -56,7 +56,7 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
   - *"Find out what the company is about."*
     - When the user lands on any of the pages, the first thing they see it's the logo representing a paw and the name of the company (Wet Paws), followed by a summed up version of the company's nature to be (Dog walking and sitting). Just by seeing the logo once, the user will get a clear idea of the intention of the business. 
-    ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1)
+    ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
 
   - Easily visualize and understand what services the company offers.
   - Be able to use and book one or more services the company has to offer.
