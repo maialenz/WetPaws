@@ -286,25 +286,34 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
 
 (All tests were carried on the same way: I cleared cache data, opened new incognito page (Chrome and Edge), and loaded tested each page twice. Same procedure was used for every page for mobile and web)
 
-- Mobile
+- **Mobile**
 
   - Index.html Lighthouse test:
 
-    - [Before](docs/testing/lighthouse/index-phone-before) implementing changes: - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view. -[After](docs/testing/lighthouse/lighthouse-mobile-after-index) following lighthouse suggestions: - I managed to increase the very low performance score to 74%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time for further changes and improvements.
+    - [Before](docs/testing/lighthouse/index-phone-before) implementing changes:
+      - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
+    - [After](docs/testing/lighthouse/index-phone-after) following lighthouse suggestions:
+      - I managed to increase the very low performance score to 82%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time for further changes and improvements.
 
   - Services page Lighthouse test:
 
     - [Before](docs/testing/lighthouse/services.html-phone-before.png) implementing changes
       - as in the index page, the performance score was quite low because of the weight of the images
-    - [After](docs/testing/lighthouse/services.html-phone-after.png) following lighthouse suggestions:
-      - once I implemented the suggestions given by the lighthouse tool, the score increased to 84%. I decreased the size of the images and added meta data to the head for better SEO (%100)
+    - [After](docs/testing/lighthouse/services-phone-after.png) following lighthouse suggestions:
+      - once I implemented the suggestions given by the lighthouse tool, the score increased to 86%. I decreased the size of the images and added meta data to the head for better SEO (%100)
 
   - Contact page Lighthouse test:
     - [Before](docs/testing/lighthouse/contact.html-before-phone.png) implementing changes
     - [After](docs/testing/lighthouse/contact.html-phone-after.png) following lighthouse suggestions:
       - although the performance before was quite low, implementing lighthouse suggested changes increased the performance of the mobile test quite significantly, but we can see the biggest improvement in Best practices, where the score went up to 93%.
 
-- Web: because I focused on mobile first approach for the testing part too. All the improvements made to increase the performance on the mobile view, has greatly benefited the web performance too. This changes included compression of images, removal of unused code and css, reload of better sources for bootstrap/fontawesome libraries...
+  - Feedback page Lighthouse test:
+    - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
+    - [After](docs/testing/lighthouse/lighthouse-feedback-after.png)
+
+- **Web**
+
+Because I focused on mobile first approach for the testing part too. All the improvements made to increase the performance on the mobile view, has greatly benefited the web performance too. This changes included compression of images, removal of unused code and css, reload of better sources for bootstrap/fontawesome libraries...
 
   - Index web page Lighthouse test:
 
@@ -323,6 +332,9 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
     - [After](docs/testing/lighthouse/contact.html-after-web.png) following lighthouse suggestions:
       - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy images to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
 
+  - Feedback web page Lighthouse test:
+    - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
+    - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
