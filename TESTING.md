@@ -102,7 +102,13 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
     - Within the services section, the user can find a card called "Personalised", refering to a personalization of the services offered or the posibility of asking for a service not listed on the other cards. The user is informed to make an inquire in the contact form inside the "Tell us more" section, asking for the posibility and conditions of their personal request.
     ![screenshot of the personalised service card](docs/testing/user-stories/test-userstory5-personalised-service.png)
 
-  - Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews.
+  - *"Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews."*
+
+    - The user can find reviews by customers on a section located below the services. They can find a review for each one of the services offered, and for more realism each one of the reviews has a real dog at the top, representing the actual dog that the company looked after personally
+    ![screenshot of the reviews under services](docs/testing/user-stories/test-userstory6-reviews.png)
+
+    - The user can also find a small gallery with pictures taken of dogs under the owner's care while they are with her. The users can see what other dogs look like and they can also see their own dog's picture, giving the user feeling of company transparency and relieve seeing their dogs well when they are not around
+    ![screenshot of the small gallery with dog pictures](docs/testing/user-stories/test-userstory6-gallery.png)
   - Be able to know more about the owner by having the option to personally meet them.
   - Know the location of the business and know where those services are offered.
   - Get in touch with the business easily by having contact details clearly available.
