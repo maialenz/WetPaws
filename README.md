@@ -400,19 +400,23 @@ It is posible to copy and edit this project by any user without changing the rep
 3. To clone the repository using HTTPS copy the link on display (you can click on the clipboard to copy it faster).
    ![screenshot of the HTTPS clone link](docs/deployment/clonehttps.png)
    
-4. If you are working on a desktop application, follow the documentation found on number 9. For cloud based, open your own terminal in GitPod or your preferred IDE (we will be using Gitpod).
+4. If you are working on a desktop application, follow the documentation found on number 5. For cloud based, open your own terminal in GitPod or your preferred IDE (we will be using Gitpod).
   - For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
    ![Screensot of the template button in GitHub](docs/deployment/gitpod-template-CI.png)
-  
-5. Change the current working directory to the location where you want the cloned directory to be made.
 
-6. In the terminal type `git clone` and then paste the URL copied on step 3
+5. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+
+  #### Gitpod workspace after copying the HTTPS clone link
+
+1. Change the current working directory to the location where you want the cloned directory to be made.
+
+2. In the terminal type `git clone` and then paste the URL copied on step 3
 
   ```
   $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
   ```
 
-7. Press Enter. This will create your local clone.
+3. Press Enter. This will create your local clone.
 
   ```
   $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
@@ -423,13 +427,12 @@ It is posible to copy and edit this project by any user without changing the rep
   > Unpacking objects: 100% (10/10), done.
   ```
 
-8. To open a preview port within your own local workspace type:
+4. To open a preview port within your own local workspace type:
 
   ```
   $ python3 -m http.server
   ```
 
-9. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
 ---
 

@@ -1,7 +1,9 @@
-## REFERENCES USED TO LEARN, PERFECT AND FIX ISSUES FOUND ON THE CODE: 
+## CREDITS TO REFERENCES USED TO LEARN, PERFECT AND FIX ISSUES FOUND ON THE CODE: 
 
 - README.md, TESTING.md and REFERENCES.md were created following and based on Code Institute's README.md template and adapted to suit my code and documentation. 
     - The steps followed to document the Deployment process found on README.md were taken from the template and changed with screenshots taken by myself on my personal machine. 
+
+- This project was created thank to the template created by Code Institute, where all the necessary tools for me to work were already loaded and installed, so I did not have to do it manually.
 ### Bootstrap library documentation
 
 - To refresh on lessons on the course, I rewatched videos explained by [Matt Rudge](https://github.com/lechien73) from [Code Institute](https://codeinstitute.net/) as well as previous projects done during th course (Coders Coffee House project, Love Running project, CV project, Whiskey Drop Project...)[maialenz](https://github.com/maialenz/Bootstrap-lesson-walkthrough/blob/master/)
