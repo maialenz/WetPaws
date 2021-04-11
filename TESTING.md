@@ -14,6 +14,7 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
 - Samsung Galaxy S8+ (My personal device) (mobile device)
 - Samsung A70 (mobile device)
+- Samsung J7 (mobile device)(528px - 5.5")
 - Iphone 11 (mobile device)
 - Xaomin (mobile device)
 
@@ -26,6 +27,12 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - Google Chrome (browser)
   - Opera (browser)
 
+- PC desktop 27" screen
+  - Mozilla Firefox (browser)
+  - Microsoft Edge (brower)
+  - Google Chrome (browser)
+  - Opera (browser)
+  
 - PC desktop 32" screen
 
 ## Table of Content

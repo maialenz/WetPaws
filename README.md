@@ -235,8 +235,10 @@ difficult to read, it was decided to use simple but and consistent fonts previou
     - It'll include a link to the three other pages in the site. The link will increase on size when hovered over it.
     - in smaller screens the navbar will change to a clickable burger with collapsed menu with nav-links to the other pages
     - Change of color and size on the links when hovered over the buttons
+    - Sticky navbar on mobile and desktop to easily access the rest of the pages without the need of scrolling up.
 
 - **Body:** will differ depend on the page
+
   - Home page (About Us):
     - A section with information about the company's owners and a meeting point for those who want to meet the owner personally.
     - A picture of the owner's dog to familiarize with them.
@@ -260,19 +262,18 @@ difficult to read, it was decided to use simple but and consistent fonts previou
     - They'll open in a separate blank page for the users' comfort.
     - Color changing hover feature for
   - Owners name and business location.
-  
 
 ---
 
 ### Features left to implement
 
-- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature. In the first release the small gallery will consist on small selection of responsive pictures, but they won't be clickable.
+- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature.
 
-- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature.
+  - In the first release the small gallery will consist of 4 responsive pictures, but they won't be clickable.
+
+- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature. T
 
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask questions instead of filling a form every time. I leave this feature out due to lack of current skills.
-
-- Submit button: linked to a modal or an external page giving the user feedback about their submitted form. Unfortunatelly, due to the issues I had with an ERROR 501 (see Bugs section on [TESTING.md](testing.md) for more information about this), I had to make the decission of leaving this feature outside the scope for the first release and focus on the rest of the features and their responsiveness.
 
 - Original pictures: due to the low quality but very heavy pictures taken by me, I had to change most pictures to ones taken from unsplash to improve performance of the site. In a future, all pictures on the gallery would be originals and taken of dogs under our care and services.
 
@@ -328,7 +329,7 @@ difficult to read, it was decided to use simple but and consistent fonts previou
 - Paint -by Microsoft
   - used to put together the logo image created with Canva and the name of the company.
 - [Am I Responsive?](http://ami.responsivedesign.is/#)
-  - used to create the Mockup image at the beginning of the README.md.
+  - used to create the Mockup image at the begining of the README.md.
 
 ---
 
@@ -343,7 +344,10 @@ has been carried out [here](TESTING.md)
 
 ### GitHub Pages
 
-This project was built using the [GitPod](https://www.gitpod.io) environment, specifically in the cloud cloud. 1. To start using the new environment, first a new repository was created in GitHub called [WetPaws](https://github.com/maialenz/WetPaws) 2. All the commits and pushes made during the building process were made very often to keep the project save and updated.
+This project was built using the [GitPod](https://www.gitpod.io) environment, specifically in the cloud 
+
+1. To start using the new environment, first a new repository was created in GitHub called [WetPaws](https://github.com/maialenz/WetPaws) 
+2. All the commits and pushes made during the building process were made very often to keep the project save and updated.
 
 The project was deployed using [GitHub Pages](https://pages.github.com/) using the following steps:
 
@@ -384,7 +388,6 @@ It is posible to copy and edit this project by any user without changing the rep
    Find the details to do so following this [link](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ---
-
 ### Making a Local Clone
 
 1. Log in to [GitHub](https://github.com/join/get-started) and locate the [GitHub repository](https://github.com/maialenz/WetPaws)
@@ -396,37 +399,40 @@ It is posible to copy and edit this project by any user without changing the rep
 
 3. To clone the repository using HTTPS copy the link on display (you can click on the clipboard to copy it faster).
    ![screenshot of the HTTPS clone link](docs/deployment/clonehttps.png)
-
-4. If you are working on a desktop application, follow the documentation found on number 9. For cloud based, open your own terminal in GitPod.
-
+   
+4. If you are working on a desktop application, follow the documentation found on number 9. For cloud based, open your own terminal in GitPod or your preferred IDE (we will be using Gitpod).
+  - For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
+   ![Screensot of the template button in GitHub](docs/deployment/gitpod-template-CI.png)
+  
 5. Change the current working directory to the location where you want the cloned directory to be made.
 
 6. In the terminal type `git clone` and then paste the URL copied on step 3
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
+  ```
+  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  ```
 
-7.Press Enter. This will create your local clone.
+7. Press Enter. This will create your local clone.
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
+  ```
+  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  > Cloning into `CI-Clone`...
+  > remote: Counting objects: 10, done.
+  > remote: Compressing objects: 100% (8/8), done.
+  > remove: Total 10 (delta 1), reused 10 (delta 1)
+  > Unpacking objects: 100% (10/10), done.
+  ```
 
 8. To open a preview port within your own local workspace type:
 
-```
-$ python3 -m http.server
-```
+  ```
+  $ python3 -m http.server
+  ```
 
 9. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
 ---
+
 
 ## CREDITS
 
