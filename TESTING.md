@@ -56,13 +56,25 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
   - *"Find out what the company is about."*
     - When the user lands on any of the pages, the first thing they see it's the logo representing a paw and the name of the company (Wet Paws), followed by a summed up version of the company's nature to be (Dog walking and sitting). Just by seeing the logo once, the user will get a clear idea of the intention of the business. 
+    - The hero image hints that the business is related to dogs
     ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
 
     - For users who want to learn more about the business and the owner, there is an informative section called About Us where the owner explains what the company is about. The section also has a picture of the owner's dog as an introduction to the company's owner and to create a feeling of trust and showing the users that the owner has knowledge of dog care.
     This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
-    ![screenshot of about us section explaining the company's reason to be](test-userstory1.2.png)
+    ![screenshot of about us section explaining the company's reason to be](docs/testing/user-stories/test-userstory1.2.png)
 
-  - Easily visualize and understand what services the company offers.
+    -for the comfort of the user, the navbar has a section called About Us that can be reached from any of the other pages. The link is highlighted on a darker color to suggest that the user is seeing the page with the company's information
+    ![screenshot of the navbar highlighting the About us section](docs/testing/user-stories/test-user-story1-about-us-navbar.png)
+
+  - *"Easily visualize and understand what services the company offers."*
+
+    - on the navbar, there is a tab called Services so the user can jump directly to that page and see the services the company offers.
+    ![screenshot of the navbar pointing the services section](docs/testing/user-stories/test-userstory2.services-navbar.png)
+
+    - when the user scrolls down from the hero image, there is a header that lets the user know that they are seeing the services section, and this contains 4 cards each with a highlighted heading with the title of the service and a shot but concise explanation about each service
+    ![screenshot of the header for services section](docs/testing/user-stories/test-userstory2-service-header.png)
+    ![screenshot of the service cards and their explanation](docs/testing/user-stories/test-userstory2-services.png)
+
   - Be able to use and book one or more services the company has to offer.
   - Be able to use the contact form for the business and service enquiries.
   - Have the option to personalize the services offered.
