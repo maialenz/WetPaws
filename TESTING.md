@@ -86,21 +86,21 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - _"Be able to use the contact form for the business and service enquiries."_
 
     - To be able to quickly access the contact form from any part of the website, the words "form/contact form/Ask about this form (button)" have been linked to the form section. The firts two words have been underlined and the font weight increased to hint the user that the word is clickable. Ask about this service button changes the background color when hovered over to entice the user to click on it.
-    ![screenshot of the form links](docs/testing/user-stories/test-usertory4-form-link.png)
-    ![screenshot of the form links](docs/testing/user-stories/test-usertory4-contact-form-link.png)
-    ![screenshot of the ask about this service button hovered](docs/testing/user-stories/test-usertory4-link-hovered.png)
+    ![screenshot of the form links](docs/testing/user-stories/test-userstory4-form-link.png)
+    ![screenshot of the form links](docs/testing/user-stories/test-userstory4-contact-form-link.png)
+    ![screenshot of the ask about this service button hovered](docs/testing/user-stories/test-userstory4-link-hovered.png)
 
     - The navbar has a direct link to the contact form called "Contact Us!" to make the user feel confortable to contact the company with any question the user might have:
-    ![screenshot of the navbar highlighting Contact Us section](docs/testing/user-stories/test-usertory4-contact.us-navbar.png)
+    ![screenshot of the navbar highlighting Contact Us section](docs/testing/user-stories/test-userstory4-contact.us-navbar.png)
 
     - The contact form is minimal with no pictures to make sure the user doesn't get overwhelmed with information and fields to be filled. For users who need help with the information needed on each field, there is a placeholder test to hint and help the user.
-    ![screenshot of the contact form first part](docs/testing/user-stories/test-usertory4-contactform1.png)
-    ![screenshot of the contact form second part](docs/testing/user-stories/test-usertory4-contactform2.png)
+    ![screenshot of the contact form first part](docs/testing/user-stories/test-userstory4-contactform1.png)
+    ![screenshot of the contact form second part](docs/testing/user-stories/test-userstory4-contactform2.png)
 
   - *"Have the option to personalize the services offered."*
 
     - Within the services section, the user can find a card called "Personalised", refering to a personalization of the services offered or the posibility of asking for a service not listed on the other cards. The user is informed to make an inquire in the contact form inside the "Tell us more" section, asking for the posibility and conditions of their personal request.
-    ![screenshot of the personalised service card](docs/testing/user-stories/test-usertory5-personalised-service.png)
+    ![screenshot of the personalised service card](docs/testing/user-stories/test-userstory5-personalised-service.png)
 
   - Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews.
   - Be able to know more about the owner by having the option to personally meet them.
