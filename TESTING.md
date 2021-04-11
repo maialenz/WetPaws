@@ -75,7 +75,17 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
     ![screenshot of the header for services section](docs/testing/user-stories/test-userstory2-service-header.png)
     ![screenshot of the service cards and their explanation](docs/testing/user-stories/test-userstory2-services.png)
 
-  - Be able to use and book one or more services the company has to offer.
+  - *"Be able to use and book one or more services the company has to offer."*
+
+    - under each service card there is an area saying "Ask more about this service" which the user can click to be redirected to the contact form and be able to ask more questions to the owner.
+    ![screenshot of the ask about this service button under each service](docs/testing/user-stories/test-userstory3-ask-about-button.png)
+
+    - The "Ask more about this service" will redirect the user to the contact form where there is a section the user to select an option to be booked or enquired about. This section is not required so the user can write their own requirement or book more than one service on the Tell us more textarea, located just below the radio button service choices:
+    ![screenshot of the form showing radiobuttons to choose service the user to know more about](docs/testing/user-stories/test-userstory3-know-more-about.png)
+
+
+
+
   - Be able to use the contact form for the business and service enquiries.
   - Have the option to personalize the services offered.
   - Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews.
