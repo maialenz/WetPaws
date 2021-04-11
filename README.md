@@ -80,7 +80,6 @@ who wants fast solutions and hasle free.
   - Be able to know more about the owner by having the option to personally meet them.
   - Know the location of the business and know where those services are offered.
   - Get in touch with the business easily by having contact details clearly available.
-  - Be able to book a service quickly by having a direct tab to the contact form.
   - Find social links to be able to follow the business in social media platforms.
 
 ### **Business goals**

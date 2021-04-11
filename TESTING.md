@@ -109,10 +109,36 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
     - The user can also find a small gallery with pictures taken of dogs under the owner's care while they are with her. The users can see what other dogs look like and they can also see their own dog's picture, giving the user feeling of company transparency and relieve seeing their dogs well when they are not around
     ![screenshot of the small gallery with dog pictures](docs/testing/user-stories/test-userstory6-gallery.png)
-  - Be able to know more about the owner by having the option to personally meet them.
-  - Know the location of the business and know where those services are offered.
-  - Get in touch with the business easily by having contact details clearly available.
-  - Be able to book a service quickly by having a direct tab to the contact form.
+
+  - *"Be able to know more about the owner by having the option to personally meet them."*
+
+    - For those users who want to meet the owner personally before deciding if they want to book any of the services, there is a section called "Meet Us" where the user can find information about meeting times, location and if they prefer, a link to the contact form to book a private walk with the owner and see the compatibility between the owner's dog and the user's dog.
+    ![screenshot of meet us section](docs/testing/user-stories/test-userstory7-meetus.png)
+    
+  - *"Know the location of the business and know where those services are offered."*
+
+    - Just above the footer there is a location map where the user can see the specific loaction of the company on the map
+    ![screenshot of the map for location](docs/testing/user-stories/test-userstory8-map.png)
+
+    - on the footer the user can find information about the location, county and country of the business, as well as the name of the owner and their dog's.
+    ![screenshot of the footer information about company location](docs/testing/user-stories/test-userstory8-name-town.png)
+
+  - *"Get in touch with the business easily by having contact details clearly available."*
+
+    - In the navbar the user can find a direct link that will bring them to the contact form
+    ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory4.contact.us-navbar.png)
+
+    - the navbar is sticky so the user can access any of the pages links at any moment without the need of scrolling up. The sticky navbar is responsive on small screens too, as the user needs to scroll more to go to the top
+    ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar.png)
+
+    ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar-mobile.png)
+
+    - The user has also the posibility of contacting the company by phone or email using the information found at the footer
+    ![screenshot of the contact information at footer](docs/testing/user-stories/test-userstory9-reachus.png) 
+
+    - for those users that submit the form but they require faster contact, on the feedback form they can find a note encouraging the user to call the owner anytime at the phone provided 
+    ![screenshot of the feedback page with contact number](docs/testing/user-stories/test-userstory9-feedback-number.png)
+
   - Find social links to be able to follow the business in social media platforms.
 
 ---
