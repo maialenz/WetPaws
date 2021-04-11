@@ -141,6 +141,12 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
   - Find social links to be able to follow the business in social media platforms.
 
+    - for those users who want to follow the company on different social media platforms, there are links on the footer under the header called "follow our adventures". These links open on separate tabs for better user experience.
+    ![screenshot of the social media links](docs/testing/user-stories/test-userstory10-socials.png)
+
+    - for users that have a premium spotify account, there is a section where there is three playlists, so the users can enjoy while they are walking their own dogs. 
+    ![screenshot of the spotify playlists](docs/testing/user-stories/test-userstory10-playlist.png)
+
 ---
 
 ## FAVICON TEST
