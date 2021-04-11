@@ -434,7 +434,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 $ python3 -m http.server
 ```
 
-5. Once your Gitpod workspace is created, only open the workspace from Gitpod Workspaces itslef (https://gitpod.io/workspaces/).
+5. Once your Gitpod workspace is created, only open the workspace from Gitpod Workspaces itslef (https://gitpod.io/workspaces/), and not from GitHub Gitpod button (Only use this button once at the very begining when creating a new workspace)
    ![screenshot of opening gitwork workspace](docs/deployment/gitpod-workspace-open.png)
 
 ---
@@ -461,7 +461,7 @@ $ python3 -m http.server
 
 - To [Pauline Loroy](https://unsplash.com/photos/U3aF7hgUSrk) for the picture used as a hero image for Index.html taken from Unsplash
 
-- To [Ralu Gal]() for the picture used for the fake review in services.html taken from Unsplash
+- To [Ralu Gal](https://unsplash.com/@ralu_gal) for the picture used for the fake [review](https://unsplash.com/photos/G8cB8hY3yvU) in services.html taken from Unsplash
 
 - To [Ryan Walton](https://unsplash.com/@rwltn1)for the picture used for the fake [review](https://unsplash.com/photos/AbNO2iejoXA) in services.html taken from Unsplash
 
@@ -484,6 +484,8 @@ $ python3 -m http.server
 ---
 
 ## ACKNOWLEDGEMENTS
+
+- To my mentor Rohit Sharma for all the time spent on giving me tips, advise, suggestions and sharing your great knowledge to create a better project than I would have expected. Thank you very much!
 
 - To Scott from Tutor support for trying to give me ideas on how to create a solution to send the user feedback once they sent the form.
 
