@@ -433,6 +433,9 @@ It is posible to copy and edit this project by any user without changing the rep
   $ python3 -m http.server
   ```
 
+5. Once your Gitpod workspace is created, only open the workspace from Gitpod Workspaces itslef (https://gitpod.io/workspaces/).
+  ![screenshot of opening gitwork workspace](docs/deployment/gitpod-workspace-open.png)
+
 
 ---
 
