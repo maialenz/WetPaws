@@ -115,10 +115,10 @@ As the recent pandemic has forced many of us confined to our homes when it comes
   - To use this site the user needs to have access to some internet connection within their chosen device.
 
   - They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate
-  the page.
+    the page.
 
   - This page can be done with Bootstrap framework to create a structure and implement sections that the user needs. The website's
-  information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to get to the page they need. It was not posible to add a live time booking on this project due to lack of skills and knowledge, but would be implemented on a future release once I gain more skills and knowledge.
+    information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to get to the page they need. It was not posible to add a live time booking on this project due to lack of skills and knowledge, but would be implemented on a future release once I gain more skills and knowledge.
 
 - #### Business Vision
 
@@ -186,11 +186,13 @@ The colors chosen are combinations of: pale/light blue and green, white and shad
 [Coolors](https://coolors.co/)
 
 Some of the colors used in this project are:
+
 - #a0e0ca: for button background when hovered.
 - #ffffff: for some section backgrounds.
 - rgba(170, 213, 222, 0.5): for header backgrounds and feedback article background.
 - #e9ecefab: as about us information background
 - #373d3f: as main typography color.
+
 ---
 
 ### **Typography**
@@ -198,7 +200,7 @@ Some of the colors used in this project are:
 The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
 difficult to read, it was decided to use simple but and consistent fonts previously used and seen in other projects within Code Institute like:
 
-- "Roboto" (EDIT: it was chosen to be used as the body typography, but I chose not to use it at the end as "Montserrat" fit better)
+- "Roboto" (EDIT: it was chosen to be used as the body typography, but I chose not to use it at the end as "Montserrat" fit the style much better)
 - "Quicksand"
 - "Montserrat"
 - "Montserrat alternates" (for extra elegance and fun but used minimally not to break the flow of the information)
@@ -209,18 +211,15 @@ difficult to read, it was decided to use simple but and consistent fonts previou
 
 - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
 
-- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between the different pages . The light navbar
-  will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find the links and to immediately direct the user to their selected part of the website.
+- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between the different pages . The light navbar will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find the links and to immediately direct the user to their selected part of the website.
 
-- The imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
+- The rest of the imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
 
 ---
 
 ### **Logo**
 
-- The logo for site was created using a combination of an online application called [Canva](https://www.canva.com/) and Paint. It has a a little paw logo with a background representing a very light blue sea
-  provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name
-  of the business (Wet Paws).
+- The logo for site was created using a combination of an online application called [Canva](https://www.canva.com/) and Paint. It has a a little paw logo with a background representing a very light blue sea provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name of the business (Wet Paws).
 
 ---
 
@@ -235,12 +234,11 @@ difficult to read, it was decided to use simple but and consistent fonts previou
   - Navbar:
     - It'll include a link to the three other pages in the site. The link will increase on size when hovered over it.
     - in smaller screens the navbar will change to a clickable burger with collapsed menu with nav-links to the other pages
-    - slight change of color on the links when hovered over the buttons
-    - Will have a logo representing the company and it's name linked to the home page for easy return.
+    - Change of color and size on the links when hovered over the buttons
 
 - **Body:** will differ depend on the page
   - Home page (About Us):
-    - A section with information about the company's owners and a meeting information for those wanted to meet the owner personally.
+    - A section with information about the company's owners and a meeting point for those who want to meet the owner personally.
     - A picture of the owner's dog to familiarize with them.
     - A section with a static but responsive gallery with dog pictures and the owners pictures. This would be a section for a future gallery slideshow with customer dog pictures.
     - A section with a playlists from spotify for enjoyment of the user.
@@ -251,18 +249,18 @@ difficult to read, it was decided to use simple but and consistent fonts previou
     - A section with boxes to display reviews of customers who already used one or more services, containing
       pictures of dogs previously cared for to give a real and trust inducing reviews.
   - Contact form:
-    - Must fields will be required so the business can offer a more personalised service to the user sending a business
-      inquiry.
-    - will require to fill fields of Name, Surname, dog's name, email adress (to be able to contact the user querie),
-      service type to enquire about and a text input field for further information to be asked to the company.
+    - Some fields will be required so the business can offer a more personalised service to the user sending a business inquiry. These are: name, Surname. email address, home address, town, eircode, and dog's name.
+    - The user will be asked to fill fields of Name, Surname, dog's name, email address (to be able to contact the user querie), home address (to make sure our services are available in the user's area) service type to enquire about and a text input field for further information to be asked to the company.
     - A call to action button to send the information to the company, linked to another page with feedback regarding their submition.
+
 - **Footer:** it will be repeated in all the pages for consistency and good user experience
+  - Contact details: owners email and phone number
   - Social Links:
     - Linked icons to social media platforms.
     - They'll open in a separate blank page for the users' comfort.
     - Color changing hover feature for
-  - Owners name and email address
-  - Contact details
+  - Owners name and business location.
+  
 
 ---
 
