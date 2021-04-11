@@ -32,7 +32,6 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - Microsoft Edge (brower)
   - Google Chrome (browser)
   - Opera (browser)
-  
 - PC desktop 32" screen
 
 ## Table of Content
@@ -54,39 +53,38 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
 - As a visiting user I want to:
 
-  - *"Find out what the company is about."*
-    - When the user lands on any of the pages, the first thing they see it's the logo representing a paw and the name of the company (Wet Paws), followed by a summed up version of the company's nature to be (Dog walking and sitting). Just by seeing the logo once, the user will get a clear idea of the intention of the business. 
+  - _"Find out what the company is about."_
+
+    - When the user lands on any of the pages, the first thing they see it's the logo representing a paw and the name of the company (Wet Paws), followed by a summed up version of the company's nature to be (Dog walking and sitting). Just by seeing the logo once, the user will get a clear idea of the intention of the business.
     - The hero image hints that the business is related to dogs
-    ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
+      ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
 
     - For users who want to learn more about the business and the owner, there is an informative section called About Us where the owner explains what the company is about. The section also has a picture of the owner's dog as an introduction to the company's owner and to create a feeling of trust and showing the users that the owner has knowledge of dog care.
-    This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
-    ![screenshot of about us section explaining the company's reason to be](docs/testing/user-stories/test-userstory1.2.png)
+      This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
+      ![screenshot of about us section explaining the company's reason to be](docs/testing/user-stories/test-userstory1.2.png)
 
     -for the comfort of the user, the navbar has a section called About Us that can be reached from any of the other pages. The link is highlighted on a darker color to suggest that the user is seeing the page with the company's information
     ![screenshot of the navbar highlighting the About us section](docs/testing/user-stories/test-user-story1-about-us-navbar.png)
 
-  - *"Easily visualize and understand what services the company offers."*
+  - _"Easily visualize and understand what services the company offers."_
 
     - on the navbar, there is a tab called Services so the user can jump directly to that page and see the services the company offers.
-    ![screenshot of the navbar pointing the services section](docs/testing/user-stories/test-userstory2.services-navbar.png)
+      ![screenshot of the navbar pointing the services section](docs/testing/user-stories/test-userstory2.services-navbar.png)
 
     - when the user scrolls down from the hero image, there is a header that lets the user know that they are seeing the services section, and this contains 4 cards each with a highlighted heading with the title of the service and a shot but concise explanation about each service
-    ![screenshot of the header for services section](docs/testing/user-stories/test-userstory2-service-header.png)
-    ![screenshot of the service cards and their explanation](docs/testing/user-stories/test-userstory2-services.png)
+      ![screenshot of the header for services section](docs/testing/user-stories/test-userstory2-service-header.png)
+      ![screenshot of the service cards and their explanation](docs/testing/user-stories/test-userstory2-services.png)
 
-  - *"Be able to use and book one or more services the company has to offer."*
+  - _"Be able to use and book one or more services the company has to offer."_
 
-    - under each service card there is an area saying "Ask more about this service" which the user can click to be redirected to the contact form and be able to ask more questions to the owner.
-    ![screenshot of the ask about this service button under each service](docs/testing/user-stories/test-userstory3-ask-about-button.png)
+    - Under each service card there is an area saying "Ask more about this service" which the user can click to be redirected to the contact form and be able to ask more questions to the owner.
+      ![screenshot of the ask about this service button under each service](docs/testing/user-stories/test-userstory3-ask-about-button.png)
 
     - The "Ask more about this service" will redirect the user to the contact form where there is a section the user to select an option to be booked or enquired about. This section is not required so the user can write their own requirement or book more than one service on the Tell us more textarea, located just below the radio button service choices:
-    ![screenshot of the form showing radiobuttons to choose service the user to know more about](docs/testing/user-stories/test-userstory3-know-more-about.png)
+      ![screenshot of the form showing radiobuttons to choose service the user to know more about](docs/testing/user-stories/test-userstory3-know-more-about.png)
 
+  - _"Be able to use the contact form for the business and service enquiries."_
 
-
-
-  - Be able to use the contact form for the business and service enquiries.
   - Have the option to personalize the services offered.
   - Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews.
   - Be able to know more about the owner by having the option to personally meet them.
@@ -206,6 +204,7 @@ Results for CSS validator check
 - [CSS Validator result](docs/testing/validator/CSS-validator-pass.png)
 
 ---
+
 ### LIGHTHOUSE TESTING
 
 Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to make sure the scores were as high as I posibly could. Below you can find the results and scores of first time tests and after implementing suggestions that the tool offered:
