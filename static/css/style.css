@@ -291,6 +291,18 @@ figure .container-fluid {
   padding: 0px 0px;
 }
 
+/*--This code removed the bottom white line between
+ the map and the footer.--*/
+#map-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: -5px;
+}
+
 /*-------------------------------------------SERVICES*/
 /*-------------------cards*/
 
@@ -503,13 +515,13 @@ section .container-fluid {
 /*--css taken from Stack overflow answer -- see REFERENCES.md for more--*/
 @media (max-width: 767px) {
   .navbar .sticky-top {
-      position: relative;
-      top: auto;
+    position: relative;
+    top: auto;
   }
   .navbar-collapse {
-      max-height: none;
+    max-height: none;
   }
   body {
-      margin: 0;
+    margin: 0;
   }
 }
