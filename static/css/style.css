@@ -490,6 +490,13 @@ section .container-fluid {
   }
 }
 
+/*-- this makes h1 fit better on smaller screens--*/
+@media screen and (max-width: 812px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
 /*-- media querie for responsiveness for reviews container in services.html---*/
 
 @media screen and (min-width: 992px) {
