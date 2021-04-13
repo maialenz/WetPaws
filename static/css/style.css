@@ -452,6 +452,10 @@ section .container-fluid {
 
 /*-----------------FEEDBACK PAGE*/
 
+#feedback-header {
+  padding: 25px 5px;
+}
+
 #feedback-note {
   background-color: rgba(170, 213, 222, 0.5);
   margin: 30px 30px;
@@ -470,13 +474,18 @@ section .container-fluid {
   font-size: 16px;
 }
 
+#feedback-note strong {
+  padding: 0 5px;
+}
+
 #backbutton {
   margin-bottom: 25px;
 }
 
 /*-----------------MEDIA QUERIES*/
 
-/*--- media querie for responsiveness of header in services.html--*/
+/*--- media querie for responsiveness of header in services.html,
+contact.html and feedback.html for narrow/small screns--*/
 @media screen and (max-width: 450px) {
   h1 {
     font-size: 16px;
@@ -485,11 +494,22 @@ section .container-fluid {
     font-size: 12px;
   }
   .card-header {
-    margin: 10px 30px 0px;
+    margin: 10px 15px 0px;
   }
-
   .other-services li {
-    margin-left: 15px;
+    margin-left: 10px;
+  }
+  /*contact.html*/
+  h4.form-head-details {
+    margin: 20px 30px;
+  }
+  /*feedback.html*/
+  article#feedback-note {
+    margin: 15px;
+  }
+  
+  h2#feedback-time {
+    margin: 15px 5px 7px;
   }
 }
 

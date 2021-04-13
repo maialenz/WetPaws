@@ -340,11 +340,14 @@ Because I focused on mobile first approach for the testing part too. All the imp
 
 I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports. 
 
-Apart from that, I used an online app by [Media Genesis](https://responsivedesignchecker.com/) to check responsiveness on those screens I did not have access to. The results of these testings are below:
+Apart from that, I used an online app by [Media Genesis](https://responsivedesignchecker.com/) to check responsiveness on those screens I did not have access to. The results of these testings are below (the results of the tests were written on a xcel and converted to png, so the excel was broken in 4 parts):
+
 - [Part1](docs/testing/device+browser-tests/device-responsiveness-1.png) 
 - [Part2](docs/testing/device+browser-tests/device-responsiveness-2.png)
 - [Part3](docs/testing/device+browser-tests/device-responsiveness-3.png)
 - [Part4](docs/testing/device+browser-tests/device-responsiveness-4.png)
+
+Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. 
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
