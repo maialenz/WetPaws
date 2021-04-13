@@ -513,11 +513,19 @@ contact.html and feedback.html for narrow/small screns--*/
   }
 }
 
+/*--services.html header margins for better visualization--*/
+@media screen and (max-width: 712px) {
+  h4 {
+    margin: 10px 20px 10px;
+  }
+}
+
 /*-- this makes h1 fit better on smaller screens--*/
 @media screen and (min-width: 810px) {
   h1 {
     font-size: 18px;
   }
+ 
 }
 
 /*-- media querie for responsiveness for reviews container in services.html---*/
