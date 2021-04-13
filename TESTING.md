@@ -341,10 +341,10 @@ Because I focused on mobile first approach for the testing part too. All the imp
 I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports. 
 
 Apart from that, I used an online app by [Media Genesis](https://responsivedesignchecker.com/) to check responsiveness on those screens I did not have access to. The results of these testings are below:
-- [Part1](docs/deployment/device+browser-tests/device-responsiveness-1.png) 
-- [Part2](docs/deployment/device+browser-tests/device-responsiveness-2.png)
-- [Part3](docs/deployment/device+browser-tests/device-responsiveness-3.png)
-- [Part4](docs/deployment/device+browser-tests/device-responsiveness-4.png)
+- [Part1](docs/testing/device+browser-tests/device-responsiveness-1.png) 
+- [Part2](docs/testing/device+browser-tests/device-responsiveness-2.png)
+- [Part3](docs/testing/device+browser-tests/device-responsiveness-3.png)
+- [Part4](docs/testing/device+browser-tests/device-responsiveness-4.png)
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
