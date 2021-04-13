@@ -364,15 +364,21 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
     - [HP Envy footer screenshot](docs/testing/device+browser-tests/HP-envy-footer.png)
 
   - Mozilla Firefox (browser)
-    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
-    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
-    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
-    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
-    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
-    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy Mozilla index screenshot](docs/testing/device+browser-tests/hp-mozilla-index.png)
+    - [HP Envy Mozilla services screenshot](docs/testing/device+browser-tests/hp-mozilla-services.png)
+    - [HP Envy Mozilla reviews screenshot](docs/testing/device+browser-tests/hp-mozilla-reviews.png)
+    - [HP Envy Mozilla contact screenshot](docs/testing/device+browser-tests/hp-mozilla-contact.png)
+    - [HP Envy Mozilla feedback screenshot](docs/testing/device+browser-tests/hp-mozilla-feedback.png)
+    - [HP Envy Mozilla footer screenshot](docs/testing/device+browser-tests/hp-mozilla-footer.png)
 
   - Microsoft Edge (brower)
   - Opera (browser)
+    - [HP Envy Opera index screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
+    - [HP Envy Opera services screenshot](docs/testing/device+browser-tests/Opera-HP-services.png)
+    - [HP Envy Opera reviews screenshot](docs/testing/device+browser-tests/Opera-HP-reviews.png)
+    - [HP Envy Opera contact screenshot](docs/testing/device+browser-tests/Opera-HP-contact.png)
+    - [HP Envy Opera feedback screenshot](docs/testing/device+browser-tests/Opera-HP-feedback.png)
+    - [HP Envy Opera footer screenshot](docs/testing/device+browser-tests/Opera-HP-footer.png)
 
 - PC desktop 32" screen
   - Mozilla Firefox (browser)
