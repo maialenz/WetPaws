@@ -469,7 +469,7 @@ All the screenshots to my manual tests on various major devices are below:
       ```
     - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a cta button redirecting the user back to the home page.
 
-8.  h1 on every page got smaller when I tested them on all devices:
+8.  I notived that the h1 on every page got smaller when I finished testing the pages on all devices:
 
 - I noticed all the h1s on all the pages were much smaller than supposed to.
 - Instead of having a media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
@@ -485,6 +485,7 @@ All the screenshots to my manual tests on various major devices are below:
 
 - The third inline block at the footer appears not to be centered (Maialen & Sua , Bettystown | Ireland). I tried to fix this but all the changes I did on Devtools did not show any changes. 
 
+- On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this. 
 ---
 
 Back to [README.md](README.md)
