@@ -350,7 +350,12 @@ Apart from that, I used an online app by [Media Genesis](https://responsivedesig
 
 Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. To fix these, I added some extra css to media queries for screens with max width 450, reducing margings to fit to screen better. (find these in style.css lines 487 - 509)
 
-- Samsung Galaxy S8+ (My personal device) (mobile device)
+- Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on mobile devices. 
+  [Samsung S8+ screenshot index](docs/testing/device+browser-tests/Samsungs8+screenshot-index.jpg)
+  [Samsung S8+ screenshot services](docs/testing/device+browser-tests/samsungs8+screenshot-services.jpg)
+  [Samsung S8+ screenshot contact](docs/testing/device+browser-tests/samsungs8+screenshot-contact.jpg)
+  [Samsung S8+ screenshot feedback](docs/testing/device+browser-tests/Samsungs8+screenshot-feedback.jpg)
+
 - Samsung A70 (mobile device)
 - Samsung J7 (mobile device)(528px - 5.5")
 - Iphone 11 (mobile device)
