@@ -14,9 +14,6 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
 
 - Samsung Galaxy S8+ (My personal device) (mobile device)
 - Samsung A70 (mobile device)
-- Samsung J7 (mobile device)(528px - 5.5")
-- Iphone 11 (mobile device)
-- Xaomin (mobile device)
 
 - Samsung S5 (tablet)
 
@@ -355,17 +352,24 @@ Apart from that, I used an online app by [Media Genesis](https://responsivedesig
 Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. To fix these, I added some extra css to media queries for screens with max width 450, reducing margings to fit to screen better. (find these in style.css lines 487 - 509)
 
 - Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on mobile devices. Thanks to testing on my phone I noticed some headings had to be made smaller so they did not look oversized. Below there is screenshots of a last test done on this device:
+
   - [Samsung S8+ screenshot index](docs/testing/device+browser-tests/Samsungs8+screenshot-index.jpg)
   - [Samsung S8+ screenshot services](docs/testing/device+browser-tests/samsungs8+screenshot-services.jpg)
   - [Samsung S8+ screenshot contact](docs/testing/device+browser-tests/samsungs8+screenshot-contact.jpg)
   - [Samsung S8+ screenshot feedback](docs/testing/device+browser-tests/Samsungs8+screenshot-feedback.jpg)
+  - [Samsung S8+ screenshot of footer](docs/testing/device+browser-tests/Samsungs8+screenshot-footer.jpg)
 
-- Samsung A70 (mobile device)
-- Samsung J7 (mobile device)(528px - 5.5")
-- Iphone 11 (mobile device)
-- Xaomin (mobile device)
+- Samsung A70 (mobile device): I also tested the website on another mobile device:
+
+  - [Samsung A70 Screenshot index](docs/testing/device+browser-tests/samsungA70-index.jpg)
+  - [Samsung A70 Screenshot map/footer](<(docs/testing/device+browser-tests/samsungA70-map.jpg)>)
+  - [Samsung A70 Screenshot services](docs/testing/device+browser-tests/samsungA70-services.jpg)
+  - [Samsung A70 Screenshot reviews](docs/testing/device+browser-tests/samsungA70-reviews.jpg)
+  - [Samsung A70 Screenshot contact](docs/testing/device+browser-tests/samsungA70-contact.jpg)
+  - [Samsung A70 Screenshot form](docs/testing/device+browser-tests/samsungA70-form.jpg)
 
 - Samsung S5 (tablet): As I tested the site on my Tablet, I noticed the headers on the service's cards the margin was too great and the personalized header was breaking into another line. I added a media querie to fix this and below are screenshots showing the results:
+
   - [Galaxy Tab S5e Index](docs/testing/device+browser-tests/Galaxy-Tab-S5e-index.jpg)
   - [Galaxy Tab S5e Services](docs/testing/device+browser-tests/Galaxy-Tab-S5e-services.jpg)
   - [Galaxy Tab S5e Service Cards](docs/testing/device+browser-tests/Galaxy-Tab-S5e-servicestabs.jpg)
@@ -434,7 +438,6 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
     - I had to contact them again and Tim helped me solving the issue. Unfortunatelly at this time of the course my skills are not advanced enough to add any JavaScript or functions. Tim advised me to remove the modal, as it wouldn't work as I intended without JS. After removing all code related to this, I noticed I still got the 501 error.
 
     - Tim noticed my form method=POST and action="/" were stopping my page from refreshing. So we changed the method to GET and removed action all together. This has solved the issue: if the user tried to submit the form without filling the required fields, the form won't submit and the user will get a notification under or over the field to be filled. When all information has been correctly filled and the user pushes the CTA button, the page will refresh leaving all fields empty to be used again.
-          
     - Althought I would have liked to have some sort of feedback for the user to receive when they submitted the form, this couldn't be done at this time, but it would be implemented as a feature on future releases. (see [features left to implement](README.md) on README.md]
 
       ![screenshot showing the 501 ERROR](docs/testing/501-error.png)
@@ -447,7 +450,7 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
          id="contactform"
          method="GET"
        >
-       ```
+      ```
     - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a cta button redirecting the user back to the home page.
 
 ### KNOWN BUGS
