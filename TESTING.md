@@ -28,6 +28,7 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - Opera (browser)
 
 - PC desktop 27" screen
+
   - Google Chrome (browser)
 
 - PC desktop 32" screen
@@ -35,6 +36,7 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - Microsoft Edge (brower)
   - Google Chrome (browser)
   - Opera (browser)
+
 ## Table of Content
 
 1. [USER STORIES](#user-stories)
@@ -304,6 +306,7 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
       - once I implemented the suggestions given by the lighthouse tool, the score increased to 86%. I decreased the size of the images and added meta data to the head for better SEO (%100)
 
   - Contact page Lighthouse test:
+
     - [Before](docs/testing/lighthouse/contact.html-before-phone.png) implementing changes
     - [After](docs/testing/lighthouse/contact.html-phone-after.png) following lighthouse suggestions:
       - although the performance before was quite low, implementing lighthouse suggested changes increased the performance of the mobile test quite significantly, but we can see the biggest improvement in Best practices, where the score went up to 93%.
@@ -316,45 +319,46 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
 
 Because I focused on mobile first approach for the testing part too. All the improvements made to increase the performance on the mobile view, has greatly benefited the web performance too. This changes included compression of images, removal of unused code and css, reload of better sources for bootstrap/fontawesome libraries...
 
-  - Index web page Lighthouse test:
+- Index web page Lighthouse test:
 
-    - [Before](docs/testing/lighthouse/index.html-before-web.png) implementing changes
-    - [After](docs/testing/lighthouse/index.html-after-web.png) following lighthouse suggestions:
-      - in the results we can see that the best practices did not increase too much. This was due to the ratio of the image I chose to display on the grid of About us section within Index.html. Whilst lighthouse was advicing to change this ratio to it's original size, I decided not to change it, as I found this to be much bigger than I intended it to be, and this would consequently affect the performance on the mobile view.
+  - [Before](docs/testing/lighthouse/index.html-before-web.png) implementing changes
+  - [After](docs/testing/lighthouse/index.html-after-web.png) following lighthouse suggestions:
+    - in the results we can see that the best practices did not increase too much. This was due to the ratio of the image I chose to display on the grid of About us section within Index.html. Whilst lighthouse was advicing to change this ratio to it's original size, I decided not to change it, as I found this to be much bigger than I intended it to be, and this would consequently affect the performance on the mobile view.
 
-  - Services web page Lighthouse test:
+- Services web page Lighthouse test:
 
-    - [Before](docs/testing/lighthouse/services.html-before-web.png) implementing changes
-    - [After](docs/testing/lighthouse/services.html-after-web.png) following lighthouse suggestions:
-      - We can clearly see in these results that eventhough the performance of the services page was already high enough, making changes after the mobile lighthouse test increased all the parameters even higher.
+  - [Before](docs/testing/lighthouse/services.html-before-web.png) implementing changes
+  - [After](docs/testing/lighthouse/services.html-after-web.png) following lighthouse suggestions:
+    - We can clearly see in these results that eventhough the performance of the services page was already high enough, making changes after the mobile lighthouse test increased all the parameters even higher.
 
-  - Contact web page Lighthouse test:
-    - [Before](docs/testing/lighthouse/contact.html-before-web.png) implementing changes
-    - [After](docs/testing/lighthouse/contact.html-after-web.png) following lighthouse suggestions:
-      - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy images to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
+- Contact web page Lighthouse test:
 
-  - Feedback web page Lighthouse test:
-    - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
-    - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
+  - [Before](docs/testing/lighthouse/contact.html-before-web.png) implementing changes
+  - [After](docs/testing/lighthouse/contact.html-after-web.png) following lighthouse suggestions:
+    - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy images to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
+
+- Feedback web page Lighthouse test:
+  - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
+  - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
 
 ## DEVICE RESPONSIVENESS
 
-I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports. 
+I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports.
 
 Apart from that, I used an online app by [Media Genesis](https://responsivedesignchecker.com/) to check responsiveness on those screens I did not have access to. The results of these testings are below (the results of the tests were written on a xcel and converted to png, so the excel was broken in 4 parts):
 
-- [Part1](docs/testing/device+browser-tests/device-responsiveness-1.png) 
+- [Part1](docs/testing/device+browser-tests/device-responsiveness-1.png)
 - [Part2](docs/testing/device+browser-tests/device-responsiveness-2.png)
 - [Part3](docs/testing/device+browser-tests/device-responsiveness-3.png)
 - [Part4](docs/testing/device+browser-tests/device-responsiveness-4.png)
 
 Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. To fix these, I added some extra css to media queries for screens with max width 450, reducing margings to fit to screen better. (find these in style.css lines 487 - 509)
 
-- Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on mobile devices. 
-  [Samsung S8+ screenshot index](docs/testing/device+browser-tests/Samsungs8+screenshot-index.jpg)
-  [Samsung S8+ screenshot services](docs/testing/device+browser-tests/samsungs8+screenshot-services.jpg)
-  [Samsung S8+ screenshot contact](docs/testing/device+browser-tests/samsungs8+screenshot-contact.jpg)
-  [Samsung S8+ screenshot feedback](docs/testing/device+browser-tests/Samsungs8+screenshot-feedback.jpg)
+- Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on mobile devices. Thanks to testing on my phone I noticed some headings had to be made smaller so they did not look oversized. Below there is screenshots of a last test done on this device:
+  - [Samsung S8+ screenshot index](docs/testing/device+browser-tests/Samsungs8+screenshot-index.jpg)
+  - [Samsung S8+ screenshot services](docs/testing/device+browser-tests/samsungs8+screenshot-services.jpg)
+  - [Samsung S8+ screenshot contact](docs/testing/device+browser-tests/samsungs8+screenshot-contact.jpg)
+  - [Samsung S8+ screenshot feedback](docs/testing/device+browser-tests/Samsungs8+screenshot-feedback.jpg)
 
 - Samsung A70 (mobile device)
 - Samsung J7 (mobile device)(528px - 5.5")
@@ -372,12 +376,12 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
 
 - PC desktop 27" screen
   - Google Chrome (browser)
-  
 - PC desktop 32" screen
   - Mozilla Firefox (browser)
   - Microsoft Edge (brower)
   - Google Chrome (browser)
   - Opera (browser)
+
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
