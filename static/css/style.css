@@ -90,7 +90,7 @@ h2 {
   opacity: 0.85;
   margin-top: 0px;
   background-image: url(../images/pauline-loroy-unsplash.jpg);
-  height: 60%;
+  height: 55%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +100,7 @@ h2 {
   opacity: 0.85;
   margin-top: 0px;
   background-image: url(../images/andrew-pons-unsplash1.jpg);
-  height: 60%;
+  height: 55%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +110,7 @@ h2 {
   opacity: 0.85;
   margin-top: 0px;
   background-image: url(../images/jamie-street-unsplash-short.jpg);
-  height: 60%;
+  height: 55%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +120,7 @@ h2 {
   opacity: 0.85;
   margin-top: 0px;
   background-image: url(../images/austin-kirk-unsplash.jpg);
-  height: 50%;
+  height: 55%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +291,7 @@ figure .container-fluid {
   padding: 0px 0px;
 }
 
-/*--This code removed the bottom white line between
+/*--This code removes the bottom white line between
  the map and the footer.--*/
 #map-row {
   display: -ms-flexbox;
