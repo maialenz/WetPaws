@@ -372,12 +372,12 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
     - [HP Envy Mozilla footer screenshot](docs/testing/device+browser-tests/hp-mozilla-footer.png)
 
   - Microsoft Edge (brower)
-   - [HP Envy Edge index screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
-   - [HP Envy Edge services screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
-   - [HP Envy Edge reviews screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
-   - [HP Envy Edge contact screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
-   - [HP Envy Edge feedback screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
-   - [HP Envy Edge footer screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
+   - [HP Envy Edge index screenshot](docs/testing/device+browser-tests/edge-HP-index.png)
+   - [HP Envy Edge services screenshot](docs/testing/device+browser-tests/edge-HP-services.png)
+   - [HP Envy Edge reviews screenshot](docs/testing/device+browser-tests/edge-HP-reviews.png)
+   - [HP Envy Edge contact screenshot](docs/testing/device+browser-tests/edge-HP-contact.png)
+   - [HP Envy Edge feedback screenshot](docs/testing/device+browser-tests/edge-HP-feedback.png)
+   - [HP Envy Edge footer screenshot](docs/testing/device+browser-tests/edge-HP-footer.png)
 
   - Opera (browser)
     - [HP Envy Opera index screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
