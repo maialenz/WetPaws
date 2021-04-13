@@ -292,7 +292,7 @@ figure .container-fluid {
 }
 
 /*--This code removes the bottom white line between
- the map and the footer.--*/
+ the map and the footer on desktop view.--*/
 #map-row {
   display: -ms-flexbox;
   display: flex;
@@ -478,6 +478,9 @@ section .container-fluid {
 
 /*--- media querie for responsiveness of header in services.html--*/
 @media screen and (max-width: 450px) {
+  h1 {
+    font-size: 16px;
+  }
   h4 {
     font-size: 12px;
   }
@@ -491,7 +494,7 @@ section .container-fluid {
 }
 
 /*-- this makes h1 fit better on smaller screens--*/
-@media screen and (max-width: 812px) {
+@media screen and (min-width: 810px) {
   h1 {
     font-size: 18px;
   }

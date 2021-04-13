@@ -335,6 +335,12 @@ Because I focused on mobile first approach for the testing part too. All the imp
   - Feedback web page Lighthouse test:
     - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
     - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
+
+## DEVICE RESPONSIVENESS
+
+I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports. 
+
+Apart from that, I used an online app by [Media Genesis](https://responsivedesignchecker.com/) to check responsiveness on those screens I did not have access to. The results of these testings are on this [table]
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
