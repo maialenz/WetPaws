@@ -10,29 +10,7 @@ But I still had to redo a few things that did not quite work as I planned, like 
 
 From the very beginning I used Google Chrome Dev Tools to style and fix my code, so thanks to that I found it much easier to see real time changes and add the write css/code to my workspace.
 
-Once finished, I planned to test my site on a few different phones, laptop, tablet and desktop:
-
-- Samsung Galaxy S8+ (My personal device) (mobile device)
-- Samsung A70 (mobile device)
-
-- Samsung S5 (tablet)
-
-- HP Envy 13" (laptop)
-
-  - Mozilla Firefox (browser)
-  - Microsoft Edge (brower)
-  - Google Chrome (browser)
-  - Opera (browser)
-
-- PC desktop 27" screen
-
-  - Google Chrome (browser)
-
-- PC desktop 32" screen
-  - Mozilla Firefox (browser)
-  - Microsoft Edge (brower)
-  - Google Chrome (browser)
-  - Opera (browser)
+Once finished, I planned to test my site on a few different phones, laptop, tablet and desktop as well as DevTools and different browsers manually.
 
 ## Table of Content
 
@@ -45,9 +23,8 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
      - Contact.html
    - [CSS](#css-validator)
 4. [LIGHTHOUSE TESTING](#lighthouse-testing)
-5. [BROWSER COMPATIBILITY](#browser-compatibility)
-6. [DEVICE RESPONSIVENESS](#device-responsiveness)
-7. [BUGS](#bugs)
+5. [DEVICE RESPONSIVENESS AND BROWSER COMPATIBILITY](#device-responsiveness-and-broswer-compatibility)
+6. [BUGS](#bugs)
 
 ## USER STORIES TESTING
 
@@ -338,7 +315,7 @@ Because I focused on mobile first approach for the testing part too. All the imp
   - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
   - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
 
-## DEVICE RESPONSIVENESS
+## DEVICE RESPONSIVENESS AND BROWSER COMPATIBILITY
 
 I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports.
 
@@ -378,13 +355,25 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
 
 - HP Envy 13" (laptop)
 
-  - Mozilla Firefox (browser)
-  - Microsoft Edge (brower)
   - Google Chrome (browser)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy services screenshot](docs/testing/device+browser-tests/HP-envy-services.png)
+    - [HP Envy reviews screenshot](docs/testing/device+browser-tests/HP-envy-reviews.png)
+    - [HP Envy contact screenshot](docs/testing/device+browser-tests/HP-envy-contact.png)
+    - [HP Envy feedback screenshot](docs/testing/device+browser-tests/HP-envy-feedback.png)
+    - [HP Envy footer screenshot](docs/testing/device+browser-tests/HP-envy-footer.png)
+
+  - Mozilla Firefox (browser)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+    - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
+
+  - Microsoft Edge (brower)
   - Opera (browser)
 
-- PC desktop 27" screen
-  - Google Chrome (browser)
 - PC desktop 32" screen
   - Mozilla Firefox (browser)
   - Microsoft Edge (brower)
