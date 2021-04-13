@@ -365,7 +365,12 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
 - Iphone 11 (mobile device)
 - Xaomin (mobile device)
 
-- Samsung S5 (tablet)
+- Samsung S5 (tablet): As I tested the site on my Tablet, I noticed the headers on the service's cards the margin was too great and the personalized header was breaking into another line. I added a media querie to fix this and below are screenshots showing the results:
+  - [Galaxy Tab S5e Index](docs/testing/device+browser-tests/Galaxy-Tab-S5e-index.jpg)
+  - [Galaxy Tab S5e Services](docs/testing/device+browser-tests/Galaxy-Tab-S5e-services.jpg)
+  - [Galaxy Tab S5e Service Cards](docs/testing/device+browser-tests/Galaxy-Tab-S5e-servicestabs.jpg)
+  - [Galaxy Tab S5e Contact](docs/testing/device+browser-tests/Galaxy-Tab-S5e-contact.jpg)
+  - [Galaxy Tab S5e Feedback](docs/testing/device+browser-tests/Galaxy-Tab-S5e-feedback.jpg)
 
 - HP Envy 13" (laptop)
 
