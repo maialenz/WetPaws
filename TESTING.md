@@ -427,19 +427,21 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
 
           - I had to contact them again and Tim helped me solving the issue. Unfortunatelly at this time of the course my skills are not advanced enough to add any JavaScript or functions. Tim advised me to remove the modal, as it wouldn't work as I intended without JS. After removing all code related to this, I noticed I still got the 501 error.
 
-              - Tim noticed my form method=POST and action="/" were stopping my page from refreshing. So we changed the method to GET and removed action all together. This has solved the issue: if the user tried to submit the form without filling the required fields, the form won't submit and the user will get a notification under or over the field to be filled. When all information has been correctly filled and the user pushes the CTA button, the page will refresh leaving all fields empty to be used again.
-              - Althought I would have liked to have some sort of feedback for the user to receive when they submitted the form, this couldn't be done at this time, but it would be implemented as a feature on future releases. (see [features left to implement](README.md) on README.md]
+          - Tim noticed my form method=POST and action="/" were stopping my page from refreshing. So we changed the method to GET and removed action all together. This has solved the issue: if the user tried to submit the form without filling the required fields, the form won't submit and the user will get a notification under or over the field to be filled. When all information has been correctly filled and the user pushes the CTA button, the page will refresh leaving all fields empty to be used again.
+          
+          - Althought I would have liked to have some sort of feedback for the user to receive when they submitted the form, this couldn't be done at this time, but it would be implemented as a feature on future releases. (see [features left to implement](README.md) on README.md]
 
       ![screenshot showing the 501 ERROR](docs/testing/501-error.png)
 
-    - EDIT & UPDATE: SOLUTION: my mentor Rohit thought that as an improved user experience users should be directed to once they have submitted the form. After all the failed trials with tutor support, Rohit found a solution to this problem:
-      - on line 128 of contact.html he suggested to add :
+     - EDIT & UPDATE: SOLUTION: my mentor Rohit thought that as an improved user experience users should be directed to once they have submitted the form. After all the failed trials with tutor support, Rohit found a solution to this problem: on line 128 of contact.html he suggested to add :
+      ```
       <form
          action="feedback.html"
          class="container-fluid contact-form"
          id="contactform"
          method="GET"
        >
+       ```
       - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a cta button redirecting the user back to the home page.
 
 ### KNOWN BUGS
