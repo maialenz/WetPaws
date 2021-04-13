@@ -316,6 +316,7 @@ Because I focused on mobile first approach for the testing part too. All the imp
   - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
 
 ## DEVICE RESPONSIVENESS AND BROWSER COMPATIBILITY
+#### Device Responsiveness
 
 I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports.
 
@@ -327,6 +328,12 @@ Apart from that, I used an online app by [Media Genesis](https://responsivedesig
 - [Part4](docs/testing/device+browser-tests/device-responsiveness-4.png)
 
 Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. To fix these, I added some extra css to media queries for screens with max width 450, reducing margings to fit to screen better. (find these in style.css lines 487 - 509)
+
+#### Browser Compatibility
+
+I thoroughly checked on different devices and different browsers. As a main conclusion of these tests, I have to add that I did not find any differences from one browser to another. There was full compatibility of all features and links. Following Bootstrap's documentation, I checked if the navigation bar was sticky, as they recognize that the sticky navbar is not responsive/compatible on browsers like opera. But after running my manual tests, my navbar did respond and was responsive as I intended to be on my design. 
+
+All the screenshots to my manual tests on various major devices are below: 
 
 - Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on mobile devices. Thanks to testing on my phone I noticed some headings had to be made smaller so they did not look oversized. Below there is screenshots of a last test done on this device:
 
@@ -452,11 +459,16 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
       ```
     - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a cta button redirecting the user back to the home page.
 
+8. h1 on every page got smaller when I tested them on all devices:
+  - I noticed all the h1s on all the pages were much smaller than supposed to. 
+  - Instead of having a media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
 ### KNOWN BUGS
 
 - When clicked on the Spotify music list it plays 30 seconds of the list as a teaser for the song. The user needs to log into their spotify account to play the whole list. Premium account is needed to access Spotify.
   - There is three playlist each embedded inside an iframe. During the testing I noticed that if I play a second playlist, the first one does not stop, but as it's an external code, I do not have the way to fix this with my actual knowledgde and skillset. So the playlists have to manually be paused, otherwise they all play at the same time.
 
+- In some screens a white line appears under the map eventhough I fixed this for big screen sizes like laptops and desktops. This can be seen on some smaller phone sizes. For more info please see Device Responsiveness tables. 
+  - Although I reviews this bug on Devtools, I haven't been able to find a solution for this as for today. 
 ---
 
 Back to [README.md](README.md)

@@ -521,7 +521,7 @@ contact.html and feedback.html for narrow/small screns--*/
 }
 
 /*-- this makes h1 fit better on smaller screens--*/
-@media screen and (min-width: 810px) {
+@media screen and (max-width: 810px) {
   h1 {
     font-size: 18px;
   }
