@@ -28,12 +28,13 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
   - Opera (browser)
 
 - PC desktop 27" screen
+  - Google Chrome (browser)
+
+- PC desktop 32" screen
   - Mozilla Firefox (browser)
   - Microsoft Edge (brower)
   - Google Chrome (browser)
   - Opera (browser)
-- PC desktop 32" screen
-
 ## Table of Content
 
 1. [USER STORIES](#user-stories)
@@ -347,7 +348,31 @@ Apart from that, I used an online app by [Media Genesis](https://responsivedesig
 - [Part3](docs/testing/device+browser-tests/device-responsiveness-3.png)
 - [Part4](docs/testing/device+browser-tests/device-responsiveness-4.png)
 
-Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. 
+Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. To fix these, I added some extra css to media queries for screens with max width 450, reducing margings to fit to screen better. (find these in style.css lines 487 - 509)
+
+- Samsung Galaxy S8+ (My personal device) (mobile device)
+- Samsung A70 (mobile device)
+- Samsung J7 (mobile device)(528px - 5.5")
+- Iphone 11 (mobile device)
+- Xaomin (mobile device)
+
+- Samsung S5 (tablet)
+
+- HP Envy 13" (laptop)
+
+  - Mozilla Firefox (browser)
+  - Microsoft Edge (brower)
+  - Google Chrome (browser)
+  - Opera (browser)
+
+- PC desktop 27" screen
+  - Google Chrome (browser)
+  
+- PC desktop 32" screen
+  - Mozilla Firefox (browser)
+  - Microsoft Edge (brower)
+  - Google Chrome (browser)
+  - Opera (browser)
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
