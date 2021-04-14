@@ -407,6 +407,13 @@ All the screenshots to my manual tests on various major devices are below:
 
 ---
 
+## FURTHER TESTING
+
+- All features have been thoroughtly tested by myself and others with different screen sizes I did not have access to, including all internal and external links, the form, music playlists, feedback page buttons...
+
+- The live project has been tested by family and friends, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iphone 5SE, playlist activity issue that have been resolved or added to Known bugs.
+
+---
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
