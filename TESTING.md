@@ -1,9 +1,8 @@
 #  **TESTING DOCUMENT** 
-
 ## **Wet Paws** | Dog Walking and Sitting Services
-
 [View live project here](https://maialenz.github.io/WetPaws/)
 
+---
 ## OVERVIEW
 
 This being my first ever project in Web Development, so I did encounter quite a few obstacles that made me start the project from the start again (as seen in a commit history).
