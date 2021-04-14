@@ -1,8 +1,9 @@
-#  **TESTING DOCUMENT** 
+# **TESTING DOCUMENT**
+
 ## **Wet Paws** | Dog Walking and Sitting Services
+
 [View live project here](https://maialenz.github.io/WetPaws/)
 
----
 ## OVERVIEW
 
 This being my first ever project in Web Development, so I did encounter quite a few obstacles that made me start the project from the start again (as seen in a commit history).
@@ -29,10 +30,10 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
    - Mobile
    - Web
 5. [DEVICE RESPONSIVENESS](#device-responsiveness)
-6. [BROWSER COMPATIBILITY](#broswer-compatibility)
+6. [BROWSER COMPATIBILITY](#browser-compatibility)
 7. [BUGS](#bugs)
 8. [KNOWN BUGS](#known-bugs)
-9. [BACK TO README.md](#back-to-readme.md)
+9. [BACK TO README.md](README.md)
 
 ## USER STORIES TESTING
 
@@ -527,6 +528,7 @@ All the screenshots to my manual tests on various major devices are below:
 - Instead of having another media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
 
 ---
+
 ## KNOWN BUGS
 
 - When clicked on the Spotify music list it plays 30 seconds of the list as a teaser for the song. The user needs to log into their spotify account to play the whole list. Premium account is needed to access Spotify.
@@ -542,7 +544,9 @@ All the screenshots to my manual tests on various major devices are below:
 - On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this.
 
 ---
+
 ---
+
 ## <center> Back to [README.md](README.md)
 
 ---

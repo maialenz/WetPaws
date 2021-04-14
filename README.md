@@ -29,7 +29,7 @@ who wants fast solutions and hasle free.
     - [User needs](#user-needs)
     - [Technical capabilities](#technical-capabilities)
     - [Business vision](#business-vision)
-  - [Scope plane](#scope-plane)
+  - [Scope plane](#scope-plane-|-trade-offs)
   - [Structure plane](#structure-plane)
   - [Skeleton plane](#Skeleton-plane)
 
@@ -57,14 +57,14 @@ who wants fast solutions and hasle free.
 6. [DEPLOYMENT](#deployment)
 
 - [GitHub Pages](#github-pages)
-- [Forking the repository](#forking-the-repository)
-- [Cloning the repository](#cloning-the-repository)
+- [Forking the repository](#forking-the-GitHub-repository)
+- [Making a local clone](#making-a-local-clone)
 
 7. [CREDITS](#credits)
 
-- [References](REFERENCES.md)
+8. [REFERENCES](REFERENCES.md)
 
-8. [ACKNOWLEDGEMENTS](#acknowledgements)
+9. [ACKNOWLEDGEMENTS](#acknowledgements)
 
 ## UX
 
@@ -399,6 +399,7 @@ It is posible to copy and edit this project by any user without changing the rep
 
 3. To clone the repository using HTTPS copy the link on display (you can click on the clipboard to copy it faster).
    ![screenshot of the HTTPS clone link](docs/deployment/clonehttps.png)
+
 4. If you are working on a desktop application, follow the documentation found on number 5. For cloud based, open your own terminal in GitPod or your preferred IDE (we will be using Gitpod).
 
 - For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
