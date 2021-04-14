@@ -1,4 +1,4 @@
-## CREDITS TO REFERENCES USED TO LEARN, PERFECT AND FIX ISSUES FOUND ON THE CODE:
+# CREDITS TO REFERENCES USED TO LEARN, PERFECT AND FIX ISSUES FOUND ON THE CODE:
 
 - README.md, TESTING.md and REFERENCES.md were created following and based on Code Institute's README.md template and adapted to suit my code and documentation.
 
@@ -6,7 +6,7 @@
 
 - This project was created thank to the template created by Code Institute, where all the necessary tools for me to work were already loaded and installed, so I did not have to do it manually.
 
-### Bootstrap library documentation
+## Bootstrap library documentation
 
 - To refresh on lessons on the course, I rewatched videos explained by [Matt Rudge](https://github.com/lechien73) from [Code Institute](https://codeinstitute.net/) as well as previous projects done during th course (Coders Coffee House project, Love Running project, CV project, Whiskey Drop Project...)[maialenz](https://github.com/maialenz/Bootstrap-lesson-walkthrough/blob/master/)
 
@@ -57,7 +57,7 @@
 
 ---
 
-### LOCATIONS AND CODES WHERE I FOUND SOLUTIONS TO MY QUESTIONS/ISSUES/...:
+## LOCATIONS AND CODES WHERE I FOUND SOLUTIONS TO MY QUESTIONS/ISSUES/...:
 
 - Picture transparency
   [w3schools](https://www.w3schools.com/css/css_image_transparency.asp)
@@ -147,17 +147,17 @@
 - How to make my sticky navbar responsive: (question on stack overflow: Bootstrap 3 navbar-fixed-top stay fixed in mobile view)
   [Stack Overflow](https://stackoverflow.com/questions/18264944/bootstrap-3-navbar-fixed-top-stay-fixed-in-mobile-view) - answer by DarkScrolls
   > for a better usability on mobile, the following CSS snippet removes the "sub-scrolling" on the navigation bar and removes the top margin which is there due to the large screen fixed navbar:
-    ```
-    @media (max-width: 767px) {
-        .navbar-fixed-top {
-            position: relative;
-            top: auto;
-        }
-        .navbar-collapse {
-            max-height: none;
-        }
-        body {
-            margin: 0;
-        }
-    }
-    ```
+  ```
+  @media (max-width: 767px) {
+      .navbar-fixed-top {
+          position: relative;
+          top: auto;
+      }
+      .navbar-collapse {
+          max-height: none;
+      }
+      body {
+          margin: 0;
+      }
+  }
+  ```
