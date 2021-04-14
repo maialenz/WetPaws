@@ -1,8 +1,8 @@
-# <center>**Wet Paws** | Dog Walking and Sitting Services</center>
+# **Wet Paws** | Dog Walking and Sitting Services</center>
 
-<center>Milestone 1 Project - User-Centric Frontend Development
+Milestone 1 Project - User-Centric Frontend Development
 
-[View live project here](https://maialenz.github.io/WetPaws/)</center>
+[View live project here](https://maialenz.github.io/WetPaws/)
 
 ![Image of the mockup of the live website](docs/testing/Mockup.png)
 

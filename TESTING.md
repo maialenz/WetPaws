@@ -1,6 +1,6 @@
-# <center> **TESTING DOCUMENT** </center>
+#  **TESTING DOCUMENT** 
 
-## <center>**Wet Paws** | Dog Walking and Sitting Services</center>
+## **Wet Paws** | Dog Walking and Sitting Services
 
 [View live project here](https://maialenz.github.io/WetPaws/)
 
