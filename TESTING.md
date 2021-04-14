@@ -405,13 +405,24 @@ All the screenshots to my manual tests on various major devices are below:
 - PC desktop 32" screen
   - Google Chrome (browser)
 
+iOs and MacOs operating system tested on safari browser
+
+  - iPhone 12 (tested by Kev)
+    - [iPhone index screenshot](docs/testing/device+browser-tests/)
+    - [iPhone services screenshot](docs/testing/device+browser-tests/)
+    - [iPhone reviews screenshot](docs/testing/device+browser-tests/)
+    - [iPhone contact screenshot](docs/testing/device+browser-tests/)
+    - [iPhone feedback screenshot](docs/testing/device+browser-tests/)
+    - [iPhone footer screenshot](docs/testing/device+browser-tests/)
+
+  - MacBook 13" (tested by Kev)
 ---
 
 ## FURTHER TESTING
 
-- All features have been thoroughtly tested by myself and others with different screen sizes I did not have access to, including all internal and external links, the form, music playlists, feedback page buttons...
+- All features have been thoroughtly tested by myself on different screen sizes/operator systems, including all internal and external links, the form, music playlists, feedback page buttons...
 
-- The live project has been tested by family and friends, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iphone 5SE, playlist activity issue that have been resolved or added to Known bugs.
+- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iphone 5SE, playlist activity issue that have been resolved or added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required * to those fields. This has been edited as it was a great feedback for UX improvement.
 
 ---
 ## BUGS

@@ -492,6 +492,8 @@ $ python3 -m http.server
 
 - To Gerard McBride for all the saturdays spent giving us extra lessons to help us understand and perfect our code and use of the technologies. Thank you!
 
+- To Kev McKane for the time spend thorougly testing my application on his apple devices on my behalf and adding very good tips to improve user experience as a first time user.
+
 - To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and the type of services a dog sitting company offers in real life.
 
 - To my family for testing the deployed site on different phones to make sure it was responsive in different type of screens and operator systems.
