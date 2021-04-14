@@ -1,20 +1,24 @@
-# TESTING DOCUMENT | **Wet Paws** | Dog Walking and Sitting Services
+# <center> **TESTING DOCUMENT** </center>
+
+## <center>**Wet Paws** | Dog Walking and Sitting Services</center>
+
+[View live project here](https://maialenz.github.io/WetPaws/)
 
 ## OVERVIEW
 
-This being my first ever project in Web Development, I need to start saying that I did encounter quite a few obstacles that made me start the project from the begining once or twice (as seen in a commit history).
+This being my first ever project in Web Development, so I did encounter quite a few obstacles that made me start the project from the start again (as seen in a commit history).
 
-As my project started taking form and I could visualize it on a browser as I went along, I felt more and more confident on what i was doing, even trying new things like adding music tracks and trying different hover styles.
+As my project started taking form and I could visualize it on a browser as I went along, I felt more and more confident on what I was doing, even trying new things like adding music tracks and trying different hover styles.
 
-But I still had to redo a few things that did not quite work as I planned, like loading libraries, js, jQuery...
+But I still had to redo a few things that did not quite work as I planned, like loading libraries, JS, jQuery...
 
-From the very beginning I used Google Chrome Dev Tools to style and fix my code, so thanks to that I found it much easier to see real time changes and add the write css/code to my workspace.
+From the very beginning I used Google Chrome Dev Tools to style and fix my code, so thanks to that I found it much easier to see real time changes and copy that css/code to my workspace.
 
-Once finished, I planned to test my site on a few different phones, laptop, tablet and desktop as well as DevTools and different browsers manually.
+Once finished, I tested my site on a few different phones, laptop, tablet and desktop as well as DevTools and different browsers manually.
 
 ## Table of Content
 
-1. [USER STORIES](#user-stories)
+1. [USER STORIES](#user-stories-testing)
 2. [FAVICON TEST](#favicon-test)
 3. [VALIDATOR CHECKS](#validator)
    - [HTML](#html-validator)
@@ -23,8 +27,13 @@ Once finished, I planned to test my site on a few different phones, laptop, tabl
      - Contact.html
    - [CSS](#css-validator)
 4. [LIGHTHOUSE TESTING](#lighthouse-testing)
-5. [DEVICE RESPONSIVENESS AND BROWSER COMPATIBILITY](#device-responsiveness-and-broswer-compatibility)
-6. [BUGS](#bugs)
+   - Mobile
+   - Web
+5. [DEVICE RESPONSIVENESS](#device-responsiveness)
+6. [BROWSER COMPATIBILITY](#broswer-compatibility)
+7. [BUGS](#bugs)
+8. [KNOWN BUGS](#known-bugs)
+9. [BACK TO README.md](#back-to-readme.md)
 
 ## USER STORIES TESTING
 
@@ -164,15 +173,15 @@ As seen in the examples above, the new favicon is visually more appealing than t
 
 ## VALIDATOR:
 
-As I wrote my code during the whole project, I continuouly checked my code using [W3 Validator](https://validator.w3.org/#validate_by_uri) to make sure I fixed my code as I wrote it. At the end of the project I ran all the finished pages and made sure all the errors were fixed (see below).
+During the whole project, I continuouly checked my code using [W3 Validator](https://validator.w3.org/#validate_by_uri) to make sure I fixed my code as I wrote it. At the end, I ran all the finished pages and made sure all the errors were fixed (see below).
 
 As a css validator I also used [w3 Validator](https://jigsaw.w3.org/css-validator/) to make sure it checked my style.css file to CSS level 3 + SVG standards.
 
-(See passed validator results at the end of [HTML](#results-after-fixing-validator-errors) and [CSS](#results-for-css-validator-check) sections.
+(See passed validator results at the end of HTML and [CSS](#css-validator) sections.
 
 ### HTML VALIDATOR:
 
-Test results and errors to be fixed (after the first check):
+Errors in the validator to be fixed (after the first run):
 
 - The type attribute is unnecessary for JavaScript resources.
 
@@ -237,7 +246,7 @@ CONTACT.html
 
 ---
 
-Results after fixing Validator errors
+HTML VALIDATOR RESULTS
 
 - [Index.html Validator result](docs/testing/validator/index.html-w3-pass.png)
 
@@ -245,7 +254,7 @@ Results after fixing Validator errors
 
 - [Contact.html Validator result](docs/testing/validator/contact.html-w3-pass.png)
 
-- [feedback.html Validator result](docs/testing/validator/feedback.html-w3-pass.png)
+- [Feedback.html Validator result](docs/testing/validator/feedback.html-w3-pass.png)
 
 ---
 
@@ -286,7 +295,7 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
       - although the performance before was quite low, implementing lighthouse suggested changes increased the performance of the mobile test quite significantly, but we can see the biggest improvement in Best practices, where the score went up to 93%.
 
   - Feedback page Lighthouse test:
-    - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
+    - Before: This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
     - [After](docs/testing/lighthouse/lighthouse-feedback-after.png)
 
 - **Web**
@@ -312,14 +321,12 @@ Because I focused on mobile first approach for the testing part too. All the imp
     - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy images to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
 
 - Feedback web page Lighthouse test:
-  - [Before] This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
+  - Before: This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
   - [After](docs/testing/lighthouse/feedback-after-lighthouse.png)
 
-## DEVICE RESPONSIVENESS AND BROWSER COMPATIBILITY
-
-#### Device Responsiveness
-
 ---
+
+## DEVICE RESPONSIVENESS
 
 I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports.
 
@@ -332,9 +339,9 @@ Apart from that, I used an online app by [Media Genesis](https://responsivedesig
 
 Most phones share screen sizes so on those I did not see many changes. Saying that, on narrow screens (for example in the Galaxy Fold with a viewport of 286x653) some on the headings (especially on headings in services.html) broke on the middle. To fix these, I added some extra css to media queries for screens with max width 450, reducing margings to fit to screen better. (find these in style.css lines 487 - 509)
 
-#### Browser Compatibility
-
 ---
+
+## BROWSER COMPATIBILITY
 
 I thoroughly checked on different devices and different browsers. Wherever posible I downloaded the browsers into my devices and I tested my site on them manually, making sure all links were checked and tested. In some cases I had to ask friends and family to check the live site on their own devices (due to not being personally able to install the different operating system like iPhone and Macbook's safari into my own devices).
 As a main conclusion of these tests, I have to add that I did not find any differences from one browser to another. There was full compatibility of all features and links cross browser/device. Following Bootstrap documentation's advice, I checked if the navigation bar was sticky on all the devices/browsers, as they recognize that the sticky navbar is not responsive/compatible on some browsers like for example, Opera. But after running my manual tests, my navbar did respond and was responsive as I intended to be on my design even in the Opera browser.
@@ -404,7 +411,9 @@ All the screenshots to my manual tests on various major devices are below:
     - [HP Envy Opera footer screenshot](docs/testing/device+browser-tests/Opera-HP-footer.png)
 
 - PC HP desktop 31.5" screen
+
   - Google Chrome (browser)
+
     - [HP Desktop index screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-index.png)
     - [HP Desktop services screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-services.png)
     - [HP Desktop reviews screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-reviews.png)
@@ -423,6 +432,7 @@ All the screenshots to my manual tests on various major devices are below:
 - iOs and MacOs operating system tested on Safari browser: no differences were found even on apple operating systems.
 
   - iPhone 12
+
     - [iPhone index screenshot](docs/testing/device+browser-tests/iphone-index.jpeg)
     - [iPhone collapsible navbar screenshot](docs/testing/device+browser-tests/iphone-collapsible-navbar.jpeg)
     - [iPhone services screenshot](docs/testing/device+browser-tests/iphone-services-head.jpeg)
@@ -439,15 +449,17 @@ All the screenshots to my manual tests on various major devices are below:
     - [MacBook reviews screenshot](docs/testing/device+browser-tests/macbook-reviews.jpeg)
     - [MacBook contact screenshot](docs/testing/device+browser-tests/macbook-contactform.jpeg)
     - [MacBook footer screenshot](docs/testing/device+browser-tests/macbook-footer.jpeg)
+
 ---
 
 ## FURTHER TESTING
 
 - All features have been thoroughtly tested by myself on different screen sizes/operator systems, including all internal and external links, the form, music playlists, feedback page buttons...
 
-- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iphone 5SE, playlist activity issue that have been resolved or added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required * to those fields. This has been edited as it was a great feedback for UX improvement.
+- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iphone 5SE, playlist activity issue that have been resolved or added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required \* to those fields. This has been edited as it was a great feedback for UX improvement.
 
 ---
+
 ## BUGS
 
 1.  h1 font-size not reducing for big screens
@@ -512,22 +524,26 @@ All the screenshots to my manual tests on various major devices are below:
 
 8.  I notived that the h1 on every page got smaller when I finished testing the pages on all devices:
 
-  - I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
-  - Instead of having another media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
+- I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
+- Instead of having another media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
 
-### KNOWN BUGS
+---
+## KNOWN BUGS
 
 - When clicked on the Spotify music list it plays 30 seconds of the list as a teaser for the song. The user needs to log into their spotify account to play the whole list. Premium account is needed to access Spotify.
 
   - There is three playlist each embedded inside an iframe. During the testing I noticed that if I play a second playlist, the first one does not stop, but as it's an external code, I do not have the way to fix this with my actual knowledgde and skillset. So the playlists have to manually be paused, otherwise they all play at the same time.
 
 - In some screens a white line appears under the map eventhough I fixed this for big screen sizes like laptops and desktops. This can be seen on some smaller phone sizes. For more info please see Device Responsiveness tables.
+
   - Although I reviews this bug on Devtools, I haven't been able to find a solution for this as for today.
 
-- The third inline block at the footer appears not to be centered (Maialen & Sua , Bettystown | Ireland). I tried to fix this but all the changes I did on Devtools did not show any changes. 
+- The third inline block at the footer appears not to be centered (Maialen & Sua , Bettystown | Ireland). I tried to fix this but all the changes I did on Devtools did not show any changes.
 
 - On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this.
- 
----
 
-Back to [README.md](README.md)
+---
+---
+## <center> Back to [README.md](README.md)
+
+---
