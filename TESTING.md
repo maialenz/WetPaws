@@ -402,20 +402,42 @@ All the screenshots to my manual tests on various major devices are below:
     - [HP Envy Opera feedback screenshot](docs/testing/device+browser-tests/Opera-HP-feedback.png)
     - [HP Envy Opera footer screenshot](docs/testing/device+browser-tests/Opera-HP-footer.png)
 
-- PC desktop 32" screen
+- PC HP desktop 31.5" screen
   - Google Chrome (browser)
+    - [HP Desktop index screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-index.png)
+    - [HP Desktop services screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-services.png)
+    - [HP Desktop reviews screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-reviews.png)
+    - [HP Desktop contact screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-contact.png)
+    - [HP Desktop feedback screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-feedback.png)
+    - [HP Desktop footer screenshot](docs/testing/device+browser-tests/hp-desktop-chrome-footer.png)
 
-iOs and MacOs operating system tested on safari browser
+  - Microsoft Edge (browser)
+    - [HP Desktop index screenshot](docs/testing/device+browser-tests/hp-desktop-edge-index.png)
+    - [HP Desktop services screenshot](docs/testing/device+browser-tests/hp-desktop-edge-services.png)
+    - [HP Desktop reviews screenshot](docs/testing/device+browser-tests/hp-desktop-edge-reviews.png)
+    - [HP Desktop contact screenshot](docs/testing/device+browser-tests/hp-desktop-edge-contact.png)
+    - [HP Desktop feedback screenshot](docs/testing/device+browser-tests/hp-desktop-edge-feedback.png)
+    - [HP Desktop footer screenshot](docs/testing/device+browser-tests/hp-desktop-edge-footer.png)
 
-  - iPhone 12 (tested by Kev)
-    - [iPhone index screenshot](docs/testing/device+browser-tests/)
-    - [iPhone services screenshot](docs/testing/device+browser-tests/)
-    - [iPhone reviews screenshot](docs/testing/device+browser-tests/)
-    - [iPhone contact screenshot](docs/testing/device+browser-tests/)
-    - [iPhone feedback screenshot](docs/testing/device+browser-tests/)
-    - [iPhone footer screenshot](docs/testing/device+browser-tests/)
+iOs and MacOs operating system tested on Safari browser
 
-  - MacBook 13" (tested by Kev)
+  - iPhone 12
+    - [iPhone index screenshot](docs/testing/device+browser-tests/iphone-index.jpeg)
+    - [iPhone collapsible navbar screenshot](docs/testing/device+browser-tests/iphone-collapsible-navbar.jpeg)
+    - [iPhone services screenshot](docs/testing/device+browser-tests/iphone-services-head.jpeg)
+    - [iPhone services header screenshot](docs/testing/device+browser-tests/iphone-services.jpeg)
+    - [iPhone reviews screenshot](docs/testing/device+browser-tests/iphone-reviews.jpeg)
+    - [iPhone contact form header screenshot](docs/testing/device+browser-tests/iphone-contact-head.jpeg)
+    - [iPhone contact form top screenshot](docs/testing/device+browser-tests/iphone-contactform.jpeg)
+    - [iPhone contact form submit screenshot](docs/testing/device+browser-tests/iphone-contactform-submit.jpeg)
+    - [iPhone footer screenshot](docs/testing/device+browser-tests/iphone-footer.jpeg)
+
+  - MacBook 13"
+    - [MacBook index screenshot](docs/testing/device+browser-tests/macbook-index.jpeg)
+    - [MacBook services screenshot](docs/testing/device+browser-tests/macbook-services.jpeg)
+    - [MacBook reviews screenshot](docs/testing/device+browser-tests/macbook-reviews.jpeg)
+    - [MacBook contact screenshot](docs/testing/device+browser-tests/macbook-contactform.jpeg)
+    - [MacBook footer screenshot](docs/testing/device+browser-tests/macbook-footer.jpeg)
 ---
 
 ## FURTHER TESTING
