@@ -336,7 +336,8 @@ Most phones share screen sizes so on those I did not see many changes. Saying th
 
 ---
 
-I thoroughly checked on different devices and different browsers. As a main conclusion of these tests, I have to add that I did not find any differences from one browser to another. There was full compatibility of all features and links. Following Bootstrap's documentation, I checked if the navigation bar was sticky, as they recognize that the sticky navbar is not responsive/compatible on browsers like opera. But after running my manual tests, my navbar did respond and was responsive as I intended to be on my design.
+I thoroughly checked on different devices and different browsers. Wherever posible I downloaded the browsers into my devices and I tested my site on them manually, making sure all links were checked and tested. In some cases I had to ask friends and family to check the live site on their own devices (due to not being personally able to install the different operating system like iPhone and Macbook's safari into my own devices).
+As a main conclusion of these tests, I have to add that I did not find any differences from one browser to another. There was full compatibility of all features and links cross browser/device. Following Bootstrap documentation's advice, I checked if the navigation bar was sticky on all the devices/browsers, as they recognize that the sticky navbar is not responsive/compatible on some browsers like for example, Opera. But after running my manual tests, my navbar did respond and was responsive as I intended to be on my design even in the Opera browser.
 
 All the screenshots to my manual tests on various major devices are below:
 
@@ -419,7 +420,7 @@ All the screenshots to my manual tests on various major devices are below:
     - [HP Desktop feedback screenshot](docs/testing/device+browser-tests/hp-desktop-edge-feedback.png)
     - [HP Desktop footer screenshot](docs/testing/device+browser-tests/hp-desktop-edge-footer.png)
 
-iOs and MacOs operating system tested on Safari browser
+- iOs and MacOs operating system tested on Safari browser: no differences were found even on apple operating systems.
 
   - iPhone 12
     - [iPhone index screenshot](docs/testing/device+browser-tests/iphone-index.jpeg)
@@ -461,9 +462,9 @@ iOs and MacOs operating system tested on Safari browser
     - The toggle icon is responsive and it appears when tested with dev-
       tools, but the dropdown menu is not working
     - SOLUTION: I noticed i forgot to place the jquery needed to make the Bootstrap
-      JavaScript to work properly at the end of the file, before </body>.
+      JavaScript to work properly at the end of the file, before </body>. Found this solution reading the Boostrap documentation.
 
-3.  In mobile screen, the dropdown items are not showing alignedand centered under the toggle icon
+3.  In mobile screen, the dropdown items are not showing aligned and centered under the toggle icon
 
     - Fixed this removing mr-5 from class. This was giving nice looking spacing between the nav-links,
       but when rendering to phone view it gave too much margin in the right hand side.
@@ -498,7 +499,7 @@ iOs and MacOs operating system tested on Safari browser
 
       ![screenshot showing the 501 ERROR](docs/testing/501-error.png)
 
-    - EDIT & UPDATE: SOLUTION: my mentor Rohit thought that as an improved user experience users should be directed to once they have submitted the form. After all the failed trials with tutor support, Rohit found a solution to this problem: on line 128 of contact.html he suggested to add :
+    - EDIT & UPDATE: SOLUTION: my mentor Rohit thought that as an improved user experience users should be directed to a feedback page once they have submitted the form. After all the failed trials with tutor support, Rohit found a solution to this problem: on line 128 of contact.html he suggested to add :
       ```
       <form
          action="feedback.html"
@@ -507,12 +508,12 @@ iOs and MacOs operating system tested on Safari browser
          method="GET"
        >
       ```
-    - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a cta button redirecting the user back to the home page.
+    - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a button redirecting the user back to the home page.
 
 8.  I notived that the h1 on every page got smaller when I finished testing the pages on all devices:
 
-- I noticed all the h1s on all the pages were much smaller than supposed to.
-- Instead of having a media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
+  - I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
+  - Instead of having another media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
 
 ### KNOWN BUGS
 
@@ -525,7 +526,8 @@ iOs and MacOs operating system tested on Safari browser
 
 - The third inline block at the footer appears not to be centered (Maialen & Sua , Bettystown | Ireland). I tried to fix this but all the changes I did on Devtools did not show any changes. 
 
-- On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this. 
+- On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this.
+ 
 ---
 
 Back to [README.md](README.md)
