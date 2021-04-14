@@ -286,7 +286,7 @@ difficult to read, it was decided to use simple but and consistent fonts previou
   - HTML5 is a markup language used for structuring and presenting content on the internet.
 - CSS:
   - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML
-- Markup (for README.md, REFERENCES.md and TESTING.md)
+- Markdown (for README.md, REFERENCES.md and TESTING.md)
 
 ### Frameworks, Libraries & Programs
 
