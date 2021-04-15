@@ -4,18 +4,13 @@
 
 ### [View live project here](https://maialenz.github.io/WetPaws/)
 
-
 ![Image of the mockup of the live website](docs/testing/Mockup.png)
 
 ## Overview
 
-This is a dog walking and sitting service page for a fictional company
-who specialises in walking and dog sitting based in Bettystown, Ireland.
+This is a dog walking and sitting service page for a fictional company who specialises in walking and dog sitting based in Bettystown, Ireland.
 
-The website will be responsive and accessible on all devices with Mobile first
-implementation on mind. The website will be visually enjoyable and easy to navigate,
-with all the information the user needs clearly represented. It will be aimed for people
-who wants fast solutions and hasle free.
+The website will be responsive and accessible on all devices with Mobile first implementation on mind. The website will be visually enjoyable and easy to navigate, with all the information the user needs clearly represented. It will be aimed for people who want fast solutions and hasle free.
 
 ---
 
@@ -85,17 +80,13 @@ who wants fast solutions and hasle free.
 
 ### **Business goals**
 
-- The main goal of this business is to provide a dog sitting and walking service to users that are not able bring them out themselves or need someone to look after them while they are away.
-  It also wants to help people in need of help with their dogs because they have fallen sick or due to new working-from-home arrangements.
+- The main goal of this business is to provide a dog sitting and walking service to users that are not able to bring them out themselves or need someone to look after them while they are away. It also wants to assist people in need of help with their dogs, due to personal circunstances or to the new working-from-home arrangements.
 
-- The business wants to offer services to make sure that all dogs are given very loving care and treatment as if they were in their own home,
-  while the owner is away/unavailable.
+- The business wants to offer services to make sure that all dogs are given very loving care and treatment as if they were in their own home, while the owner is away/unavailable.
 
-- Ideally all users that choose a service they would become regular users of one or more services provided by the business, since this is
-  an essential need for any person/family that own a pet. If a person/family is happy with the service provided they will choose to book a service for a longer period of time and more often, making the business very trusted and the go-to one in the local area.
+- Ideally all users that choose a service they would become regular users of one or more services provided by the business, since this is an essential need for any person/family that own a pet. If a person/family is happy with the service provided they will choose to book a service for a longer period of time and more often, making the business very trusted and the go-to one in the local area.
 
-- A long term goal of the business is to create a well-known pet sitting company in the local area so it can have the option to expand and offer
-  more tailored services within the local and the surrounding areas with posibility of expantion to become the nationwide pet sitting company.
+- A long term goal of the business is to create a well-known pet sitting company in the local area, so it can have the option to expand and offer more tailored services within the local and the surrounding areas, with posibility of expantion to become the nationwide pet sitting company.
 
 ---
 
@@ -105,24 +96,21 @@ who wants fast solutions and hasle free.
 
 - #### User needs
 
-The needs of the user is to find a person to look after their family dog the same way they would, during a short or long period of time
-because they are not able to do so.
+The needs of the user is to find a person to look after their family dog the same way they would, during a short or long period of time because they are not able to do so.
 
-As the recent pandemic has forced many of us confined to our homes when it comes to work, sickness, etc, many of us have found ourselves having less time than before when it comes to give the attention that our loved dogs need. This has created a need to find someone to help us giving our dogs some normality and extra exercice on these times that are also stressful for our pets. Some dogs have become extra sensitive and emotional, or extra hyper with extra need for longer walks.
+As the recent pandemic has forced many of us to be confined to our homes when it comes to work, sickness, etc, many of us have found ourselves having less time than before when it comes to give the attention that our loved dogs need. This has created a need to find someone to help us giving our dogs some normality and extra exercice on these times that are also stressful for our pets. Some dogs have become extra sensitive and emotional, or extra hyper with extra need for longer walks.
 
 - #### Technical capabilities
 
   - To use this site the user needs to have access to some internet connection within their chosen device.
 
-  - They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate
-    the page.
+  - They also need to have basic knowledge of how to search within a browser and very basic understanding on how to select and navigate the page.
 
-  - This page can be done with Bootstrap framework to create a structure and implement sections that the user needs. The website's
-    information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to get to the page they need. It was not posible to add a live time booking on this project due to lack of skills and knowledge, but would be implemented on a future release once I gain more skills and knowledge.
+  - This page can be done with Bootstrap framework to create a structure and implement sections that the user needs. The website's information will be kept separated in 3 different pages but easy to find and accessible so the user doesn't need to click more than 3 times to get to the page they need. It was not possible to add a live time booking on this project due to lack of skills and knowledge, but would be implemented on a future release once I gain more skills and knowledge.
 
 - #### Business Vision
 
-The purpose of this project is to create a business to give a personal service to all dog owners that need help walking or dog sitting (within their own homes or the business owner's home) for a short or long period of time, ensuring that the dog is loved and cared the same way as their owners would do. The business also intend to give extra help to those people who has fallen ill with Covid-19 (or any other illness) and are struggling to look after their loved dog.
+The purpose of this project is to create a business to give a personal service to all dog owners that need help walking or dog sitting (within their own homes or the business owner's home) for a short or long period of time, ensuring that the dog is loved and cared the same way as their owners would do. The business also intend to give personalized help to those people who has specific needs and/or are struggling to fullfil certain tasks to look after their loved dog.
 
 ---
 
@@ -156,15 +144,13 @@ The purpose of this project is to create a business to give a personal service t
 
 - The structure of the site will be layed out in three pages to separate the different information and make easier for the user to go directly to the page they need without needing to scroll down and read too much to look for the information they are looking for.
 
-- The layout will be organised in halfs or thirds depending on the page and the need to separate the information so it's shown on a tidy manner not to visually overload the user and allow them to see the information on one look.
-
-- The landing page would be used as a shortcut to pages needed by returning users and frequent users to allow them to have a good user experience.
+- The layout will be organised in halfs or thirds depending on the page and the need to separate the information, so it's shown on a tidy manner, not to visually overload the user and allow them to see the information on one single look.
 
 - In order to direct the user to the most important areas of the website, a navbar will be created on top of the hero image and under the company's logo/name to be easily located, which will include links to other section of the website.
 
 - To ensure the users experience when completing the form for ordering is smooth, this page will contain minimal information and imagery to not distract the user.
 
-- The footer will contain all the inportant information to contact the business's owners in other ways than filling the form. This will contain links to the different social media and location of the business.
+- The footer will contain all the inportant information to contact the business's owners in other ways than filling the form. This will contain links to the different social media and the name of the location of the business.
 
 ---
 
@@ -197,8 +183,7 @@ Some of the colors used in this project are:
 
 ### **Typography**
 
-The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and
-difficult to read, it was decided to use simple but and consistent fonts previously used and seen in other projects within Code Institute like:
+The fonts used for the site were taken from [Google Fonts](https://fonts.google.com/). To make sure the information is not distracting and difficult to read, it was decided to use simple but and consistent fonts previously used and seen in other projects within Code Institute like:
 
 - "Roboto" (EDIT: it was chosen to be used as the body typography, but I chose not to use it at the end as "Montserrat" fit the style much better)
 - "Quicksand"
@@ -211,7 +196,7 @@ difficult to read, it was decided to use simple but and consistent fonts previou
 
 - The imagery will be very important on the site, as it's a way to create warmth and familiarity for the dog owners that use the site.
 
-- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between the different pages . The light navbar will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find the links and to immediately direct the user to their selected part of the website.
+- The headers on all the pages will be the same hero image size but different images to create consistency but a separation between the different pages. The light navbar will be placed under the logo and above the hero image and will have three linkes to the respective pages. The reason for this is to be visually easy to find the links and to immediately direct the user to their selected part of the website.
 
 - The rest of the imagery used in the website will be minimal and small in order to still keep the balance between aesthetic style and information consistent.
 
@@ -219,7 +204,7 @@ difficult to read, it was decided to use simple but and consistent fonts previou
 
 ### **Logo**
 
-- The logo for site was created using a combination of an online application called [Canva](https://www.canva.com/) and Paint. It has a a little paw logo with a background representing a very light blue sea provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name of the business (Wet Paws).
+- The logo for site was created using a combination of an online application called [Canva](https://www.canva.com/) and Paint. It has a little paw logo with a background representing a very light blue sea provided by the website itself as part of the creation of the logo and it's a nod to the name of the business itself (WET Paws). It was designed in a simple way to represent the reason to be of the business (dog paw) and the name of the business (Wet Paws).
 
 ---
 
@@ -246,10 +231,8 @@ difficult to read, it was decided to use simple but and consistent fonts previou
     - A section with a playlists from spotify for enjoyment of the user.
     - A section with a map to point the location of the business.
   - Services:
-    - A section divided in four cards to show the different services the company offers with a brief description of them and links
-      to the content form page for the posibility to contact the owner or book a service.
-    - A section with boxes to display reviews of customers who already used one or more services, containing
-      pictures of dogs previously cared for to give a real and trust inducing reviews.
+    - A section divided in four cards to show the different services the company offers with a brief description of them and links to the content form page for the posibility to contact the owner or book a service.
+    - A section with boxes to display reviews of customers who already used one or more services, containing pictures of dogs previously cared for to give a real and trust inducing reviews.
   - Contact form:
     - Some fields will be required so the business can offer a more personalised service to the user sending a business inquiry. These are: name, Surname. email address, home address, town, eircode, and dog's name.
     - The user will be asked to fill fields of Name, Surname, dog's name, email address (to be able to contact the user querie), home address (to make sure our services are available in the user's area) service type to enquire about and a text input field for further information to be asked to the company.
@@ -268,7 +251,6 @@ difficult to read, it was decided to use simple but and consistent fonts previou
 ### Features left to implement
 
 - Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature.
-
   - In the first release the small gallery will consist of 4 responsive pictures, but they won't be clickable.
 
 - Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature. T
@@ -330,13 +312,13 @@ difficult to read, it was decided to use simple but and consistent fonts previou
   - used to put together the logo image created with Canva and the name of the company.
 - [Am I Responsive?](http://ami.responsivedesign.is/#)
   - used to create the Mockup image at the begining of the README.md.
-
+- [pdftopng](https://pdf2png.com/)
+  - used to transform the pdf files into pngs (logo, testing documents for TESTING.md)
 ---
 
 ## TESTING
 
-You can find all the information and documentation about the testing that
-has been carried out [here](TESTING.md)
+You can find all the information and documentation about the testing that has been carried out [here](TESTING.md)
 
 ---
 
@@ -403,7 +385,7 @@ It is posible to copy and edit this project by any user without changing the rep
 
 4. If you are working on a desktop application, follow the documentation found on number 5. For cloud based, open your own terminal in GitPod or your preferred IDE (we will be using Gitpod).
 
-- For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
+    - For this project, we created a new workspace environment in GITPOD by using Code Institute's [Full Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template). To open it, just click on the Use this template button and all the necessary tools will be added to the work environment without the need of manually installing them. It takes a few minutes to load.
   ![Screensot of the template button in GitHub](docs/deployment/gitpod-template-CI.png)
 
 5. If you use GitHub desktop follow the steps documented [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
@@ -429,7 +411,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-4. To open a preview port within your own local workspace type:
+4. To open a preview port within your own local workspace type within gitpod, enter the following command on the terminal:
 
 ```
 $ python3 -m http.server
@@ -488,15 +470,11 @@ $ python3 -m http.server
 
 - To my mentor Rohit Sharma for all the time spent on giving me tips, advise, suggestions and sharing your great knowledge to create a better project than I would have expected. Thank you very much!
 
-- To Scott from Tutor support for trying to give me ideas on how to create a solution to send the user feedback once they sent the form.
+- To Scott and Tim from Tutor support for trying to give me ideas on how to create a solution to send the user feedback once they sent the form.
 
-- To Tim from Tutor support for helping me fixing my issues with the form submission and helping me get back on track when I was stuck on unachiavable goals.
-
-- To Gerard McBride for all the saturdays spent giving us extra lessons to help us understand and perfect our code and use of the technologies. Thank you!
+- To Gerard McBride for all the saturdays spent giving us extra lessons to help us understand and perfect our code and use of the technologies to create this project. Thank you!
 
 - To Kev McKane for the time spend thorougly testing my application on his apple devices on my behalf and adding very good tips to improve user experience as a first time user.
-
-- To Pawshake.ie for giving me some real ideas at the begining of the planning, on how a pet sitting company should portray themselves and the type of services a dog sitting company offers in real life.
 
 - To my family for testing the deployed site on different phones to make sure it was responsive in different type of screens and operator systems.
 
@@ -515,7 +493,7 @@ The pictures not taken from [Unsplash](https://unsplash.com/) were taken with a 
 
 This project is for educational use only. None of the products or services listed in this website are real or functional. Any resemblance to a posible real business in the same area is purely coincidental.
 
-Sua was not harmed or forced in the making of this project. All pictures were taken using positive reinforcement and was happy to get many treats.
+Sua was not harmed or forced in the making of this project. All pictures were taken using positive reinforcement and he was happy to get many treats.
 
 ---
 
