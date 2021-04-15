@@ -544,9 +544,9 @@ All the screenshots to my manual tests on various major devices are below:
 
   - Although I reviews this bug on Devtools, I haven't been able to find a solution for this as for today.
 
-- The third inline block at the footer appears not to be centered (Maialen & Sua , Bettystown | Ireland). I tried to fix this but all the changes I did on Devtools did not show any changes.
+- The third inline block at the footer appears not to be centered (Maialen & Sua , Bettystown | Ireland). I tried to fix this but all the changes I did on Devtools did not show any changes. I tried to reduce margins and paddings, or increase margins and paddings on the left to move the <p> a little to the right, but I did not see any changes even using DevTools. 
 
-- On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this.
+- On some devices/browsers, the background color of the sections seem to get a little darker than the parent container fluid, but I could not manage to fix this, although I tried to change the color of the .container-fluid and the sections so they matched. But this did not work either.
 
 ---
 
