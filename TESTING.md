@@ -6,11 +6,11 @@
 
 ## OVERVIEW
 
-This being my first ever project in Web Development, so I did encounter quite a few obstacles that made me start the project from the start again (as seen in a commit history).
+This being my first ever project in Web Development, at the beginning, I encountered quite a few obstacles that made me start the project from the start again (as seen in the commit history).
 
 As my project started taking form and I could visualize it on a browser as I went along, I felt more and more confident on what I was doing, even trying new things like adding music tracks and trying different hover styles.
 
-But I still had to redo a few things that did not quite work as I planned, like loading libraries, JS, jQuery...
+Towards the end I had to redo a few things that did not quite work as I planned, like loading libraries, JS, jQuery...
 
 From the very beginning I used Google Chrome Dev Tools to style and fix my code, so thanks to that I found it much easier to see real time changes and copy that css/code to my workspace.
 
@@ -42,26 +42,26 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
   - _"Find out what the company is about."_
 
     - When the user lands on any of the pages, the first thing they see it's the logo representing a paw and the name of the company (Wet Paws), followed by a summed up version of the company's nature to be (Dog walking and sitting). Just by seeing the logo once, the user will get a clear idea of the intention of the business.
-    - The hero image hints that the business is related to dogs. All hero images represent dogs, but they are all different so the user knows there has been some change when they have clicked on one of the navigation links.
+    - The hero image hints that the business is related to dogs. All hero images represent dogs, but they are all different so the user knows there has been some change when they have clicked on one of the navigation links. All dog pictures have been chosen to have some relation to the outdoors or the sea.
 
       ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
 
     - For users who want to learn more about the business and the owner, there is an informative section called About Us where the owner explains what the company is about. The section also has a picture of the owner's dog as an introduction to the company's owner and to create a feeling of trust and showing the users that the owner has knowledge of dog care.
-      This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
+    This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
 
       ![screenshot of about us section explaining the company's reason to be](docs/testing/user-stories/test-userstory1.2.png)
 
-    - for the comfort of the user, the navbar has a section called About Us that can be reached from any of the other pages. The link is highlighted on a darker color to suggest that the user is seeing the page with the company's information
+    - For the comfort of the user, the navbar has a section called About Us that can be reached from any of the other pages. The link is highlighted on a darker color to suggest that the user is seeing the page with the company's information
 
       ![screenshot of the navbar highlighting the About us section](docs/testing/user-stories/test-user-story1-about-us-navbar.png)
 
   - _"Easily visualize and understand what services the company offers."_
 
-    - on the navbar, there is a tab called Services so the user can jump directly to that page and see the services the company offers.
+    - On the navbar, there is a tab called Services so the user can jump directly to that page and see the services the company offers.
 
       ![screenshot of the navbar pointing the services section](docs/testing/user-stories/test-userstory2.services-navbar.png)
 
-    - when the user scrolls down from the hero image, there is a header that lets the user know that they are seeing the services section, and this contains 4 cards each with a highlighted heading with the title of the service and a shot but concise explanation about each service
+    - When the user scrolls down from the hero image, there is a header that lets the user know that they are seeing the services section, and this contains 4 cards each with a highlighted heading with the title of the service and a short but concise explanation about each service.
 
       ![screenshot of the header for services section](docs/testing/user-stories/test-userstory2-service-header.png)
       ![screenshot of the service cards and their explanation](docs/testing/user-stories/test-userstory2-services.png)
@@ -72,26 +72,28 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
 
       ![screenshot of the ask about this service button under each service](docs/testing/user-stories/test-userstory3-ask-about-button.png)
 
-    - The "Ask more about this service" will redirect the user to the contact form where there is a section the user to select an option to be booked or enquired about. This section is not required so the user can write their own requirement or book more than one service on the Tell us more textarea, located just below the radio button service choices:
+    - The "Ask more about this service" button will redirect the user to the contact form where the user can select an option to be booked or enquired about. This section is not required so the user can write their own requirements on personal needs on the "Tell us more" textarea, located just below the radio button service choices:
 
       ![screenshot of the form showing radiobuttons to choose service the user to know more about](docs/testing/user-stories/test-userstory3-know-more-about.png)
 
   - _"Be able to use the contact form for the business and service enquiries."_
 
-    - To be able to quickly access the contact form from any part of the website, the words "form/contact form/Ask about this form (button)" have been linked to the form section. The firts two words have been underlined and the font weight increased to hint the user that the word is clickable. Ask about this service button changes the background color when hovered over to entice the user to click on it.
+    - To be able to quickly access the contact form from any part of the website, the words "form/contact form/Ask about this form (button)" have been linked to the form section. The first two words have been underlined and the font weight increased to hint the user that the word is clickable. "Ask about this service" button glows and changes the background color when hovered over, to entice the user to click on it.
 
       ![screenshot of the form links](docs/testing/user-stories/test-userstory4-form-link.png)
       ![screenshot of the form links](docs/testing/user-stories/test-userstory4-contact-form-link.png)
       ![screenshot of the ask about this service button hovered](docs/testing/user-stories/test-userstory4-link-hovered.png)
 
-    - The navbar has a direct link to the contact form called "Contact Us!" to make the user feel confortable to contact the company with any question the user might have:
+    - The navbar has a direct link to the contact form called "Contact Us!" to make the user feel confortable to contact the company with any question/needs the user might have:
 
       ![screenshot of the navbar highlighting Contact Us section](docs/testing/user-stories/test-userstory4-contact.us-navbar.png)
 
-    - The contact form is minimal with no pictures to make sure the user doesn't get overwhelmed with information and fields to be filled. For users who need help with the information needed on each field, there is a placeholder test to hint and help the user.
+    - The contact form is minimal with no pictures to make sure the user doesn't get overwhelmed with information and fields to be filled. For users who need help with the information required on each field, there is a placeholder text to hint the user with the response needed on each box.
+    - [EDIT]: at the end of the testing I added an asterisk to the required fields to hint the users that those forms are mandatory to be able to send the form.
 
       ![screenshot of the contact form first part](docs/testing/user-stories/test-userstory4-contactform1.png)
       ![screenshot of the contact form second part](docs/testing/user-stories/test-userstory4-contactform2.png)
+      ![screenshot of mandatory fields pointed with an asterisk](docs/testing/user-stories/asterisk.png)
 
   - _"Have the option to personalize the services offered."_
 
@@ -101,11 +103,11 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
 
   - _"Feel that the company cares and I can trust them caring for my loved dog by seeing other people's reviews."_
 
-    - The user can find reviews by customers on a section located below the services. They can find a review for each one of the services offered, and for more realism each one of the reviews has a real dog at the top, representing the actual dog that the company looked after personally
+    - The user can find reviews by customers on a section located below the services. They can find a review for each one of the services offered, and for more realism each one of the reviews has a picture of a real dog at the top, representing the actual dog that the company looked after personally.
 
       ![screenshot of the reviews under services](docs/testing/user-stories/test-userstory6-reviews.png)
 
-    - The user can also find a small gallery with pictures taken of dogs under the owner's care while they are with her. The users can see what other dogs look like and they can also see their own dog's picture, giving the user feeling of company transparency and relieve seeing their dogs well when they are not around
+    - The user can also find a small gallery with pictures taken of dogs under the owner's care while they are with her. The users can see what other dogs look like and they can also see their own dog's picture, giving the user feeling of company transparency and relieve seeing their dogs well when they are not around.
 
       ![screenshot of the small gallery with dog pictures](docs/testing/user-stories/test-userstory6-gallery.png)
 
@@ -117,51 +119,50 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
 
   - _"Know the location of the business and know where those services are offered."_
 
-    - Just above the footer there is a location map where the user can see the specific loaction of the company on the map
+    - Just above the footer there is a location map where the user can see the specific loaction of the company on the map.
 
       ![screenshot of the map for location](docs/testing/user-stories/test-userstory8-map.png)
 
-    - on the footer the user can find information about the location, county and country of the business, as well as the name of the owner and their dog's.
+    - On the footer the user can find information about the location, county and country of the business, as well as the name of the owner and their dog's.
 
       ![screenshot of the footer information about company location](docs/testing/user-stories/test-userstory8-name-town.png)
 
   - _"Get in touch with the business easily by having contact details clearly available."_
 
-    - In the navbar the user can find a direct link that will bring them to the contact form
+    - In the navbar the user can find a direct link that will bring them to the contact form.
 
       ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory4-contact.us-navbar.png)
 
-    - the navbar is sticky so the user can access any of the pages links at any moment without the need of scrolling up. The sticky navbar is responsive on small screens too, as the user needs to scroll more to go to the top
+    - The navbar is sticky so the user can access any of the pages links at any moment without the need of scrolling up. The sticky navbar is responsive on small screens too, as the user needs to scroll more on a mobile device to go to the top.
 
       ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar.png)
       ![screenshot of the navbar with contact us link](docs/testing/user-stories/test-userstory9-sticky-navbar-mobile.png)
 
-    - The user has also the posibility of contacting the company by phone or email using the information found at the footer
+    - The user has also the posibility of contacting the company by phone or email using the information found at the footer.
 
       ![screenshot of the contact information at footer](docs/testing/user-stories/test-userstory9-reachus.png)
 
-    - for those users that submit the form but they require faster contact, on the feedback form they can find a note encouraging the user to call the owner anytime at the phone provided
+    - For those users that submit the form but they require faster contact, on the feedback form they can find a note encouraging the user to call the owner anytime at the phone provided.
 
       ![screenshot of the feedback page with contact number](docs/testing/user-stories/test-userstory9-feedback-number.png)
 
   - _"Find social links to be able to follow the business in social media platforms."_
 
-    - for those users who want to follow the company on different social media platforms, there are links on the footer under the header called "follow our adventures". These links open on separate tabs for better user experience.
+    - For those users who want to follow the company on different social media platforms, there are links on the footer under the header called "follow our adventures". These links open on separate tabs for better user experience.
 
       ![screenshot of the social media links](docs/testing/user-stories/test-userstory10-socials.png)
 
-    - for users that have a premium spotify account, there is a section where there is three playlists, so the users can enjoy while they are walking their own dogs.
+    - For users that have a premium spotify account, there is a section where there is three playlists, so the users can enjoy playlists chosen by the owner while they are walking their own dogs.
 
       ![screenshot of the spotify playlists](docs/testing/user-stories/test-userstory10-playlist.png)
 
 ---
-
 ## FAVICON TEST
 
-I noticed when I introduced the first and second favicon I could not see the shape on the brower tab as they were very
-blurry and unidentifyable, so I created a new favicon with bold black color and simple shape, so it can be easily identified
+When I introduced the first and second favicon, I noticed I could not see the shape on the brower tab as they were very
+blurry and unidentifyable. Therefore, I created a new favicon with a bold black color and simpler shape, so it can be easily identified
 in between the rest of the opened tabs. This change has improved the user experience as I can identify the site's tab in one
-fast look.
+fast single look.
 
 - [Favicon 1](docs/testing/favicon_test/test-favicon1.png)
 - [Favicon 2](docs/testing/favicon_test/test-favicon2.png)
@@ -173,26 +174,25 @@ As seen in the examples above, the new favicon is visually more appealing than t
 
 ## VALIDATOR:
 
-During the whole project, I continuouly checked my code using [W3 Validator](https://validator.w3.org/#validate_by_uri) to make sure I fixed my code as I wrote it. At the end, I ran all the finished pages and made sure all the errors were fixed (see below).
+During the whole project, I continuously checked my code using [W3 Validator](https://validator.w3.org/#validate_by_uri) to make sure I fixed my code as I wrote it. At the end, I ran all the finished pages and made sure all the errors were fixed (see identified and fixed error list below).
 
-As a css validator I also used [w3 Validator](https://jigsaw.w3.org/css-validator/) to make sure it checked my style.css file to CSS level 3 + SVG standards.
+As a css validator, I also used [w3 Validator](https://jigsaw.w3.org/css-validator/) to make sure it checked my style.css file to CSS level 3 + SVG standards.
 
 (See passed validator results at the end of HTML and [CSS](#css-validator) sections.
 
 ### HTML VALIDATOR:
 
-Errors in the validator to be fixed (after the first run):
+List of errors found by the validator to be fixed (after the first run):
 
 - The type attribute is unnecessary for JavaScript resources.
 
-  - I removed the type attribute form them.
+  - I removed the type attribute fromm them.
 
 - Some of the images are not loading and the path seems to be broken
 
   - I checked with dev-tools on google chrome.
-  - I fixed this fixing the source path where I made a mistake (my assets
-    directory is called static, but I wrote assets/images)
-  - It's fixed. All pictures are showing as they are meant to and they are responsive
+  - I fixed this fixing the source path where I made a mistake (my assets directory is called static, but I wrote assets/images)
+  - It's fixed. All pictures are showing as they are meant to and they are responsive.
 
 - missuse of Aria attribute (Aria-label) on line 65 (span aria-label="image of an ...").
   - To make it accessible and have an image description I added a role="img" to be able make a relevant description of the purpose of the parent element.
@@ -217,10 +217,10 @@ INDEX.html
 
 - line 172: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.
 
-  - removed width="100%" and added class="w-100" to the map iframe
+  - I removed width="100%" and added class="w-100" to the map's iframe
 
 - line 170: section is missing a header
-  - added h2 to map section for better accessibility and organization of information
+  - added h2 to map section for better accessibility and organization of information.
 
 SERVICES.html
 
@@ -234,9 +234,10 @@ SERVICES.html
 
 - line 170: An img element must have an alt attribute
 
-  - added alt attribute to all img elements within article element on lines 170, 191, 214, 235.
+  - added alt attribute to all img elements within the article element on lines 170, 191, 214, 235.
 
 - line 162: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
+
   - moved h2 from line 164 to line 163 over the div-reviews element.
 
 CONTACT.html
@@ -266,20 +267,20 @@ Results for CSS validator check
 
 ---
 
-### LIGHTHOUSE TESTING
+## LIGHTHOUSE TESTING
 
-Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to make sure the scores were as high as I posibly could. Below you can find the results and scores of first time tests and after implementing suggestions that the tool offered:
+Using DevTool's Lighthouse tool, I checked all pages on mobile and desktop to make sure the scores were as high as I posibly could. Below you can find the results and scores of first time tests and after implementing suggestions that the tool offered:
 
-(All tests were carried on the same way: I cleared cache data, opened new incognito page (Chrome and Edge), and loaded tested each page twice. Same procedure was used for every page for mobile and web)
+(All tests were carried out the same way: I cleared cache data, opened new incognito page (Chrome and Edge), and reloaded and tested each page twice. Same procedure was used for mobile and web assessment)
 
 - **Mobile**
 
   - Index.html Lighthouse test:
 
     - [Before](docs/testing/lighthouse/index-phone-before) implementing changes:
-      - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I reduced all images with Tinypng and cropped them to make equal squares. I also changed two of the images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
+      - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I compressed all images with Tinypng and cropped them to make equal squares. I also changed the gallery images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
     - [After](docs/testing/lighthouse/index-phone-after) following lighthouse suggestions:
-      - I managed to increase the very low performance score to 82%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time for further changes and improvements.
+      - I managed to increase the very low performance score to 82%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time and skills for further changes and improvements.
 
   - Services page Lighthouse test:
 
@@ -300,13 +301,13 @@ Using DevTool's Lighthouse tester, I checked all pages on mobile and desktop to 
 
 - **Web**
 
-Because I focused on mobile first approach for the testing part too. All the improvements made to increase the performance on the mobile view, has greatly benefited the web performance too. This changes included compression of images, removal of unused code and css, reload of better sources for bootstrap/fontawesome libraries...
+Because I focused on mobile first approach for the testing part, all the improvements made to increase the performance on the mobile view, has greatly benefited the web performance too. This changes included compression of images, removal of unused code and css, reload of better sources for bootstrap/fontawesome libraries...
 
 - Index web page Lighthouse test:
 
   - [Before](docs/testing/lighthouse/index.html-before-web.png) implementing changes
   - [After](docs/testing/lighthouse/index.html-after-web.png) following lighthouse suggestions:
-    - in the results we can see that the best practices did not increase too much. This was due to the ratio of the image I chose to display on the grid of About us section within Index.html. Whilst lighthouse was advicing to change this ratio to it's original size, I decided not to change it, as I found this to be much bigger than I intended it to be, and this would consequently affect the performance on the mobile view.
+    - in the results we can see that the best practices did not increase too much. This was due to the ratio of the image I chose to display on the grid of "About us" section within Index.html. Whilst lighthouse was advicing to change this ratio to it's original size, I decided not to change it, as I found this to be much bigger than I intended it to be, and this would consequently affect the performance on the mobile view.
 
 - Services web page Lighthouse test:
 
@@ -318,7 +319,7 @@ Because I focused on mobile first approach for the testing part too. All the imp
 
   - [Before](docs/testing/lighthouse/contact.html-before-web.png) implementing changes
   - [After](docs/testing/lighthouse/contact.html-after-web.png) following lighthouse suggestions:
-    - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy images to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
+    - This has been the best results out of all the pages. This is due to the simplicity of the page, minimal structure and no heavy imagery to be loaded. Still, we can see an improvement after the changes lighthouse suggested.
 
 - Feedback web page Lighthouse test:
   - Before: This feature was added at the very end of the project, when I noticed some issues as I was testing all the pages (see bugs for more info on error 501). Because of this, I forgot to take any screenshots of the lighthouse testing before.
@@ -328,7 +329,7 @@ Because I focused on mobile first approach for the testing part too. All the imp
 
 ## DEVICE RESPONSIVENESS
 
-I continuouly tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (GitHub Pages) I pushed my code very often to see the results of changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) to make sure the site was responsive on various viewports.
+I continuously tested the project on various devices from the very beginning. I mostly used Google Chrome DevTools, but as soon as I deployed the website (using GitHub Pages) I pushed my code very often to see the results of the changes in real time on my own personal devices (Samsung S8+, Samsung A70, HP Envy 13", Samsung 5Se Tablet) and make sure the site was responsive on various viewports.
 
 Apart from that, I used an online app by [Media Genesis](https://responsivedesignchecker.com/) as well as Google Chrome Developer tools to check responsiveness on those screens I did not have access to. The results of these testings are below (the results of the tests were written on a xcel and converted to png, so the excel was broken in 4 parts):
 
@@ -348,7 +349,7 @@ As a main conclusion of these tests, I have to add that I did not find any diffe
 
 All the screenshots to my manual tests on various major devices are below:
 
-- Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on mobile devices. Thanks to testing on my phone I noticed some headings had to be made smaller so they did not look oversized. Below there is screenshots of a last test done on this device:
+- Samsung Galaxy S8+ (My personal device) (mobile device): As mentioned before, I continuously tested my code on my own mobile device as I went writting and styling the code, so I could see how it looked on smaller screens. Thanks to testing on my phone I noticed some headings had to be made smaller so they did not look oversized. Below there is screenshots of a last test done on this device:
 
   - [Samsung S8+ screenshot index](docs/testing/device+browser-tests/Samsungs8+screenshot-index.jpg)
   - [Samsung S8+ screenshot services](docs/testing/device+browser-tests/samsungs8+screenshot-services.jpg)
@@ -365,7 +366,7 @@ All the screenshots to my manual tests on various major devices are below:
   - [Samsung A70 Screenshot contact](docs/testing/device+browser-tests/samsungA70-contact.jpg)
   - [Samsung A70 Screenshot form](docs/testing/device+browser-tests/samsungA70-form.jpg)
 
-- Samsung S5 (tablet): As I tested the site on my Tablet, I noticed the headers on the service's cards the margin was too great and the personalized header was breaking into another line. I added a media querie to fix this and below are screenshots showing the results:
+- Samsung S5e (tablet): As I tested the site on my Tablet, I noticed the headers on the service's cards that the margin was too great and the personalized header was breaking into another line. I added a media querie to fix this and below are screenshots showing the results:
 
   - [Galaxy Tab S5e Index](docs/testing/device+browser-tests/Galaxy-Tab-S5e-index.jpg)
   - [Galaxy Tab S5e Services](docs/testing/device+browser-tests/Galaxy-Tab-S5e-services.jpg)
@@ -375,7 +376,7 @@ All the screenshots to my manual tests on various major devices are below:
 
 - HP Envy 13" (laptop)
 
-  - Google Chrome (browser)
+  - Google Chrome (browser):
 
     - [HP Envy index screenshot](docs/testing/device+browser-tests/HP-envy-index.png)
     - [HP Envy services screenshot](docs/testing/device+browser-tests/HP-envy-services.png)
@@ -454,9 +455,9 @@ All the screenshots to my manual tests on various major devices are below:
 
 ## FURTHER TESTING
 
-- All features have been thoroughtly tested by myself on different screen sizes/operator systems, including all internal and external links, the form, music playlists, feedback page buttons...
+- All features have been thoroughtly tested by myself on different screen sizes/operating systems, including all internal and external links, the form, music playlists, feedback page buttons, etc.
 
-- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iphone 5SE, playlist activity issue that have been resolved or added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required \* to those fields. This has been edited as it was a great feedback for UX improvement.
+- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iPhone 5SE, playlist activity issue that have been added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required  asterisk to those fields. This has been edited as it was a great feedback for UX improvement.
 
 ---
 
@@ -467,7 +468,7 @@ All the screenshots to my manual tests on various major devices are below:
     - Tried to make index.html h1 smaller in font-size for larger screens but something is not lettig the size get smaller.
       - When testing the responsivness of it, I can see the font-size
         reducing, but not in higher resolution screens.
-      - It was a cache issue. After clearing the cache and restarting google Chrome, it's responsive.
+      - It was a cache issue. After clearing the cache and restarting google Chrome, it's now responsive.
 
 2.  Bootstrap toggle collapse is not working
 
@@ -485,15 +486,14 @@ All the screenshots to my manual tests on various major devices are below:
 4.  In mobile screen, the card headings (h4) break and separate to the next line
 
     - I noticed in line 310 on the style.css file the margin was too large (margin: 20px 100px)
-    - Changed the margin right and left to 70px, so when rendered to mobile, the h4 doesn't break in two
-      and it's still balanced with the body of the cards, as well as the heading on the contact page.
+    - Changed the margin right and left to 70px, so when rendered to mobile, the h4 doesn't break in two and it's still balanced with the body of the cards, as well as the heading on the contact page.
 
-5.  on desktop view, the review columns would render with 140px or margin in left and right.
+5.  On desktop view, the review columns would render with 140px of margin in left and right.
 
-    - SOLUTION: added a media queries for screens 992 and higher so the max width is 90%.
+    - SOLUTION: added a media queries for screens 992px and higher so the max width is 90%.
     - style.css line 384 +.
 
-6.  on mobile view, there is a line across the footer dividing the footer in two colors.
+6.  On mobile view, there is a line across the footer dividing the footer in two colors.
 
     - I changed the max-height on line 134 of syle.css for min-height to match the height of the container content and added h-100 to the footer.
     - This has fixed the issue.
@@ -502,16 +502,18 @@ All the screenshots to my manual tests on various major devices are below:
 
     - I tried to fix this by adding another html page called response.html. I thought adding this the CTA button would ask the user to fill the required fields and then redirect them to a feedback page. But this did not work as when adding the response.html, the required attributes stopped working.
 
-    - I contacted Code Institute tutor help this were the outcomes: - Scott suggested instead of trying to add another page I could use a modal to give the user a feedback. This wouldn't require to have a separated page and it would avoid the error from showing. But it also meant I had to add JS and jQuery, and eventhough I tried my hardest to learn fast and try to implement ( "form" ).submit(function() { into my head for responsiveness, the modal kept opening over the required fields and the function would not do anything for me.
+    - I contacted Code Institute tutor help and these were the outcomes: 
+      - Scott suggested instead of trying to add another page I could use a modal to give the user a feedback. This wouldn't require to have a separated page and it would avoid the error from showing. But it also meant I had to add JS and jQuery, and eventhough I tried my hardest to learn fast and try to implement ( "form" ).submit(function() { into my head for responsiveness, the modal kept opening over the required fields and the function would not react to any changes.
 
-    - I had to contact them again and Tim helped me solving the issue. Unfortunatelly at this time of the course my skills are not advanced enough to add any JavaScript or functions. Tim advised me to remove the modal, as it wouldn't work as I intended without JS. After removing all code related to this, I noticed I still got the 501 error.
+      - I had to contact tutor support again and Tim helped me solving the issue. Unfortunatelly at this time of the course my skills are not advanced enough to add any JavaScript or functions. Tim advised me to remove the modal, as it wouldn't work as I intended without JS. After removing all code related to this, I noticed I still got the 501 error.
 
-    - Tim noticed my form method=POST and action="/" were stopping my page from refreshing. So we changed the method to GET and removed action all together. This has solved the issue: if the user tried to submit the form without filling the required fields, the form won't submit and the user will get a notification under or over the field to be filled. When all information has been correctly filled and the user pushes the CTA button, the page will refresh leaving all fields empty to be used again.
-    - Althought I would have liked to have some sort of feedback for the user to receive when they submitted the form, this couldn't be done at this time, but it would be implemented as a feature on future releases. (see [features left to implement](README.md) on README.md]
+      - Tim noticed my form method=POST and action="/" were stopping my page from refreshing. So we changed the method to GET and removed action all together. This has solved the issue: if the user tried to submit the form without filling the required fields, the form won't submit and the user will get a notification under or over the field to be filled. When all information has been correctly filled and the user pushes the CTA button, the page will refresh leaving all fields empty to be used again.
+
+      - Althought I would have liked to have some sort of feedback for the user to receive when they submitted the form, this couldn't be done at this time, but it would be implemented as a feature on future releases. (see [features left to implement](README.md) on README.md]
 
       ![screenshot showing the 501 ERROR](docs/testing/501-error.png)
 
-    - EDIT & UPDATE: SOLUTION: my mentor Rohit thought that as an improved user experience users should be directed to a feedback page once they have submitted the form. After all the failed trials with tutor support, Rohit found a solution to this problem: on line 128 of contact.html he suggested to add :
+    - _***EDIT & UPDATE: SOLUTION:***_ my mentor Rohit thought that for best user experience, users should be directed to a feedback page once they have submitted the form. After all the failed trials with tutor support, Rohit found a solution to the problem: on line 128 of contact.html he suggested to add :
       ```
       <form
          action="feedback.html"
@@ -520,12 +522,13 @@ All the screenshots to my manual tests on various major devices are below:
          method="GET"
        >
       ```
-    - by doing this the form redirects the user (after filling the required fields) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a button redirecting the user back to the home page.
+    - by doing this the form redirects the user (not until all required fields are filled) into another page created in my workspace called feedback.html. Inside this page I created a thank you note and a button redirecting the user back to the home page.
 
-8.  I notived that the h1 on every page got smaller when I finished testing the pages on all devices:
+8.  H1 on every page got smaller when I finished testing the pages on all devices:
 
-- I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
-- Instead of having another media querie for screen min-width: 810px, I fixed this by changing the screen to max-widht. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
+  - I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
+
+  - I fixed this by changing the media querie previously added from min-width: 810px to max-width: 810px. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
 
 ---
 
