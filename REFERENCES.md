@@ -6,6 +6,8 @@
 
 - This project was created thank to the template created by Code Institute, where all the necessary tools for me to work were already loaded and installed, so I did not have to do it manually.
 
+---
+
 ## Bootstrap library documentation
 
 - To refresh on lessons on the course, I rewatched videos explained by [Matt Rudge](https://github.com/lechien73) from [Code Institute](https://codeinstitute.net/) as well as previous projects done during th course (Coders Coffee House project, Love Running project, CV project, Whiskey Drop Project...)[maialenz](https://github.com/maialenz/Bootstrap-lesson-walkthrough/blob/master/)
