@@ -98,7 +98,7 @@ The website will be responsive and accessible on all devices with Mobile first i
 
 The needs of the user is to find a person to look after their family dog the same way they would, during a short or long period of time because they are not able to do so.
 
-As the recent pandemic has forced many of us to be confined to our homes when it comes to work, sickness, etc, many of us have found ourselves having less time than before when it comes to give the attention that our loved dogs need. This has created a need to find someone to help us giving our dogs some normality and extra exercice on these times that are also stressful for our pets. Some dogs have become extra sensitive and emotional, or extra hyper with extra need for longer walks.
+As the recent pandemic has forced many of us to be confined to our homes when it comes to work, sickness, etc, many of us have found ourselves having less time than before when it comes to give the attention that our loved dogs need. This has created a need to find someone to help us giving our dogs some normality and extra exercice at these times that are also stressful for our pets. Some dogs have become extra sensitive, emotional, or extra hyper with extra need for longer walks.
 
 - #### Technical capabilities
 
@@ -250,14 +250,14 @@ The fonts used for the site were taken from [Google Fonts](https://fonts.google.
 
 ### Features left to implement
 
-- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I had a wider customer directory and longer period to implement this feature.
+- Gallery slideshow : due to the lack of knowledge on JavaScript and jQuery and the short time frame for the project to be done, I decided to leave the Gallery slideshow feature out for the time being. The gallery slideshow would be incorporated once I'd have a wider customer directory and longer period to implement this feature.
   - In the first release the small gallery will consist of 4 responsive pictures, but they won't be clickable.
 
-- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature. T
+- Booking calendar: I decided to leave the calendar for booking preference out because I do not have the skills required to implement this feature. This would have already booked dates marked on red and free dates marked on green.
 
 - Live chat: in a future I would like to add a section to be able to chat directly with the sitter/owner to ask questions instead of filling a form every time. I leave this feature out due to lack of current skills.
 
-- Original pictures: due to the low quality but very heavy pictures taken by me, I had to change most pictures to ones taken from unsplash to improve performance of the site. In a future, all pictures on the gallery would be originals and taken of dogs under our care and services.
+- Original pictures: due to the low quality but very big dimention pictures taken by me, I had to change 95% of the pictures to ones taken from unsplash to improve performance of the site. In a future, all pictures on the gallery would be originals and taken of dogs under our care and services.
 
 ---
 
@@ -474,7 +474,7 @@ $ python3 -m http.server
 
 - To Gerard McBride for all the saturdays spent giving us extra lessons to help us understand and perfect our code and use of the technologies to create this project. Thank you!
 
-- To Kev McKane for the time spend thorougly testing my application on his apple devices on my behalf and adding very good tips to improve user experience as a first time user.
+- To Kevin McKane and Gavin Hughes for the time spend thorougly testing my application on their apple and big screen desktop devices on my behalf and adding very good tips to improve user experience as a first time users.
 
 - To my family for testing the deployed site on different phones to make sure it was responsive in different type of screens and operator systems.
 
