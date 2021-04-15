@@ -47,7 +47,7 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
       ![screenshot of logo and company name](docs/testing/user-stories/test-userstory1.png)
 
     - For users who want to learn more about the business and the owner, there is an informative section called About Us where the owner explains what the company is about. The section also has a picture of the owner's dog as an introduction to the company's owner and to create a feeling of trust and showing the users that the owner has knowledge of dog care.
-    This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
+      This section also tells the user Who the owner is, Where the company is located, Why to hire them and the name of their own dog to make it more personal.
 
       ![screenshot of about us section explaining the company's reason to be](docs/testing/user-stories/test-userstory1.2.png)
 
@@ -157,6 +157,7 @@ Once finished, I tested my site on a few different phones, laptop, tablet and de
       ![screenshot of the spotify playlists](docs/testing/user-stories/test-userstory10-playlist.png)
 
 ---
+
 ## FAVICON TEST
 
 When I introduced the first and second favicon, I noticed I could not see the shape on the brower tab as they were very
@@ -457,7 +458,7 @@ All the screenshots to my manual tests on various major devices are below:
 
 - All features have been thoroughtly tested by myself on different screen sizes/operating systems, including all internal and external links, the form, music playlists, feedback page buttons, etc.
 
-- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iPhone 5SE, playlist activity issue that have been added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required  asterisk to those fields. This has been edited as it was a great feedback for UX improvement.
+- The live project has been tested by family and friends, acting as first time visitors, on their own devices of different makes and sizes to make sure everything was working as designed. They checked all features mentioned above. They found issues mentioned on Bugs including heading size issues on iPhone 5SE, playlist activity issue that have been added to known bugs. They mentioned that the required fields on the contact form did not have any hints as being required, and adviced me to add the very well known required asterisk to those fields. This has been edited as it was a great feedback for UX improvement.
 
 ---
 
@@ -502,7 +503,8 @@ All the screenshots to my manual tests on various major devices are below:
 
     - I tried to fix this by adding another html page called response.html. I thought adding this the CTA button would ask the user to fill the required fields and then redirect them to a feedback page. But this did not work as when adding the response.html, the required attributes stopped working.
 
-    - I contacted Code Institute tutor help and these were the outcomes: 
+    - I contacted Code Institute tutor help and these were the outcomes:
+
       - Scott suggested instead of trying to add another page I could use a modal to give the user a feedback. This wouldn't require to have a separated page and it would avoid the error from showing. But it also meant I had to add JS and jQuery, and eventhough I tried my hardest to learn fast and try to implement ( "form" ).submit(function() { into my head for responsiveness, the modal kept opening over the required fields and the function would not react to any changes.
 
       - I had to contact tutor support again and Tim helped me solving the issue. Unfortunatelly at this time of the course my skills are not advanced enough to add any JavaScript or functions. Tim advised me to remove the modal, as it wouldn't work as I intended without JS. After removing all code related to this, I noticed I still got the 501 error.
@@ -526,9 +528,9 @@ All the screenshots to my manual tests on various major devices are below:
 
 8.  H1 on every page got smaller when I finished testing the pages on all devices:
 
-  - I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
+- I noticed all the h1s on all the pages were much smaller than supposed to. This happened because I added media queries to suit smaller screen sizes.
 
-  - I fixed this by changing the media querie previously added from min-width: 810px to max-width: 810px. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
+- I fixed this by changing the media querie previously added from min-width: 810px to max-width: 810px. This allows the h1 to decrease on size when it reaches 810px or less and increase for bigger screens.
 
 ---
 
