@@ -277,9 +277,9 @@ Using DevTool's Lighthouse tool, I checked all pages on mobile and desktop to ma
 
   - Index.html Lighthouse test:
 
-    - [Before](docs/testing/lighthouse/index-phone-before) implementing changes:
+    - [Before](docs/testing/lighthouse/index-phone-before.png) implementing changes:
       - The performance score was very low and in red. This was due to very big images and unused javascript libraries. To fix that I compressed all images with Tinypng and cropped them to make equal squares. I also changed the gallery images as it was impossible to make them any lower on weight without pixelating them and they ended up not looking too good. I also changed the grid system so all pictures show on top of each other in mobile view.
-    - [After](docs/testing/lighthouse/index-phone-after) following lighthouse suggestions:
+    - [After](docs/testing/lighthouse/index-phone-after.png) following lighthouse suggestions:
       - I managed to increase the very low performance score to 82%. Although this is not ideal, I found it very difficult to implement any more changes as this meant to add attributes to elements that made the validator fail. So I decided to leave the index at this level until I have more time and skills for further changes and improvements.
 
   - Services page Lighthouse test:
@@ -355,22 +355,22 @@ All the screenshots to my manual tests on various major devices are below:
   - [Samsung S8+ screenshot services](docs/testing/device+browser-tests/samsungs8+screenshot-services.jpg)
   - [Samsung S8+ screenshot contact](docs/testing/device+browser-tests/samsungs8+screenshot-contact.jpg)
   - [Samsung S8+ screenshot feedback](docs/testing/device+browser-tests/Samsungs8+screenshot-feedback.jpg)
-  - [Samsung S8+ screenshot of footer](docs/testing/device+browser-tests/Samsungs8+screenshot-footer.jpg)
+  - [Samsung S8+ screenshot of footer](docs/testing/device+browser-tests/samsungs8+screenshot-footer.jpg)
 
 - Samsung A70 (mobile device): I also tested the website on another mobile device:
 
-  - [Samsung A70 Screenshot index](docs/testing/device+browser-tests/samsungA70-index.jpg)
-  - [Samsung A70 Screenshot map/footer](<(docs/testing/device+browser-tests/samsungA70-map.jpg)>)
-  - [Samsung A70 Screenshot services](docs/testing/device+browser-tests/samsungA70-services.jpg)
-  - [Samsung A70 Screenshot reviews](docs/testing/device+browser-tests/samsungA70-reviews.jpg)
-  - [Samsung A70 Screenshot contact](docs/testing/device+browser-tests/samsungA70-contact.jpg)
-  - [Samsung A70 Screenshot form](docs/testing/device+browser-tests/samsungA70-form.jpg)
+  - [Samsung A70 Screenshot index](docs/testing/device+browser-tests/SamsungA70-index.jpg)
+  - [Samsung A70 Screenshot map/footer](docs/testing/device+browser-tests/SamsungA70-map.jpg)
+  - [Samsung A70 Screenshot services](docs/testing/device+browser-tests/SamsungA70-services.jpg)
+  - [Samsung A70 Screenshot reviews](docs/testing/device+browser-tests/SamsungA70-reviews.jpg)
+  - [Samsung A70 Screenshot contact](docs/testing/device+browser-tests/SamsungA70-contact.jpg)
+  - [Samsung A70 Screenshot form](docs/testing/device+browser-tests/SamsungA70-form.jpg)
 
 - Samsung S5e (tablet): As I tested the site on my Tablet, I noticed the headers on the service's cards that the margin was too great and the personalized header was breaking into another line. I added a media querie to fix this and below are screenshots showing the results:
 
   - [Galaxy Tab S5e Index](docs/testing/device+browser-tests/Galaxy-Tab-S5e-index.jpg)
   - [Galaxy Tab S5e Services](docs/testing/device+browser-tests/Galaxy-Tab-S5e-services.jpg)
-  - [Galaxy Tab S5e Service Cards](docs/testing/device+browser-tests/Galaxy-Tab-S5e-servicestabs.jpg)
+  - [Galaxy Tab S5e Service Cards](docs/testing/device+browser-tests/Galaxy-Tab-S5e-servicetabs.jpg)
   - [Galaxy Tab S5e Contact](docs/testing/device+browser-tests/Galaxy-Tab-S5e-contact.jpg)
   - [Galaxy Tab S5e Feedback](docs/testing/device+browser-tests/Galaxy-Tab-S5e-feedback.jpg)
 
@@ -396,12 +396,12 @@ All the screenshots to my manual tests on various major devices are below:
 
   - Microsoft Edge (brower)
 
-    - [HP Envy Edge index screenshot](docs/testing/device+browser-tests/edge-HP-index.png)
-    - [HP Envy Edge services screenshot](docs/testing/device+browser-tests/edge-HP-services.png)
-    - [HP Envy Edge reviews screenshot](docs/testing/device+browser-tests/edge-HP-reviews.png)
-    - [HP Envy Edge contact screenshot](docs/testing/device+browser-tests/edge-HP-contact.png)
-    - [HP Envy Edge feedback screenshot](docs/testing/device+browser-tests/edge-HP-feedback.png)
-    - [HP Envy Edge footer screenshot](docs/testing/device+browser-tests/edge-HP-footer.png)
+    - [HP Envy Edge index screenshot](docs/testing/device+browser-tests/edge-hp-index.png)
+    - [HP Envy Edge services screenshot](docs/testing/device+browser-tests/edge-hp-services.png)
+    - [HP Envy Edge reviews screenshot](docs/testing/device+browser-tests/edge-hp-reviews.png)
+    - [HP Envy Edge contact screenshot](docs/testing/device+browser-tests/edge-hp-contact.png)
+    - [HP Envy Edge feedback screenshot](docs/testing/device+browser-tests/edge-hp-feedback.png)
+    - [HP Envy Edge footer screenshot](docs/testing/device+browser-tests/edge-hp-footer.png)
 
   - Opera (browser)
     - [HP Envy Opera index screenshot](docs/testing/device+browser-tests/Opera-HP-index.png)
